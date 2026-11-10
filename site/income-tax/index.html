@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Income Tax Calculator · Everyday Tools</title>
+<meta name="description" content="Compare India's old and new income tax regimes, turn a CTC into monthly in-hand pay, and estimate tax on RSUs and ESPP shares, using tax year 2026-27 rules.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<link rel="stylesheet" href="page.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Money</nav>
+  <div class="page-head">
+    <div>
+      <h1>India income tax calculator</h1>
+      <p class="lede">Old versus new regime, CTC to in-hand pay, and tax on RSU and ESPP shares, for resident individuals.</p>
+    </div>
+    <div class="meta-chips">
+      <label class="chip outline year-pick">Rules for
+        <select id="yr" aria-label="Tax year">
+          <option value="2026-27">Tax year 2026-27</option>
+          <option value="2025-26">FY 2025-26</option>
+        </select>
+      </label>
+      <a class="chip outline" href="https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1" target="_blank" rel="noopener">Source: incometax.gov.in ↗</a>
+      <span class="chip outline">Saved in the link</span>
+      <span class="chip warn">Estimate, not tax advice</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-regime" aria-controls="regime" aria-selected="true">Old vs new regime</button>
+    <button class="tab" role="tab" id="tab-in-hand" aria-controls="in-hand" aria-selected="false" tabindex="-1">CTC to in-hand</button>
+    <button class="tab" role="tab" id="tab-rsu-espp" aria-controls="rsu-espp" aria-selected="false" tabindex="-1">RSU / ESPP</button>
+    <button class="tab" role="tab" id="tab-about" aria-controls="about" aria-selected="false" tabindex="-1">About &amp; sources</button>
+  </nav>
+
+  <!-- ============ REGIME ============ -->
+  <section class="panel" id="regime" role="tabpanel" aria-labelledby="tab-regime">
+    <div class="section-head"><h2 data-share="regime">Old vs new regime</h2><span class="hint">Yearly amounts · resident individual</span></div>
+
+    <div class="card card-pad block" id="regime-inputs">
+      <div class="label-sm" data-share="regime-inputs">Income</div>
+      <div class="inputs" id="ri-income"></div>
+      <div class="label-sm" id="regime-hra" data-share="regime-hra" style="margin-top:16px">House rent (old regime only)</div>
+      <div class="inputs" id="ri-hra"></div>
+      <div class="label-sm" id="regime-deductions" data-share="regime-deductions" style="margin-top:16px">Deductions</div>
+      <div class="inputs" id="ri-ded"></div>
+      <div class="control-row small" style="margin-top:14px">
+        <span class="muted">Age (old regime exemption limit):</span>
+        <div class="seg" id="age-seg" role="group" aria-label="Age">
+          <button type="button" data-v="u60" aria-pressed="true">Under 60</button>
+          <button type="button" data-v="60" aria-pressed="false">60 to 79</button>
+          <button type="button" data-v="80" aria-pressed="false">80+</button>
+        </div>
+        <label class="check"><input type="checkbox" id="metro"> <span id="metro-lbl">Rented home in a 50% HRA city</span></label>
+      </div>
+    </div>
+
+    <p class="answer" id="regime-answer"></p>
+    <div class="tiles" id="regime-tiles"></div>
+
+    <div class="groups cols-2 block">
+      <div class="card card-pad" id="regime-steps">
+        <div class="section-head" style="margin-top:0"><h3 data-share="regime-steps">Step by step</h3></div>
+        <div class="table-wrap"><table class="data" id="steps-table">
+          <thead><tr><th class="sticky">Step</th><th class="n">Old regime</th><th class="n">New regime</th></tr></thead><tbody></tbody>
+        </table></div>
+      </div>
+      <div class="card card-pad" id="slab-breakdown">
+        <div class="section-head" style="margin-top:0"><h3 data-share="slab-breakdown">Tax by slab</h3>
+          <div class="seg" id="slab-seg" role="group" aria-label="Regime" style="margin-left:auto">
+            <button type="button" data-v="new" aria-pressed="true">New</button>
+            <button type="button" data-v="old" aria-pressed="false">Old</button>
+          </div>
+        </div>
+        <div class="table-wrap"><table class="data" id="slab-table">
+          <thead><tr><th class="sticky">Slab</th><th class="n">Rate</th><th class="n">Income in slab</th><th class="n">Tax</th></tr></thead><tbody></tbody>
+        </table></div>
+      </div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="regime-read">
+        <div class="label" data-share="regime-read">Reading the result</div>
+        <ul>
+          <li><b>Total tax</b> includes surcharge (above ₹50 lakh) and 4% cess.</li>
+          <li><b>Break-even</b> is the total of old-regime-only deductions (HRA, 80C, 80D, home loan, own NPS) at which both regimes cost the same.</li>
+          <li><b>Employer NPS</b> is allowed in both, so it doesn't count toward the break-even.</li>
+        </ul>
+      </div>
+      <div class="group" id="regime-new-rules">
+        <div class="label" data-share="regime-new-rules">New regime in short</div>
+        <ul>
+          <li><b>Default regime</b>; salaried people can switch each year when filing.</li>
+          <li><b>Standard deduction ₹75,000</b> and employer NPS (up to 14% of basic) are the main deductions left.</li>
+          <li><b>No tax up to ₹12 lakh taxable</b> thanks to the rebate, with marginal relief just above it.</li>
+        </ul>
+      </div>
+      <div class="group" id="regime-left-out">
+        <div class="label" data-share="regime-left-out">Not modelled here</div>
+        <ul>
+          <li><b>Capital gains, crypto and lottery income</b> taxed at special rates.</li>
+          <li><b>Professional tax, LTA, 80E, 80G, 80TTA</b> and other smaller items.</li>
+          <li><b>Let-out property</b>; home-loan interest here is for a self-occupied home.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IN-HAND ============ -->
+  <section class="panel" id="in-hand" role="tabpanel" aria-labelledby="tab-in-hand" hidden>
+    <div class="section-head"><h2 data-share="in-hand">CTC to in-hand</h2><span class="hint">What reaches your bank account</span></div>
+
+    <div class="card card-pad block" id="ih-inputs">
+      <div class="inputs" id="ih-fields"></div>
+      <div class="control-row small" style="margin-top:14px">
+        <span class="muted">Employer PF on:</span>
+        <div class="seg" id="pf-seg" role="group" aria-label="PF base">
+          <button type="button" data-v="full" aria-pressed="true">Full basic</button>
+          <button type="button" data-v="25000" aria-pressed="false">₹25,000 cap</button>
+          <button type="button" data-v="15000" aria-pressed="false">₹15,000 cap</button>
+          <button type="button" data-v="none" aria-pressed="false">No PF</button>
+        </div>
+        <label class="check"><input type="checkbox" id="grat" checked> Gratuity in CTC</label>
+      </div>
+      <div class="control-row small" style="margin-top:10px">
+        <span class="muted">Professional tax:</span>
+        <select class="select" id="pt" aria-label="Professional tax">
+          <option value="2500">₹2,500 a year (e.g. Maharashtra, Karnataka)</option>
+          <option value="2400">₹2,400 a year (₹200 × 12, several states)</option>
+          <option value="0">None (e.g. Delhi, Haryana, UP, Rajasthan)</option>
+        </select>
+        <span class="muted">Regime:</span>
+        <div class="seg" id="ih-reg-seg" role="group" aria-label="Regime">
+          <button type="button" data-v="new" aria-pressed="true">New</button>
+          <button type="button" data-v="old" aria-pressed="false">Old</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="answer" id="ih-answer"></p>
+    <div class="tiles" id="ih-tiles"></div>
+
+    <div class="card chart-card block" id="ih-waterfall">
+      <div class="chart-title">
+        <h3 data-share="ih-waterfall">From CTC to in-hand</h3>
+        <div class="legend"><span class="key"><span class="dot" style="background:var(--s1)"></span>Total</span><span class="key"><span class="dot" style="background:var(--s2)"></span>Taken out</span><span class="key"><span class="dot" style="background:var(--s3)"></span>In-hand</span></div>
+      </div>
+      <div class="chart" id="wf-chart" role="img" aria-label="Waterfall chart from CTC to yearly in-hand pay"></div>
+      <div class="table-wrap" style="margin-top:12px"><table class="data" id="wf-table">
+        <thead><tr><th class="sticky">Item</th><th class="n">Yearly</th><th class="n">Monthly</th><th class="n">Share of CTC</th></tr></thead><tbody></tbody>
+      </table></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="ih-how">
+        <div class="label" data-share="ih-how">How it's worked out</div>
+        <ul>
+          <li><b>Employer PF and gratuity</b> sit inside CTC but never reach your account each month.</li>
+          <li><b>Employee PF</b> (12% on the same base) comes out of your gross pay.</li>
+          <li><b>Income tax</b> uses the regime you pick, on gross salary including the variable part.</li>
+        </ul>
+      </div>
+      <div class="group" id="ih-monthly">
+        <div class="label" data-share="ih-monthly">Monthly vs yearly</div>
+        <ul>
+          <li><b>Monthly in-hand</b> leaves out the variable pay and the tax on it.</li>
+          <li><b>Yearly in-hand</b> assumes the full variable pay is paid out.</li>
+          <li><b>Real payslips differ</b> as employers spread TDS based on declarations.</li>
+        </ul>
+      </div>
+      <div class="group" id="ih-old-note">
+        <div class="label" data-share="ih-old-note">Old regime here</div>
+        <ul>
+          <li><b>Counts only</b> standard deduction ₹50,000, professional tax and your own PF under 80C.</li>
+          <li><b>HRA, 80D and home loan</b>: use the regime tab for those.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RSU / ESPP ============ -->
+  <section class="panel" id="rsu-espp" role="tabpanel" aria-labelledby="tab-rsu-espp" hidden>
+    <div class="section-head"><h2 data-share="rsu-espp">RSU / ESPP value and tax</h2><span class="hint">Shares of a company listed abroad, held by an Indian resident</span></div>
+
+    <div class="groups cols-3 block">
+      <div class="card card-pad" id="rsu-inputs">
+        <div class="label-sm" data-share="rsu-inputs">RSUs vesting</div>
+        <div class="inputs one" id="rsu-fields"></div>
+      </div>
+      <div class="card card-pad" id="espp-inputs">
+        <div class="label-sm" data-share="espp-inputs">ESPP purchase</div>
+        <div class="inputs one" id="espp-fields"></div>
+        <label class="check" style="margin-top:10px"><input type="checkbox" id="lb" checked> Lookback (lower of the two prices)</label>
+      </div>
+      <div class="card card-pad" id="tax-inputs">
+        <div class="label-sm" data-share="tax-inputs">Your tax rate and the sale</div>
+        <div class="inputs one" id="tax-fields"></div>
+        <label class="field" style="margin-top:10px"><span>Slab rate on extra salary</span>
+          <select class="select" id="slab"><option value="0.3">30%</option><option value="0.25">25%</option><option value="0.2">20%</option><option value="0.15">15%</option><option value="0.1">10%</option><option value="0.05">5%</option><option value="0">0%</option></select>
+        </label>
+        <label class="field" style="margin-top:10px"><span>Surcharge on your income</span>
+          <select class="select" id="sc"><option value="0">None (income up to ₹50 lakh)</option><option value="0.1">10% (₹50 lakh–1 crore)</option><option value="0.15">15% (₹1–2 crore)</option><option value="0.25">25% (above ₹2 crore)</option><option value="0.37">37% (old regime, above ₹5 crore)</option></select>
+        </label>
+      </div>
+    </div>
+
+    <p class="answer" id="rsu-answer"></p>
+    <div class="tiles" id="rsu-tiles"></div>
+
+    <div class="card card-pad block" id="rsu-table-card">
+      <div class="section-head" style="margin-top:0"><h3 data-share="rsu-table-card">Worked out</h3><span class="hint" id="rsu-hint"></span></div>
+      <div class="table-wrap"><table class="data" id="rsu-table">
+        <thead><tr><th class="sticky">Step</th><th class="n">RSU</th><th class="n">ESPP</th></tr></thead><tbody></tbody>
+      </table></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="rsu-vest">
+        <div class="label" data-share="rsu-vest">At vest or purchase</div>
+        <ul>
+          <li><b>RSU</b>: the full market value on the vest date is salary (a perquisite).</li>
+          <li><b>ESPP</b>: market value on the purchase date minus what you paid is salary.</li>
+          <li><b>Your employer</b> withholds TDS on it and shows it in Form 16.</li>
+        </ul>
+      </div>
+      <div class="group" id="rsu-sale">
+        <div class="label" data-share="rsu-sale">When you sell</div>
+        <ul>
+          <li><b>Cost</b> is the value already taxed at vest or purchase.</li>
+          <li><b>Held more than 24 months</b>: long-term, 12.5% with no indexation.</li>
+          <li><b>24 months or less</b>: short-term, taxed at your slab rate.</li>
+          <li><b>No ₹1.25 lakh exemption</b>; that's only for listed Indian equity.</li>
+        </ul>
+      </div>
+      <div class="group" id="rsu-extra">
+        <div class="label" data-share="rsu-extra">Also keep in mind</div>
+        <ul>
+          <li><b>Surcharge on long-term gains</b> is capped at 15%.</li>
+          <li><b>Report the shares</b> in Schedule FA of your return every year you hold them.</li>
+          <li><b>US tax withheld on dividends</b> can be claimed as credit with Form 67.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section-head"><h2 data-share="about">About, assumptions and sources</h2><span class="hint">Rules checked Nov 2026</span></div>
+
+    <div class="tiles" id="about-tiles"></div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="what-year">
+        <div class="label" data-share="what-year">Which year</div>
+        <ul>
+          <li><b>Tax year 2026-27</b> (1 Apr 2026 to 31 Mar 2027) is the first under the Income-tax Act, 2025.</li>
+          <li><b>Budget 2026 left slabs, rebate, surcharge and cess unchanged</b>, so both years use the same numbers.</li>
+          <li><b>What changed</b>: the 50% HRA city list grew from 4 to 8 under the Income-tax Rules, 2026.</li>
+        </ul>
+      </div>
+      <div class="group" id="assumptions">
+        <div class="label" data-share="assumptions">Assumptions</div>
+        <ul>
+          <li><b>Resident individual</b>, salaried, no business income.</li>
+          <li><b>Other income</b> (interest, rent after deductions) is taxed at slab rates.</li>
+          <li><b>Tax is rounded</b> to the rupee; returns round to the nearest ₹10.</li>
+        </ul>
+      </div>
+      <div class="group" id="not-advice">
+        <div class="label" data-share="not-advice">Not advice</div>
+        <ul>
+          <li><b>This is an estimate</b>, not tax or financial advice.</li>
+          <li><b>Check Form 16 and the e-filing portal</b> before you file.</li>
+          <li><b>Nothing you type leaves your browser</b>; inputs live only in the page link.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="groups cols-2 block">
+      <div class="card card-pad" id="new-slabs">
+        <div class="section-head" style="margin-top:0"><h3 data-share="new-slabs">New regime slabs</h3><span class="hint">Section 115BAC (1961) / 202 (2025)</span></div>
+        <div class="table-wrap"><table class="data" id="new-slab-ref"><thead><tr><th class="sticky">Taxable income</th><th class="n">Rate</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div class="card card-pad" id="old-slabs">
+        <div class="section-head" style="margin-top:0"><h3 data-share="old-slabs">Old regime slabs</h3><span class="hint">Exemption limit by age</span></div>
+        <div class="table-wrap"><table class="data" id="old-slab-ref"><thead><tr><th class="sticky">Taxable income</th><th class="n">Under 60</th><th class="n">60 to 79</th><th class="n">80+</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+
+    <div class="card card-pad block" id="limits">
+      <div class="section-head" style="margin-top:0"><h3 data-share="limits">Limits and rates used</h3></div>
+      <div class="table-wrap"><table class="data" id="limits-table"><thead><tr><th class="sticky">Item</th><th>Old regime</th><th>New regime</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <details class="more block" id="doubts">
+      <summary>Where sources disagree <span class="sum">· read before relying on the RSU tab</span></summary>
+      <div class="inner">
+        <ul>
+          <li><b>Exchange rate for RSUs.</b> Guides differ on whether the SBI TT buying rate is taken on the vest date or the last day of the previous month. Enter the rate your employer used (Form 16 or payslip).</li>
+          <li><b>Market value of foreign-listed shares.</b> Some guides say closing price, some the average of open and close, some a merchant banker's value. Use the figure your employer reported.</li>
+          <li><b>Section numbers.</b> The 2025 Act renumbered everything and published mappings disagree for HRA, home-loan interest and the standard deduction, so this page uses the familiar 1961 names.</li>
+          <li><b>PF wage ceiling.</b> It rose from ₹15,000 to ₹25,000 a month from 17 September 2026. Employers can still contribute on full basic.</li>
+          <li><b>Labour codes (in force 21 Nov 2025)</b> count at least half of pay as "wages" for PF and gratuity, so a basic below 50% of CTC may give a higher PF than shown.</li>
+        </ul>
+      </div>
+    </details>
+
+    <div class="section-head" id="glossary-head"><h3 data-share="glossary">Glossary</h3></div>
+    <div class="defs block" id="glossary">
+      <div class="def"><b>CTC</b><span>Cost to company: everything the employer spends on you in a year, including its own PF and gratuity.</span></div>
+      <div class="def"><b>Standard deduction</b><span>A flat amount taken off salary: ₹75,000 (new regime) or ₹50,000 (old).</span></div>
+      <div class="def"><b>Rebate (87A)</b><span>Wipes out tax for taxable income up to ₹12 lakh (new) or ₹5 lakh (old).</span></div>
+      <div class="def"><b>Marginal relief</b><span>Stops tax from rising by more than the income above a threshold (₹12 lakh, ₹50 lakh, ₹1 crore…).</span></div>
+      <div class="def"><b>Surcharge</b><span>Extra 10% to 37% on the tax itself once income passes ₹50 lakh.</span></div>
+      <div class="def"><b>Cess</b><span>Health and education cess: 4% on tax plus surcharge.</span></div>
+      <div class="def"><b>HRA exemption</b><span>Lowest of HRA received, rent minus 10% of basic, and 50% or 40% of basic.</span></div>
+      <div class="def"><b>Perquisite</b><span>A non-cash benefit from the employer that is taxed as salary, such as RSUs.</span></div>
+      <div class="def"><b>Lookback</b><span>ESPP feature that applies the discount to the lower of the offer-start and purchase-date price.</span></div>
+      <div class="def"><b>SBI TT buying rate</b><span>The rate prescribed for turning foreign-currency values into rupees for tax.</span></div>
+    </div>
+
+    <div class="card card-pad block" id="sources">
+      <div class="section-head" style="margin-top:0"><h3 data-share="sources">Sources</h3><span class="hint">All checked Nov 2026</span></div>
+      <ul class="src-list">
+        <li><a href="https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1" target="_blank" rel="noopener">Income Tax Department: tax rates for individuals</a> · slabs, 87A rebate, surcharge and 15% cap, 4% cess</li>
+        <li><a href="https://www.grantthornton.in/insights/articles/union-budget-2026-27-detailed-analysis-of-tax-proposals-affecting-individual-taxpayers/" target="_blank" rel="noopener">Grant Thornton Bharat: Budget 2026-27 analysis</a> · no change to slabs or rates in either regime</li>
+        <li><a href="https://www.businesstoday.in/personal-finance/tax/story/income-tax-slabs-fy-2026-27-will-rates-change-from-april-1-under-new-tax-rules-details-523303-2026-04-01" target="_blank" rel="noopener">Business Today: slabs for FY 2026-27</a> · standard deduction ₹75,000 / ₹50,000, rebate to ₹12 lakh</li>
+        <li><a href="https://www.bdo.in/en-gb/news/2026/hra-to-childrens-education-allowance-new-income-tax-rules-bring-relief-to-salaried-class" target="_blank" rel="noopener">BDO India: Income-tax Rules, 2026</a> · 50% HRA for 8 cities from 1 April 2026</li>
+        <li><a href="https://www.scconline.com/blog/post/2026/09/19/labour-ministry-notifies-25000-wage-ceiling-under-social-security-code/" target="_blank" rel="noopener">SCC Online: ₹25,000 wage ceiling notified</a> · PF ceiling from 17 September 2026</li>
+        <li><a href="https://www.wtwco.com/en-in/insights/2025/12/india-long-awaited-labor-codes-in-effect" target="_blank" rel="noopener">WTW: labour codes in effect</a> · 50% wage definition from 21 November 2025</li>
+        <li><a href="https://treelife.in/taxation/tax-on-sale-of-unlisted-shares/" target="_blank" rel="noopener">Treelife: tax on unlisted and foreign shares</a> · 24-month holding period, 12.5% LTCG, STCG at slab</li>
+        <li><a href="https://cleartax.in/s/itr-filing-for-esop-and-rsu/" target="_blank" rel="noopener">ClearTax: ESOP and RSU filing</a> · Schedule FA, Form 67 credit</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Rules: tax year 2026-27, checked Nov 2026.</span>
+    <span>Estimate, not tax or financial advice.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/income-tax">Code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

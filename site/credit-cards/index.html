@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Premium Credit Card Rewards · Everyday Tools</title>
+<meta name="description" content="Compare yearly reward value, after caps, exclusions and fees, for five Indian premium credit cards: Axis Magnus for Burgundy, HDFC Infinia Metal and Diners Club Black Metal, ICICI Emeralde Private Metal and HSBC Premier.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<link rel="stylesheet" href="page.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Money</nav>
+  <div class="page-head">
+    <div>
+      <h1>Premium credit card rewards</h1>
+      <p class="lede">What five Indian premium cards return a year on your spending, after category caps, exclusions, fees and forex markup, at the point value you choose.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline" id="checked-chip">Terms checked Nov 2026</span>
+      <span class="chip outline">5 cards</span>
+      <span class="chip outline">Saved in the link</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-calculator" aria-controls="calculator" aria-selected="true">Calculator</button>
+    <button class="tab" role="tab" id="tab-compare" aria-controls="compare" aria-selected="false" tabindex="-1">Compare cards</button>
+    <button class="tab" role="tab" id="tab-about" aria-controls="about" aria-selected="false" tabindex="-1">How it works</button>
+  </nav>
+
+  <div id="load-error" class="empty" hidden></div>
+
+  <!-- ============ CALCULATOR ============ -->
+  <section class="panel" id="calculator" role="tabpanel" aria-labelledby="tab-calculator">
+    <div class="section-head"><h2 data-share="calculator">Your monthly spend</h2><span class="hint">Rupees a month, by category</span></div>
+
+    <div class="control-row small" id="presets" style="margin-bottom:12px"></div>
+
+    <div class="card card-pad block spend-grid" id="spend-grid"></div>
+
+    <div class="section-head" id="valuation-head"><h3 data-share="valuation-head">What a point is worth to you</h3><span class="hint">Pick per card; custom takes ₹ per point</span></div>
+    <div class="card card-pad block" id="valuation">
+      <div class="val-rows" id="val-rows"></div>
+      <div class="control-row small val-opts">
+        <label class="field mile"><span>Value of one airline mile (₹)</span><input class="input-num" type="text" id="mile" inputmode="decimal" autocomplete="off"></label>
+        <label class="field"><span>SmartBuy / iShop / portal bookings are mostly</span><div class="seg" id="mix" role="group" aria-label="Portal bookings"><button type="button" data-v="f" aria-pressed="true">Flights</button><button type="button" data-v="h" aria-pressed="false">Hotels</button></div></label>
+        <label class="field climit"><span>Magnus credit limit (where 35 points stop)</span><input class="input-num" type="text" id="climit" inputmode="numeric" autocomplete="off"></label>
+        <label class="check"><input type="checkbox" id="welcome"> Count welcome / renewal points</label>
+      </div>
+    </div>
+
+    <div id="results">
+      <p class="answer" id="answer"></p>
+      <div class="tiles rank-tiles" id="rank-tiles"></div>
+    </div>
+
+    <div class="groups cols-2 block">
+      <div class="group" id="net-bars">
+        <div class="label" data-share="net-bars">Net value a year</div>
+        <div class="barlist" id="barlist"></div>
+        <div class="small muted" style="margin-top:6px">Rewards + milestones − renewal fee − forex markup. Bars start at zero; a negative value means the card costs more than it returns.</div>
+      </div>
+      <div class="group" id="caps-hit">
+        <div class="label" data-share="caps-hit">Caps and exclusions that bite</div>
+        <div id="caps-list"></div>
+      </div>
+    </div>
+
+    <div class="section-head" id="breakdown-head"><h3 data-share="breakdown-head">Breakdown by category</h3><span class="hint">Points a year · <span class="chip warn" style="vertical-align:1px">capped</span> <span class="chip na" style="vertical-align:1px">no points</span></span></div>
+    <div class="table-wrap block">
+      <table class="data" id="breakdown">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ COMPARE ============ -->
+  <section class="panel" id="compare" role="tabpanel" aria-labelledby="tab-compare" hidden>
+    <div class="section-head"><h2 data-share="compare">The five cards side by side</h2><span class="hint">Scroll the table sideways on a phone</span></div>
+    <div class="table-wrap block">
+      <table class="data compare-table" id="compare-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="section-head" id="best-for"><h3 data-share="best-for">Best for</h3><span class="hint">General patterns; run your own numbers in the calculator</span></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="best-high-spend">
+        <div class="label" data-share="best-high-spend">Very high monthly spend</div>
+        <ul>
+          <li><b>Magnus for Burgundy</b> earns 35 points per ₹200 on spend above ₹1.5 lakh a month, about 14% at transfer value.</li>
+          <li><b>The ₹30,000 fee</b> needs ₹30 lakh a year to be waived, so it suits ₹2.5 lakh+ a month.</li>
+          <li><b>Transfer caps</b> (2 lakh + 8 lakh points a year) limit how much of that you can move to airlines.</li>
+        </ul>
+      </div>
+      <div class="group" id="best-portal">
+        <div class="label" data-share="best-portal">Booking travel through a bank portal</div>
+        <ul>
+          <li><b>Infinia Metal</b> earns 10X on SmartBuy hotels and 5X on flights, with the highest HDFC cap (15,000 extra points a month).</li>
+          <li><b>HSBC Premier and ICICI</b> offer 12X hotels and 6X flights with 18,000-point caps.</li>
+          <li><b>Diners Black Metal</b> has the same rates as Infinia but a 10,000-point cap.</li>
+        </ul>
+      </div>
+      <div class="group" id="best-abroad">
+        <div class="label" data-share="best-abroad">Spending abroad</div>
+        <ul>
+          <li><b>HSBC Premier</b> charges 0.99% forex markup; the other four charge 2%.</li>
+          <li><b>Diners Black Metal</b> offers an optional Global Value Program: 1% back on foreign spend for ₹199 + GST a year (not modelled).</li>
+        </ul>
+      </div>
+      <div class="group" id="best-bills">
+        <div class="label" data-share="best-bills">Rent, insurance and bills</div>
+        <ul>
+          <li><b>HSBC Premier</b> still earns on rent, utilities, insurance and education, up to ₹1 lakh a month combined.</li>
+          <li><b>Magnus for Burgundy</b> earns on the first ₹50,000 of rent a month but nothing on utilities or insurance.</li>
+          <li><b>HDFC and ICICI</b> pay nothing on rent and cap utilities, groceries and insurance.</li>
+        </ul>
+      </div>
+      <div class="group" id="best-fee">
+        <div class="label" data-share="best-fee">Keeping fees low</div>
+        <ul>
+          <li><b>HSBC Premier</b> has no renewal fee while you keep a Premier relationship.</li>
+          <li><b>Diners Black Metal</b> has the lowest spend waiver, ₹8 lakh a year.</li>
+          <li><b>Infinia Metal and Emeralde Private Metal</b> waive at ₹10 lakh.</li>
+        </ul>
+      </div>
+      <div class="group" id="best-access">
+        <div class="label" data-share="best-access">Who can get them</div>
+        <ul>
+          <li><b>Open application:</b> only Diners Black Metal, on income.</li>
+          <li><b>Banking relationship:</b> Magnus for Burgundy (Axis Burgundy) and HSBC Premier (HSBC Premier).</li>
+          <li><b>Invite-only:</b> Infinia Metal and Emeralde Private Metal.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section-head"><h2 data-share="about">How the calculator works</h2></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="how-points">
+        <div class="label" data-share="how-points">Points</div>
+        <ul>
+          <li><b>Each category earns the card's base rate</b>, minus exclusions, then any monthly category cap is applied.</li>
+          <li><b>Portal spend</b> earns the portal multiple; only the extra points count against the portal's monthly cap.</li>
+          <li><b>Magnus for Burgundy</b> adds 23 extra points per ₹200 on spend above ₹1.5 lakh a month, up to your credit limit.</li>
+          <li><b>One month is multiplied by 12</b>, so it assumes the same spend every month.</li>
+        </ul>
+      </div>
+      <div class="group" id="how-value">
+        <div class="label" data-share="how-value">Point value</div>
+        <ul>
+          <li><b>Cash</b> is the floor: statement credit or the bank's catalogue rate.</li>
+          <li><b>Portal</b> is what a point buys on the bank's own flight and hotel portal.</li>
+          <li><b>Transfer</b> is the airline ratio times your mile value (₹1 by default; premium-cabin awards can be worth more).</li>
+        </ul>
+      </div>
+      <div class="group" id="how-net">
+        <div class="label" data-share="how-net">Net value</div>
+        <ul>
+          <li><b>Renewal fee plus 18% GST</b> is subtracted unless your yearly eligible spend clears the waiver.</li>
+          <li><b>Forex markup plus GST</b> on international spend is subtracted too.</li>
+          <li><b>Effective return</b> is net value divided by total yearly spend.</li>
+        </ul>
+      </div>
+      <div class="group" id="ignores">
+        <div class="label" data-share="ignores">What it leaves out</div>
+        <ul>
+          <li><b>Welcome and renewal points</b>, unless you tick the box.</li>
+          <li><b>Lounge access, golf, memberships and insurance</b> have no rupee value here.</li>
+          <li><b>Rounding:</b> banks award points per full ₹100/150/200 per transaction, so real totals run slightly lower.</li>
+          <li><b>Diners weekend dining 2X</b> and limited-time portal offers.</li>
+        </ul>
+      </div>
+      <div class="group" id="doubts">
+        <div class="label" data-share="doubts">Where sources disagree</div>
+        <ul>
+          <li><b>Axis partner ratios</b> change without notice; trackers in Sept 2026 list Accor and Cathay at 5:2.</li>
+          <li><b>Diners Black Metal caps</b> (grocery, utilities, insurance, per-statement) come from trackers, not HDFC's card page.</li>
+          <li><b>ICICI point values and iShop rates</b> aren't published by ICICI; trackers give ₹0.25–0.40 cash.</li>
+          <li><b>HSBC cash value</b> isn't published; ₹0.25 is a placeholder.</li>
+        </ul>
+      </div>
+      <div class="group" id="not-advice">
+        <div class="label" data-share="not-advice">Before you apply</div>
+        <ul>
+          <li><b>This is an estimate, not financial advice.</b></li>
+          <li><b>Terms change often</b>; check the bank's MITC and reward T&amp;C before you decide.</li>
+          <li><b>Fee waivers</b> may exclude more categories than modelled here (Axis excludes gift cards from 28 Aug 2026).</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="rules-table-wrap">
+      <summary>Rules used for each category <span class="sum">· points per ₹100 and caps, as modelled</span></summary>
+      <div class="inner">
+        <div class="table-wrap"><table class="data" id="rules-table"><thead></thead><tbody></tbody></table></div>
+      </div>
+    </details>
+
+    <details class="more block" id="worked">
+      <summary>Worked example <span class="sum">· Magnus for Burgundy at ₹3 lakh a month</span></summary>
+      <div class="inner">
+        <ul>
+          <li>First ₹1.5 lakh: 12 points per ₹200 = 9,000 points.</li>
+          <li>Next ₹1.5 lakh: 35 points per ₹200 = 26,250 points.</li>
+          <li>Month: 35,250 points; year: 4,23,000 points. At 5:4 and ₹1 a mile that is ₹3,38,400.</li>
+          <li>₹36 lakh a year clears the ₹30 lakh waiver, so no fee.</li>
+        </ul>
+      </div>
+    </details>
+
+    <div class="section-head" id="sources"><h3 data-share="sources">Sources</h3><span class="hint" id="sources-hint">All checked Nov 2026</span></div>
+    <div class="groups cols-2 block" id="sources-list"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Terms checked 10 Nov 2026 from bank pages and MITCs, plus trackers where banks are silent.</span>
+    <span>Estimate, not financial advice.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/credit-cards">Data and code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

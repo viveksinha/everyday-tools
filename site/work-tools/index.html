@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meeting cost, time zones and notice period · Everyday Tools</title>
+<meta name="description" content="Work out what a meeting costs in salary time, find meeting slots across time zones, and count down a notice period.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="stylesheet" href="page.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Work</nav>
+  <div class="page-head">
+    <div>
+      <h1>Meeting cost, time zones and notice period</h1>
+      <p class="lede">Three small work calculators: what a meeting costs in salary time, when people in different time zones can meet, and when a notice period ends.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Runs in your browser</span>
+      <span class="chip outline">Time zones from your browser's built-in data</span>
+      <span class="chip outline">Saved in the link</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-meeting-cost" aria-controls="meeting-cost" aria-selected="true">Meeting cost</button>
+    <button class="tab" role="tab" id="tab-time-zones" aria-controls="time-zones" aria-selected="false" tabindex="-1">Time zones</button>
+    <button class="tab" role="tab" id="tab-notice-period" aria-controls="notice-period" aria-selected="false" tabindex="-1">Notice period</button>
+    <button class="tab" role="tab" id="tab-about" aria-controls="about" aria-selected="false" tabindex="-1">About</button>
+  </nav>
+
+  <!-- ============ MEETING COST ============ -->
+  <section class="panel" id="meeting-cost" role="tabpanel" aria-labelledby="tab-meeting-cost">
+    <div class="section-head"><h2 data-share="meeting-cost">What this meeting costs</h2><span class="hint">Salary time only: no office, tools or overhead</span></div>
+
+    <div class="card card-pad block" id="attendees">
+      <div class="section-head" style="margin-top:0"><h3 data-share="attendees">Who's in the room</h3><span class="hint">Yearly salary or hourly rate, per person</span></div>
+      <div class="mrow mhead" aria-hidden="true"><span>Role</span><span>People</span><span>Pay per person</span><span>Per</span><span>Currency</span><span></span></div>
+      <div id="m-rows"></div>
+      <div class="control-row" style="margin-top:10px"><button class="btn" type="button" id="m-add">+ Add a role</button></div>
+    </div>
+
+    <div class="card card-pad block m-settings">
+      <label class="field"><span>Meeting length (minutes)</span><input class="input-num" type="number" id="m-dur" min="1" step="5" inputmode="numeric"></label>
+      <label class="field"><span>Working hours per year</span><input class="input-num" type="number" id="m-hpy" min="1" step="10" inputmode="numeric"><span class="small muted">Turns a yearly salary into an hourly rate</span></label>
+      <div class="field"><span>Repeats</span>
+        <div class="seg" id="m-rec" role="group" aria-label="Repeats">
+          <button type="button" data-v="once" aria-pressed="true">Once</button>
+          <button type="button" data-v="weekly" aria-pressed="false">Weekly</button>
+          <button type="button" data-v="daily" aria-pressed="false">Daily</button>
+        </div>
+      </div>
+      <label class="field" id="m-per-wrap"><span>Meetings per year</span><input class="input-num" type="number" id="m-per" min="1" step="1" inputmode="numeric"><span class="small muted" id="m-per-hint"></span></label>
+    </div>
+
+    <p class="answer" id="m-answer"></p>
+    <div class="tiles" id="m-tiles"></div>
+
+    <div class="card card-pad block" id="live-timer">
+      <div class="section-head" style="margin-top:0"><h3 data-share="live-timer">Live timer</h3><span class="hint">Start it when the meeting starts; the cost ticks up every second</span></div>
+      <div class="timer">
+        <div class="timer-clock" id="t-clock">00:00:00</div>
+        <div class="timer-cost" id="t-cost">–</div>
+        <div class="control-row">
+          <button class="btn primary" type="button" id="t-start">Start</button>
+          <button class="btn" type="button" id="t-reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="m-reading">
+        <div class="label" data-share="m-reading">Reading the number</div>
+        <ul>
+          <li><b>Hourly rate</b> = yearly pay ÷ working hours per year.</li>
+          <li><b>Meeting cost</b> = each person's hourly rate × people × minutes ÷ 60.</li>
+          <li><b>Mixed currencies</b> are totalled separately; the page doesn't convert between them.</li>
+        </ul>
+      </div>
+      <div class="group" id="m-hours">
+        <div class="label" data-share="m-hours">Why 2,000 hours</div>
+        <ul>
+          <li><b>40 hours × 50 weeks</b> is the usual round figure.</li>
+          <li><b>Change it</b> to match your hours: 45 h × 48 weeks is 2,160.</li>
+          <li><b>Fewer hours</b> means a higher hourly rate and a dearer meeting.</li>
+        </ul>
+      </div>
+      <div class="group" id="m-leaves-out">
+        <div class="label" data-share="m-leaves-out">What it leaves out</div>
+        <ul>
+          <li><b>Employer costs</b> on top of salary: benefits, payroll taxes, office space.</li>
+          <li><b>Prep and switching time</b> before and after the meeting.</li>
+          <li><b>The value</b> of what got decided. Cost is only half the question.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIME ZONES ============ -->
+  <section class="panel" id="time-zones" role="tabpanel" aria-labelledby="tab-time-zones" hidden>
+    <div class="section-head"><h2 data-share="time-zones">Find a meeting time across time zones</h2><span class="hint">Daylight saving handled by your browser's time-zone data</span></div>
+
+    <div class="card card-pad block" id="tz-people">
+      <div class="section-head" style="margin-top:0"><h3 data-share="tz-people">People and working hours</h3><span class="hint">2 to 6 places · the first one sets the grid's columns</span></div>
+      <div id="tz-rows"></div>
+      <div class="control-row" style="margin-top:10px">
+        <button class="btn" type="button" id="tz-add">+ Add a place</button>
+        <label class="field tz-date"><span>Date</span><input class="input-num" type="date" id="tz-date"></label>
+      </div>
+    </div>
+
+    <p class="answer" id="tz-answer"></p>
+
+    <div class="block" id="tz-grid-block">
+      <div class="section-head"><h3 data-share="tz-grid-block">24-hour grid</h3><span class="hint">Green = working hours · <span class="key-ov">column</span> = everyone's working · scroll sideways on phones</span></div>
+      <div class="table-wrap"><table class="data tz-grid" id="tz-grid"></table></div>
+    </div>
+
+    <div class="block" id="tz-slots-block">
+      <div class="section-head"><h3 data-share="tz-slots-block">Best meeting slots</h3><span class="hint" id="tz-slots-hint"></span></div>
+      <div class="table-wrap"><table class="data" id="tz-slots"></table></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="tz-how">
+        <div class="label" data-share="tz-how">How it works</div>
+        <ul>
+          <li><b>Each place's local time</b> comes from your browser's built-in time-zone rules, so daylight saving shifts are included.</li>
+          <li><b>Slots are checked every 15 minutes</b>, so half-hour zones like India line up correctly.</li>
+          <li><b>Working hours</b> are start to end; a 9 to 18 day ends at 18:00.</li>
+        </ul>
+      </div>
+      <div class="group" id="tz-dst">
+        <div class="label" data-share="tz-dst">Daylight saving</div>
+        <ul>
+          <li><b>Pick the actual meeting date</b>: the US, UK and EU change clocks on different weekends.</li>
+          <li><b>A slot that works in October</b> can be an hour off in November.</li>
+          <li><b>"+1" or "−1"</b> in a cell means the next or previous calendar day there.</li>
+        </ul>
+      </div>
+      <div class="group" id="tz-tips">
+        <div class="label" data-share="tz-tips">When nothing overlaps</div>
+        <ul>
+          <li><b>The page lists the closest times</b>, where most people are in hours.</li>
+          <li><b>Rotate who stays late</b> rather than always the same place.</li>
+          <li><b>Night shifts</b> work: set a start later than the end, like 22 to 6.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOTICE PERIOD ============ -->
+  <section class="panel" id="notice-period" role="tabpanel" aria-labelledby="tab-notice-period" hidden>
+    <div class="section-head"><h2 data-share="notice-period">When does my notice period end?</h2><span class="hint">Check your contract: it decides how notice is counted</span></div>
+
+    <div class="card card-pad block n-inputs" id="n-inputs">
+      <label class="field"><span>Resignation date</span><input class="input-num" type="date" id="n-rd"></label>
+      <div class="field"><span>Notice length</span>
+        <div class="n-len"><input class="input-num" type="number" id="n-n" min="0" step="1" inputmode="numeric">
+          <div class="seg" id="n-u" role="group" aria-label="Unit">
+            <button type="button" data-v="d" aria-pressed="false">Days</button>
+            <button type="button" data-v="w" aria-pressed="false">Weeks</button>
+            <button type="button" data-v="m" aria-pressed="false">Months</button>
+          </div>
+        </div>
+      </div>
+      <div class="field"><span>Count</span>
+        <div class="seg" id="n-cm" role="group" aria-label="Count">
+          <button type="button" data-v="cal" aria-pressed="true">Calendar days</button>
+          <button type="button" data-v="work" aria-pressed="false">Working days</button>
+        </div>
+        <span class="small muted" id="n-cm-note"></span>
+      </div>
+      <div class="field"><span>Weekend</span>
+        <div class="seg" id="n-wk" role="group" aria-label="Weekend">
+          <button type="button" data-v="ss" aria-pressed="true">Sat + Sun</button>
+          <button type="button" data-v="s" aria-pressed="false">Sun only</button>
+        </div>
+      </div>
+      <div class="field"><span>Notice starts</span>
+        <div class="seg" id="n-st" role="group" aria-label="Notice starts">
+          <button type="button" data-v="next" aria-pressed="true">Day after resigning</button>
+          <button type="button" data-v="same" aria-pressed="false">Same day</button>
+        </div>
+      </div>
+      <label class="field"><span>Leave balance to offset (working days)</span><input class="input-num" type="number" id="n-lv" min="0" step="1" inputmode="numeric"><span class="small muted">Only if your employer allows it</span></label>
+      <label class="field n-hol"><span>Holidays (optional), one date per line or comma-separated</span><textarea class="input-num" id="n-hol" rows="3" placeholder="2026-12-25&#10;01/01/2027"></textarea><span class="small muted" id="n-hol-note">YYYY-MM-DD or DD/MM/YYYY</span></label>
+    </div>
+
+    <p class="answer" id="n-answer"></p>
+    <div class="tiles" id="n-tiles"></div>
+
+    <div class="block" id="n-calendar">
+      <div class="section-head"><h3 data-share="n-calendar">Calendar</h3><span class="hint n-legend"><i class="lg notice"></i>notice <i class="lg wkend"></i>weekend <i class="lg hol"></i>holiday <i class="lg leave"></i>leave <i class="lg lwd"></i>last working day</span></div>
+      <div class="n-cal" id="n-cal"></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="n-rules">
+        <div class="label" data-share="n-rules">How it's counted</div>
+        <ul>
+          <li><b>Calendar days</b> count every day, weekends included.</li>
+          <li><b>Working days</b> skip your weekend and the holidays you list.</li>
+          <li><b>Months</b> run to the same date N months later, less one day.</li>
+        </ul>
+      </div>
+      <div class="group" id="n-lwd-rule">
+        <div class="label" data-share="n-lwd-rule">Last working day</div>
+        <ul>
+          <li><b>If notice ends on a weekend or holiday</b>, the last day you work is the working day before.</li>
+          <li><b>Leave offset</b> moves that day earlier by the leave days you use.</li>
+          <li><b>Your relieving date</b> on paper may still be the notice end date.</li>
+        </ul>
+      </div>
+      <div class="group" id="n-check">
+        <div class="label" data-share="n-check">Check with HR</div>
+        <ul>
+          <li><b>Whether day one</b> is the resignation day or the day after.</li>
+          <li><b>Whether leave can offset notice</b>; many employers pay it out instead.</li>
+          <li><b>Buy-out or waiver</b> terms if you need to leave sooner.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section-head"><h2 data-share="about">About these tools</h2></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="about-privacy">
+        <div class="label" data-share="about-privacy">Privacy</div>
+        <ul>
+          <li><b>Everything runs in your browser.</b> Nothing you type is sent anywhere.</li>
+          <li><b>Your inputs live in the page link</b>, so a copied link shows the same result.</li>
+          <li><b>No cookies, no accounts, no tracking.</b></li>
+        </ul>
+      </div>
+      <div class="group" id="about-data">
+        <div class="label" data-share="about-data">Where the time data comes from</div>
+        <ul>
+          <li><b>Your browser's <code>Intl</code> API</b>, which ships the IANA time-zone database.</li>
+          <li><b>No offsets are typed into this page</b>, so daylight-saving changes come from that database.</li>
+          <li><b>A very old browser</b> may have out-of-date rules for recently changed zones.</li>
+        </ul>
+      </div>
+      <div class="group" id="about-limits">
+        <div class="label" data-share="about-limits">Limits</div>
+        <ul>
+          <li><b>Estimates, not financial, legal or HR advice.</b></li>
+          <li><b>Meeting cost</b> uses salary only, not total employment cost.</li>
+          <li><b>Notice rules</b> come from your contract and local law, which this page doesn't know.</li>
+        </ul>
+      </div>
+    </div>
+    <details class="more block" id="about-method">
+      <summary>Method details <span class="sum">· the exact arithmetic</span></summary>
+      <div class="inner">
+        <ul>
+          <li><b>Meeting cost:</b> sum over roles of people × (yearly pay ÷ hours per year, or the hourly rate) × minutes ÷ 60. Yearly cost = that × meetings per year (default 52 weekly, 250 daily).</li>
+          <li><b>Time zones:</b> the grid starts at midnight on the chosen date in the first place. Each 15-minute step is checked against every person's working hours in their own local time.</li>
+          <li><b>Notice period:</b> start = resignation date (or the next day). Days: end = start + N − 1. Weeks: N × 7 days, or N × working days per week. Months: same date N months on, less one day; if that month is shorter, its last day.</li>
+          <li><b>Leave offset:</b> counts back the given number of working days from the last working day.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Estimates, not financial, legal or HR advice.</span>
+    <span>Time zones from your browser's built-in IANA data.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/work-tools">Code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

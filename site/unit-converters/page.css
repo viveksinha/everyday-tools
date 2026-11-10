@@ -1,0 +1,6 @@
+/* Unit converters: page-only styles */
+.uc-in { display: grid; gap: 14px; align-items: start; }
+@media (min-width: 720px) { .uc-in { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .uc-in.three { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); } }
+.uc-in .select.big-sel { height: 44px; width: 100%; font-size: 15px; }
+.uc-words { margin: 0 0 6px; font-family: var(--font-display); font-size: 19px; line-height: 1.35; overflow-wrap: anywhere; }
+table.data tbody tr.open > td, table.data tbody tr.open > th { background: var(--accent-soft); }

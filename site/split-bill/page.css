@@ -1,0 +1,16 @@
+/* Split a bill: page-only styles */
+.sb-grid { display: grid; gap: 14px 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); align-items: start; }
+.sb-rows { display: grid; gap: 8px; margin-bottom: 10px; }
+.sb-person, .sb-item { display: grid; gap: 6px 8px; align-items: center; }
+.sb-person { grid-template-columns: minmax(0, 1fr) auto; }
+.sb-item { grid-template-columns: minmax(0, 1fr) 110px auto; padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.sb-item:last-child { border-bottom: 0; }
+.sb-item .who { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
+.sb-who { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px; border: 1px solid var(--rule); border-radius: 999px; font-size: 12.5px; cursor: pointer; user-select: none; background: var(--surface); }
+.sb-who input { margin: 0; accent-color: var(--accent); }
+.sb-who:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.sb-x { width: 34px; justify-content: center; padding: 0; }
+.sb-text { width: 100%; font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface-2); color: var(--ink); resize: vertical; }
+table.data tfoot td, table.data tfoot th { font-weight: 650; border-top: 1px solid var(--rule-strong); background: var(--surface-2); padding: 9px 12px; }
+table.data tfoot .sticky { background: var(--surface-2); }
+#pp-table tbody th { white-space: nowrap; }

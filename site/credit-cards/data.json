@@ -1,0 +1,584 @@
+{
+  "checked": "2026-11-10",
+  "gst": 0.18,
+  "default_mile_value": 1.0,
+  "notes": "Rules data for the credit card rewards calculator. Rates are points per rupee of spend. 'capPtsMonth' caps base points from that category per month (ICICI's caps are per statement cycle; treated as monthly). 'spendCapMonth' limits the spend that earns. 'sharedSpendCap' is one monthly spend ceiling across several categories. Portal multipliers are total multiples of the base rate; 'bonusCapMonth' caps the extra (accelerated) points only.",
+  "cards": [
+    {
+      "id": "m4b",
+      "short": "Magnus Burgundy",
+      "name": "Axis Bank Magnus for Burgundy",
+      "bank": "Axis Bank",
+      "checked": "2026-11-10",
+      "source": "https://www.axis.bank.in/docs/default-source/magnus-card/magnus-credit-card-for-burgundy-faq.pdf",
+      "sources": [
+        {
+          "label": "Axis Bank: Magnus for Burgundy FAQ (earn, Travel EDGE, exclusions, transfer caps, eligibility)",
+          "url": "https://www.axis.bank.in/docs/default-source/magnus-card/magnus-credit-card-for-burgundy-faq.pdf"
+        },
+        {
+          "label": "Axis Bank: Magnus for Burgundy T&C revision effective 20 June 2025 (12/35 points, credit-limit ceiling, exclusions)",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/credit-card-tnc/terms-and-conditions-for-magnus-burgundy-credit-card.pdf"
+        },
+        {
+          "label": "Axis Bank: credit card MITC (fee ₹30,000, ₹30 lakh waiver, 2% forex, gift cards out of waiver from 28 Aug 2026)",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+        },
+        {
+          "label": "Magnify: Axis partner changes, Sept 2026 (Accor and Cathay at 5:2 for Magnus for Burgundy; group caps)",
+          "url": "https://magnify.club/guides/axis-accor-returns-miles-and-more-september-2026/"
+        },
+        {
+          "label": "Card Maven: Axis transfer partners update, 24 Sept 2026",
+          "url": "https://cardmaven.in/axis-bank-transfer-partners-update-september-2026/"
+        }
+      ],
+      "pointName": "EDGE Reward Points",
+      "base": {
+        "pts": 12,
+        "per": 200
+      },
+      "axisTier": {
+        "threshold": 150000,
+        "accelPts": 35,
+        "per": 200,
+        "defaultCreditLimit": 1000000
+      },
+      "portal": {
+        "name": "Travel EDGE",
+        "flights": 5,
+        "hotels": 5,
+        "spendCapMonth": 200000,
+        "bonusCapMonth": null,
+        "overflow": "regular"
+      },
+      "categories": {
+        "fuel": {
+          "earn": false,
+          "why": "No points on fuel"
+        },
+        "utilities": {
+          "earn": false,
+          "why": "No points on utilities and telecom"
+        },
+        "insurance": {
+          "earn": false,
+          "why": "No points on insurance"
+        },
+        "wallet": {
+          "earn": false,
+          "why": "No points on wallet loads"
+        },
+        "government": {
+          "earn": false,
+          "why": "No points on government payments"
+        },
+        "rent": {
+          "spendCapMonth": 50000,
+          "why": "Only the first ₹50,000 of rent a month earns"
+        }
+      },
+      "statementCapPts": null,
+      "milestones": [],
+      "fee": {
+        "amount": 30000,
+        "waiverSpend": 3000000,
+        "waiverExcludes": [
+          "rent",
+          "wallet",
+          "utilities",
+          "government",
+          "insurance",
+          "fuel"
+        ],
+        "note": "₹30,000 + GST, waived on ₹30 lakh of eligible spend in the previous card year. Rent, wallet, utilities, government, insurance, fuel, gold and (from 28 Aug 2026) gift cards don't count."
+      },
+      "forex": 0.02,
+      "values": {
+        "cash": 0.2,
+        "cashNote": "1 point = ₹0.20 on the EDGE Rewards catalogue (bank FAQ)",
+        "portal": 0.2,
+        "portalNote": "EDGE points are worth ₹0.20 on Axis's own portals too",
+        "transferRatio": 0.8,
+        "transferNote": "5 points = 4 partner miles for most partners; Accor and Cathay are 5:2"
+      },
+      "welcome": {
+        "rupees": 5000,
+        "pts": 0,
+        "note": "₹5,000 voucher (flight, Luxe or Postcard hotels) for new cards, not upgrades"
+      },
+      "compare": {
+        "fee": "₹30,000 + GST joining and annual",
+        "waiver": "₹30 lakh eligible spend in the previous card year",
+        "base": "12 points per ₹200 up to ₹1.5 lakh a month; 35 per ₹200 above that, up to credit limit + ₹1.5 lakh",
+        "portal": "Travel EDGE: 5X (60 points per ₹200) on the first ₹2 lakh a month",
+        "excluded": "Fuel, utilities and telecom, insurance, wallet, government, gold and jewellery; rent above ₹50,000 a month",
+        "caps": "Accelerated 35X stops at credit limit + ₹1.5 lakh of monthly spend",
+        "partners": "About 20 airline and hotel partners. Group A (2 lakh points a year): Air India, Flying Blue, Qantas, KrisFlyer and others; Accor and Cathay at 5:2. Group B (8 lakh a year): Hilton, Miles & More (2 lakh miles a year), IndiGo BluChip and others",
+        "ratio": "5:4 for most partners; 5:2 for Accor and Cathay (trackers, Sept 2026)",
+        "redemption": "₹0.20 a point on the EDGE catalogue and portals; best value is transfers",
+        "forex": "2% + GST",
+        "lounge": "Unlimited international lounges (Priority Pass, 4 guest visits a year); domestic lounges need ₹50,000 spend in the previous 3 months",
+        "eligibility": "Axis Burgundy customers only: ₹10 lakh average balance, ₹30 lakh relationship value, ₹1 crore with demat, or ₹3 lakh monthly salary credit",
+        "milestones": "None now (the old monthly milestone was removed)"
+      },
+      "redeemCapYear": {
+        "transfer": 1000000,
+        "note": "Transfers capped at 10 lakh points a year (2 lakh Group A + 8 lakh Group B)"
+      }
+    },
+    {
+      "id": "infinia",
+      "short": "Infinia Metal",
+      "name": "HDFC Bank Infinia Metal",
+      "bank": "HDFC Bank",
+      "checked": "2026-11-10",
+      "source": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+      "sources": [
+        {
+          "label": "HDFC Bank: Infinia Metal product page (earn, redemption values, renewal points)",
+          "url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card"
+        },
+        {
+          "label": "HDFC Bank: Infinia Reward Points Program T&C (exclusions, category caps, 2 lakh/cycle cap, 1 July 2026 voucher sub-cap)",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf"
+        },
+        {
+          "label": "HDFC Bank: credit card MITC, updated 31 Oct 2026 (fee, waiver, 2% forex, Infinia retention rule)",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+        },
+        {
+          "label": "CardAdvisor: HDFC SmartBuy guide, updated 24 Oct 2026 (5X flights, 10X hotels, 15,000 cap)",
+          "url": "https://cardadvisor.in/articles/hdfc-smartbuy-guide"
+        }
+      ],
+      "pointName": "Reward Points",
+      "base": {
+        "pts": 5,
+        "per": 150
+      },
+      "portal": {
+        "name": "SmartBuy",
+        "flights": 5,
+        "hotels": 10,
+        "spendCapMonth": null,
+        "bonusCapMonth": 15000
+      },
+      "categories": {
+        "fuel": {
+          "earn": false,
+          "why": "No points on fuel"
+        },
+        "rent": {
+          "earn": false,
+          "why": "No points on rent (since Jan 2023)"
+        },
+        "wallet": {
+          "earn": false,
+          "why": "No points on wallet loads"
+        },
+        "government": {
+          "earn": false,
+          "why": "No points on government payments"
+        },
+        "groceries": {
+          "capPtsMonth": 2000,
+          "why": "Grocery points capped at 2,000 a month"
+        },
+        "utilities": {
+          "capPtsMonth": 2000,
+          "why": "Utility points capped at 2,000 a month (telecom has its own 2,000)"
+        },
+        "insurance": {
+          "capPtsMonth": 10000,
+          "why": "Insurance points capped at 10,000 a month"
+        },
+        "education": {
+          "why": "Earns only if paid on the school's own site or POS, not via CRED and similar apps"
+        }
+      },
+      "statementCapPts": 200000,
+      "milestones": [],
+      "fee": {
+        "amount": 12500,
+        "waiverSpend": 1000000,
+        "waiverExcludes": [],
+        "note": "₹12,500 + GST, waived on ₹10 lakh spend a year. Invite-only; from 1 Apr 2026 HDFC reviews continued access against ₹18 lakh card spend or ₹50 lakh relationship value a year."
+      },
+      "forex": 0.02,
+      "values": {
+        "cash": 0.3,
+        "cashNote": "Statement credit: up to ₹0.30 a point (max 50,000 points a month)",
+        "portal": 1.0,
+        "portalNote": "SmartBuy flights and hotels: ₹1 a point, up to 70% of the booking, 1.5 lakh points a month",
+        "transferRatio": 1.0,
+        "transferNote": "Up to 1 airmile per point; Accor, Turkish and Avianca are 2:1"
+      },
+      "welcome": {
+        "rupees": 0,
+        "pts": 12500,
+        "note": "12,500 points on joining and again on renewal when the fee is paid"
+      },
+      "compare": {
+        "fee": "₹12,500 + GST joining and annual",
+        "waiver": "₹10 lakh spend a year",
+        "base": "5 points per ₹150 (about 3.3% at ₹1 a point)",
+        "portal": "SmartBuy: 10X hotels, 5X flights; extra points capped at 15,000 a month (vouchers 3,000 of that from 1 July 2026)",
+        "excluded": "Fuel, rent, wallet loads, government; education via third-party apps",
+        "caps": "Grocery 2,000/month, utilities 2,000/month, telecom 2,000/month, insurance 10,000/month; 2 lakh points per statement",
+        "partners": "Airline and hotel programmes via SmartBuy, incl. KrisFlyer, Flying Blue and Finnair Plus at 1:1; Accor, Turkish and Avianca at 2:1",
+        "ratio": "Mostly 1:1",
+        "redemption": "₹1 on SmartBuy flights and hotels, Apple and Tanishq; ₹0.50 products and vouchers; ₹0.30 statement credit",
+        "forex": "2%",
+        "lounge": "Unlimited domestic and international for primary and add-on cardholders",
+        "eligibility": "Invite-only. Retention from 1 Apr 2026: ₹18 lakh card spend or ₹50 lakh relationship value a financial year",
+        "milestones": "None; 12,500 renewal points when the fee is paid"
+      },
+      "redeemCapYear": {
+        "portal": 1800000,
+        "transfer": 1800000,
+        "note": "Flights, hotels and airmiles redemptions capped at 1.5 lakh points a month"
+      }
+    },
+    {
+      "id": "dcbm",
+      "short": "Diners Black Metal",
+      "name": "HDFC Bank Diners Club Black Metal",
+      "bank": "HDFC Bank",
+      "checked": "2026-11-10",
+      "source": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+      "sources": [
+        {
+          "label": "HDFC Bank: Diners Club Black Metal product page (fees, waiver, redemption values, forex, lounge)",
+          "url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card"
+        },
+        {
+          "label": "HDFC Bank: Diners Club Black Metal T&C, 1 June 2026 (quarterly milestone, weekend dining 2X, welcome memberships)",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-metal-edition-credit-card/diners-club-metal-tandc.pdf"
+        },
+        {
+          "label": "HDFC Bank: credit card MITC, updated 31 Oct 2026 (earn per ₹150, waiver ₹8 lakh)",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+        },
+        {
+          "label": "LiveFromALounge: SmartBuy voucher cap, 1 July 2026 (Diners Black Metal 10,000 a month)",
+          "url": "https://livefromalounge.com/hdfc-bank-credit-cards-devalues-smartbuy-gift-vouchers-accelerated-rewards-with-new-monthly-cap-effective-today/"
+        },
+        {
+          "label": "Card Insider: Diners Club Black category caps (grocery, utilities, insurance)",
+          "url": "https://cardinsider.com/hdfc-bank/hdfc-bank-diners-club-black-credit-card/"
+        }
+      ],
+      "pointName": "Reward Points",
+      "base": {
+        "pts": 5,
+        "per": 150
+      },
+      "portal": {
+        "name": "SmartBuy",
+        "flights": 5,
+        "hotels": 10,
+        "spendCapMonth": null,
+        "bonusCapMonth": 10000
+      },
+      "categories": {
+        "fuel": {
+          "earn": false,
+          "why": "No points on fuel"
+        },
+        "rent": {
+          "earn": false,
+          "why": "No points on rent"
+        },
+        "wallet": {
+          "earn": false,
+          "why": "No points on wallet loads"
+        },
+        "government": {
+          "earn": false,
+          "why": "No points on government payments"
+        },
+        "groceries": {
+          "capPtsMonth": 2000,
+          "why": "Grocery points capped at 2,000 a month (tracker figure)"
+        },
+        "utilities": {
+          "capPtsMonth": 2000,
+          "why": "Utility points capped at 2,000 a month (tracker figure)"
+        },
+        "insurance": {
+          "capPtsMonth": 5000,
+          "why": "Insurance points capped at 5,000 (trackers differ: per month or per day)"
+        },
+        "education": {
+          "why": "Earns only if paid on the school's own site or POS"
+        }
+      },
+      "statementCapPts": 75000,
+      "milestones": [
+        {
+          "type": "quarterPts",
+          "spend": 400000,
+          "pts": 10000,
+          "excludes": [
+            "rent",
+            "wallet",
+            "government",
+            "fuel"
+          ],
+          "label": "10,000 points for ₹4 lakh spend in a calendar quarter"
+        }
+      ],
+      "fee": {
+        "amount": 10000,
+        "waiverSpend": 800000,
+        "waiverExcludes": [],
+        "note": "₹10,000 + GST, waived on ₹8 lakh spend in 12 months"
+      },
+      "forex": 0.02,
+      "values": {
+        "cash": 0.3,
+        "cashNote": "Cashback: up to ₹0.30 a point",
+        "portal": 1.0,
+        "portalNote": "SmartBuy flights and hotels: ₹1 a point, up to 70% of the booking",
+        "transferRatio": 1.0,
+        "transferNote": "Up to 1 airmile per point"
+      },
+      "welcome": {
+        "rupees": 0,
+        "pts": 0,
+        "note": "Club Marriott, Amazon Prime and Swiggy One memberships on ₹1.5 lakh spend in 90 days (not valued here)"
+      },
+      "compare": {
+        "fee": "₹10,000 + GST joining and annual",
+        "waiver": "₹8 lakh spend in 12 months",
+        "base": "5 points per ₹150; 2X on weekend dining at standalone restaurants",
+        "portal": "SmartBuy: 10X hotels, 5X flights; extra points capped at 10,000 a month (vouchers 3,000 of that)",
+        "excluded": "Fuel, rent, wallet loads, government",
+        "caps": "Grocery 2,000/month, utilities 2,000/month, insurance 5,000 (trackers); 75,000 points per statement (tracker)",
+        "partners": "Same SmartBuy airmiles list as Infinia",
+        "ratio": "Up to 1:1",
+        "redemption": "₹1 on SmartBuy flights and hotels; ₹0.50 products and vouchers; ₹0.30 cashback",
+        "forex": "2% (optional Global Value Program: 1% back on foreign spend for ₹199 + GST a year)",
+        "lounge": "Unlimited, 1,300+ lounges in India and abroad, primary and add-on",
+        "eligibility": "Salaried income over ₹2.5 lakh a month, or self-employed ITR over ₹30 lakh a year",
+        "milestones": "10,000 bonus points for ₹4 lakh spend in a calendar quarter"
+      }
+    },
+    {
+      "id": "epm",
+      "short": "Emeralde Private Metal",
+      "name": "ICICI Bank Emeralde Private Metal",
+      "bank": "ICICI Bank",
+      "checked": "2026-11-10",
+      "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+      "sources": [
+        {
+          "label": "ICICI Bank: Emeralde Private Metal product page (6 points per ₹200, category caps, fee, waiver, forex, lounge, milestone)",
+          "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card"
+        },
+        {
+          "label": "ICICI Bank: credit card MITC, updated 6 Nov 2026 (capped and excluded categories for Emeralde Private Metal)",
+          "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+        },
+        {
+          "label": "CardAdvisor: Emeralde Private Metal review, updated 26 Sept 2026 (point values, iShop rates, transfers)",
+          "url": "https://cardadvisor.in/articles/icici-emeralde-private-metal-review-2026"
+        },
+        {
+          "label": "Mint: Emeralde Private Metal vs Infinia (iShop 18,000 monthly cap)",
+          "url": "https://www.magzter.com/en/stories/newspaper/Mint-Bangalore/ICICI-EMERALD-PRIVATE-METAL-TAKES-ON-HDFC-INFINIA-A-GAMECHANGER"
+        }
+      ],
+      "pointName": "ICICI Reward Points",
+      "base": {
+        "pts": 6,
+        "per": 200
+      },
+      "portal": {
+        "name": "iShop",
+        "flights": 6,
+        "hotels": 12,
+        "spendCapMonth": null,
+        "bonusCapMonth": 18000
+      },
+      "categories": {
+        "fuel": {
+          "earn": false,
+          "why": "No points on fuel"
+        },
+        "rent": {
+          "earn": false,
+          "why": "No points on rent or property management"
+        },
+        "wallet": {
+          "earn": false,
+          "why": "No points on third-party wallets"
+        },
+        "government": {
+          "earn": false,
+          "why": "No points on government payments or tax"
+        },
+        "groceries": {
+          "capPtsMonth": 1000,
+          "why": "Grocery points capped at 1,000 per statement"
+        },
+        "utilities": {
+          "capPtsMonth": 1000,
+          "why": "Utility points capped at 1,000 per statement"
+        },
+        "education": {
+          "capPtsMonth": 1000,
+          "why": "Education points capped at 1,000 per statement"
+        },
+        "insurance": {
+          "capPtsMonth": 5000,
+          "why": "Insurance points capped at 5,000 per statement"
+        }
+      },
+      "statementCapPts": null,
+      "milestones": [
+        {
+          "type": "yearRupees",
+          "spend": 800000,
+          "rupees": 6000,
+          "excludes": [
+            "rent",
+            "wallet",
+            "government",
+            "fuel"
+          ],
+          "label": "2 EaseMyTrip vouchers, up to ₹6,000, on ₹8 lakh a year"
+        }
+      ],
+      "fee": {
+        "amount": 12499,
+        "waiverSpend": 1000000,
+        "waiverExcludes": [],
+        "note": "₹12,499 + GST, waived on ₹10 lakh spend a year"
+      },
+      "forex": 0.02,
+      "values": {
+        "cash": 0.25,
+        "cashNote": "Statement credit about ₹0.25 a point (trackers; one says ₹0.40). ICICI doesn't publish a rate",
+        "portal": 1.0,
+        "portalNote": "Up to ₹1 a point on travel and select vouchers (trackers)",
+        "transferRatio": 1.0,
+        "transferNote": "1:1 to Air India Maharaja Club, the only airline partner (trackers)"
+      },
+      "welcome": {
+        "rupees": 0,
+        "pts": 12500,
+        "note": "12,500 points plus Taj Epicure Plus and EazyDiner Prime on joining"
+      },
+      "compare": {
+        "fee": "₹12,499 + GST joining and annual",
+        "waiver": "₹10 lakh spend a year",
+        "base": "6 points per ₹200",
+        "portal": "iShop: up to 6X flights and 12X hotels; extra points capped at 18,000 a month (trackers)",
+        "excluded": "Fuel, rent, property management, wallet, government, tax",
+        "caps": "Grocery, utilities, education 1,000 each per statement; insurance 5,000 per statement",
+        "partners": "Air India Maharaja Club (trackers)",
+        "ratio": "1:1",
+        "redemption": "Up to ₹1 on travel and vouchers; about ₹0.25 statement credit (trackers)",
+        "forex": "2%",
+        "lounge": "Unlimited domestic and international, primary and Plus cardholders",
+        "eligibility": "Invite-only via relationship manager",
+        "milestones": "2 EaseMyTrip vouchers (up to ₹6,000) on ₹8 lakh a year"
+      }
+    },
+    {
+      "id": "hsbc",
+      "short": "HSBC Premier",
+      "name": "HSBC Premier credit card",
+      "bank": "HSBC India",
+      "checked": "2026-11-10",
+      "source": "https://www.hsbc.bank.in/credit-cards/products/premier/",
+      "sources": [
+        {
+          "label": "HSBC India: Premier credit card page (3 points per ₹100, fees, 0.99% forex, lounge, eligibility)",
+          "url": "https://www.hsbc.bank.in/credit-cards/products/premier/"
+        },
+        {
+          "label": "HSBC India: Rewards Marketplace T&C (fuel excluded, ₹1 lakh shared cap, Travel with Points 6X/12X, 18,000 cap, partner ratios)",
+          "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/hsbc-rewards-tcs.pdf"
+        },
+        {
+          "label": "HSBC India: Premier rewards page (transfer partners and ratios)",
+          "url": "https://www.hsbc.bank.in/credit-cards/products/premier/rewards/"
+        },
+        {
+          "label": "HSBC India: Premier credit card MITC (joining ₹12,000; ₹20,000 renewal unless Premier-qualified)",
+          "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/premier_cc_tariff_mitc.pdf"
+        }
+      ],
+      "pointName": "Reward Points",
+      "base": {
+        "pts": 3,
+        "per": 100
+      },
+      "portal": {
+        "name": "Travel with Points",
+        "flights": 6,
+        "hotels": 12,
+        "spendCapMonth": null,
+        "bonusCapMonth": 18000
+      },
+      "categories": {
+        "fuel": {
+          "earn": false,
+          "why": "No points on fuel"
+        }
+      },
+      "sharedSpendCap": {
+        "cats": [
+          "rent",
+          "utilities",
+          "insurance",
+          "education",
+          "wallet",
+          "government"
+        ],
+        "spendMonth": 100000,
+        "why": "Rent, utilities, insurance, education, wallet, government (and tax, jewellery) share one ₹1 lakh monthly earning limit"
+      },
+      "statementCapPts": null,
+      "milestones": [],
+      "fee": {
+        "amount": 0,
+        "waiverSpend": null,
+        "waiverExcludes": [],
+        "note": "Renewal waived for qualified Premier customers (₹20,000 otherwise); one-time joining fee ₹12,000 not counted"
+      },
+      "forex": 0.0099,
+      "values": {
+        "cash": 0.25,
+        "cashNote": "Assumed. HSBC lists no statement credit and no gift-card rate; ₹0.25 is a placeholder",
+        "portal": 1.0,
+        "portalNote": "Travel with Points bookings and Apple products: 1 point = ₹1 (bank)",
+        "transferRatio": 1.0,
+        "transferNote": "1:1 to most of 20 partners; Turkish, United, Hainan 2:1; Shangri-La 5:1"
+      },
+      "welcome": {
+        "rupees": 0,
+        "pts": 20000,
+        "note": "20,000 points when you start using the card"
+      },
+      "compare": {
+        "fee": "₹12,000 joining; renewal ₹20,000, waived with a Premier relationship",
+        "waiver": "Premier relationship, not spend",
+        "base": "3 points per ₹100",
+        "portal": "Travel with Points: 6X flights, 12X hotels; extra points capped at 18,000 a month",
+        "excluded": "Fuel",
+        "caps": "Rent, utilities, insurance, education, wallet, government, tax, jewellery share a ₹1 lakh monthly earning limit",
+        "partners": "15 airlines (KrisFlyer, Flying Blue, BA, Qatar, Etihad, Air India, JAL, Qantas and more) and 5 hotel groups (Accor, IHG, Marriott, Wyndham, Shangri-La)",
+        "ratio": "1:1 for most; Turkish, United, Hainan 2:1; Shangri-La 5:1; AirAsia 1:3",
+        "redemption": "₹1 on Travel with Points and Apple; transfers instant in the app; no statement credit listed",
+        "forex": "0.99%",
+        "lounge": "Unlimited domestic and international; 8 international guest visits",
+        "eligibility": "HSBC Premier customers: ₹50 lakh relationship balance, ₹3 lakh monthly salary credit, or a qualifying mortgage",
+        "milestones": "None"
+      }
+    }
+  ]
+}

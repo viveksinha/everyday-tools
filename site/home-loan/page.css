@@ -1,0 +1,31 @@
+/* Page-only additions for the calculator forms. */
+.form-grid { display: grid; gap: 14px 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr)); align-items: start; }
+@media (min-width: 640px) { .form-grid .wide { grid-column: span 2; } }
+.form-grid .field .input-num, .form-grid .field .select { width: 100%; }
+.form-grid .field .big { height: 44px; }
+.unit-row { display: flex; gap: 8px; align-items: center; }
+.unit-row .input-num { flex: 1 1 auto; min-width: 0; }
+.unit-row .seg { flex: none; }
+.unit-row .seg button { padding: 5px 9px; }
+.with-suffix { position: relative; }
+.with-suffix .input-num { padding-right: 34px; }
+.with-suffix .sfx { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 13px; pointer-events: none; }
+.field .words { min-height: 18px; }
+.form-note { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+.form-sub { grid-column: 1 / -1; font-size: 11px; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 6px 0 -6px; }
+.legend .sq { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+table.data tr.sub > td { background: var(--surface-2); font-size: 13px; padding-top: 6px; padding-bottom: 6px; }
+table.data tr.sub > td.sticky { background: var(--surface-2); }
+table.data tr.row td.sticky b::before { content: "▸ "; color: var(--muted); font-weight: 400; }
+table.data tr.row.open td.sticky b::before { content: "▾ "; }
+table.data td.win { color: var(--good); font-weight: 650; }
+.tile.hl { border-color: var(--accent); background: color-mix(in srgb, var(--accent-soft) 55%, var(--surface)); }
+.tile .value.sm { font-size: 22px; }
+.check-row { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.field > .with-suffix { font-size: inherit; color: inherit; font-weight: 400; display: block; }
+.field .seg { justify-self: start; flex-wrap: nowrap; }
+.field .seg button { white-space: nowrap; }
+.groups > .card { min-width: 0; }
+table.data tr.row td.sticky, table.data tr.sub td.sticky { white-space: nowrap; }
+#loan-compare-table td.sticky, #worth-compare-table td.sticky { min-width: 130px; }
+@media (max-width: 480px) { .tile .value { font-size: 21px; overflow-wrap: anywhere; } }

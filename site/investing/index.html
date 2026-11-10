@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIP and savings calculator · Everyday Tools</title>
+<meta name="description" content="SIP growth with yearly step-up, the monthly SIP a goal needs, and FD vs debt fund vs arbitrage fund after Indian tax.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<link rel="stylesheet" href="page.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Money</nav>
+  <div class="page-head">
+    <div>
+      <h1>SIP and savings calculator</h1>
+      <p class="lede">What a monthly SIP grows to, what a goal needs each month, and how a fixed deposit, a debt fund and an arbitrage fund compare after tax.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Tax rules for FY 2026-27</span>
+      <span class="chip outline">Checked Nov 2026</span>
+      <span class="chip outline">Saved in the link</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-sip" aria-controls="sip" aria-selected="true">SIP</button>
+    <button class="tab" role="tab" id="tab-goal" aria-controls="goal" aria-selected="false" tabindex="-1">Goal</button>
+    <button class="tab" role="tab" id="tab-fd-vs-funds" aria-controls="fd-vs-funds" aria-selected="false" tabindex="-1">FD vs funds</button>
+    <button class="tab" role="tab" id="tab-about" aria-controls="about" aria-selected="false" tabindex="-1">About</button>
+  </nav>
+
+  <!-- ============ SIP ============ -->
+  <section class="panel" id="sip" role="tabpanel" aria-labelledby="tab-sip">
+    <div class="section-head"><h2 data-share="sip">What a SIP grows to</h2><span class="hint">Instalments at the start of each month</span></div>
+
+    <div class="card card-pad block form-grid" id="sip-form">
+      <label class="field"><span>Monthly SIP (₹)</span>
+        <input class="input-num big" type="text" inputmode="numeric" autocomplete="off" data-k="amt" data-kind="money">
+        <span class="small muted words" data-words="amt"></span>
+      </label>
+      <label class="field"><span>Step-up each year</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="1" min="0" max="50" data-k="su"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Expected return (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.5" min="0" max="40" data-k="ret"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Years</span>
+        <input class="input-num" type="number" step="1" min="1" max="50" data-k="yrs">
+      </label>
+      <label class="field"><span>Lumpsum at the start (₹, optional)</span>
+        <input class="input-num big" type="text" inputmode="numeric" autocomplete="off" data-k="lump">
+        <span class="small muted words" data-words="lump"></span>
+      </label>
+      <label class="field"><span>Inflation (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.5" min="0" max="20" data-k="inf"><span class="sfx">%</span></span>
+      </label>
+    </div>
+
+    <p class="answer" id="sip-answer"></p>
+    <div class="tiles" id="sip-tiles"></div>
+
+    <div class="card chart-card block" id="sip-growth">
+      <div class="chart-title">
+        <h3 data-share="sip-growth">Value at the end of each year</h3>
+        <div class="legend"><span class="key"><span class="sq" style="background:var(--s1)"></span>Invested</span><span class="key"><span class="sq" style="background:var(--s3)"></span>Gains</span></div>
+        <span class="small muted">The table below has the same numbers</span>
+      </div>
+      <div class="chart" id="sip-chart" role="img" aria-label="Stacked column chart of money invested and gains at the end of each year"></div>
+    </div>
+
+    <div class="block" id="sip-years">
+      <div class="section-head"><h3 data-share="sip-years">Year by year</h3><span class="hint" id="sip-hint"></span></div>
+      <div class="table-wrap">
+        <table class="data" id="sip-table">
+          <thead><tr><th class="sticky">Year</th><th class="n">Monthly SIP</th><th class="n">Put in that year</th><th class="n">Invested so far</th><th class="n">Value</th><th class="n">Gains</th><th class="n">Value in today's ₹</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="sip-pager"></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="sip-reading">
+        <div class="label" data-share="sip-reading">Reading the result</div>
+        <ul>
+          <li><b>Gains grow faster later</b> because returns compound on earlier returns.</li>
+          <li><b>Today's ₹</b> divides by inflation, so you can compare with prices now.</li>
+          <li><b>A step-up</b> raises the SIP once a year, often in line with pay rises.</li>
+        </ul>
+      </div>
+      <div class="group" id="sip-returns">
+        <div class="label" data-share="sip-returns">About the return</div>
+        <ul>
+          <li><b>Real returns vary</b> year to year; equity funds can fall 30% or more in a bad year.</li>
+          <li><b>A fixed rate</b> shows the average path, not the ups and downs.</li>
+          <li><b>Value is before tax</b> on redemption and after the fund's expense ratio.</li>
+        </ul>
+      </div>
+      <div class="group" id="sip-tax">
+        <div class="label" data-share="sip-tax">Tax when you sell</div>
+        <ul>
+          <li><b>Equity funds:</b> 12.5% on long-term gains above ₹1.25 lakh a year, 20% within 12 months.</li>
+          <li><b>Each SIP instalment</b> has its own 12-month clock.</li>
+          <li><b>Debt funds</b> bought since April 2023 are taxed at your slab.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GOAL ============ -->
+  <section class="panel" id="goal" role="tabpanel" aria-labelledby="tab-goal" hidden>
+    <div class="section-head"><h2 data-share="goal">How much to invest for a goal</h2><span class="hint">Enter the goal at today's prices</span></div>
+
+    <div class="card card-pad block form-grid" id="goal-form">
+      <label class="field"><span>Goal in today's ₹</span>
+        <input class="input-num big" type="text" inputmode="numeric" autocomplete="off" data-k="gt">
+        <span class="small muted words" data-words="gt"></span>
+      </label>
+      <label class="field"><span>Years to the goal</span>
+        <input class="input-num" type="number" step="1" min="1" max="50" data-k="gy">
+      </label>
+      <label class="field"><span>Inflation (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.5" min="0" max="20" data-k="ginf"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Expected return (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.5" min="0" max="40" data-k="gret"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Step-up each year</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="1" min="0" max="50" data-k="gsu"><span class="sfx">%</span></span>
+      </label>
+    </div>
+
+    <p class="answer" id="goal-answer"></p>
+    <div class="tiles" id="goal-tiles"></div>
+
+    <div class="block" id="goal-plan">
+      <div class="section-head"><h3 data-share="goal-plan">The plan, year by year</h3><span class="hint" id="goal-hint"></span></div>
+      <div class="table-wrap">
+        <table class="data" id="goal-table">
+          <thead><tr><th class="sticky">Year</th><th class="n">Monthly SIP</th><th class="n">Invested so far</th><th class="n">Value</th><th class="n">Goal reached</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="goal-pager"></div>
+    </div>
+
+    <div class="groups cols-2 block">
+      <div class="group" id="goal-how">
+        <div class="label" data-share="goal-how">How it's worked out</div>
+        <ul>
+          <li><b>Future goal</b> = today's amount × (1 + inflation)<sup>years</sup>.</li>
+          <li><b>Monthly SIP</b> = future goal ÷ what ₹1 a month (with the same step-up) grows to.</li>
+          <li><b>Lumpsum</b> = future goal ÷ (1 + return ÷ 12)<sup>months</sup>.</li>
+        </ul>
+      </div>
+      <div class="group" id="goal-tips">
+        <div class="label" data-share="goal-tips">Making it safer</div>
+        <ul>
+          <li><b>Use a lower return</b> than you hope for; shortfalls hurt more than surpluses.</li>
+          <li><b>Education and health costs</b> often rise faster than general inflation.</li>
+          <li><b>Move to safer funds</b> in the last few years so a crash doesn't hit the goal.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FD VS FUNDS ============ -->
+  <section class="panel" id="fd-vs-funds" role="tabpanel" aria-labelledby="tab-fd-vs-funds" hidden>
+    <div class="section-head"><h2 data-share="fd-vs-funds">FD vs debt fund vs arbitrage fund, after tax</h2><span class="hint">Rates are editable; use what's on offer today</span></div>
+
+    <div class="card card-pad block form-grid" id="fd-form">
+      <label class="field"><span>Amount (₹)</span>
+        <input class="input-num big" type="text" inputmode="numeric" autocomplete="off" data-k="famt">
+        <span class="small muted words" data-words="famt"></span>
+      </label>
+      <label class="field"><span>Years</span>
+        <input class="input-num" type="number" step="0.5" min="0.5" max="30" data-k="fy">
+      </label>
+      <label class="field"><span>Your income tax slab</span>
+        <select class="select" data-k="fslab">
+          <option value="0">0% (no tax)</option>
+          <option value="5">5%</option>
+          <option value="10">10%</option>
+          <option value="15">15%</option>
+          <option value="20">20%</option>
+          <option value="25">25%</option>
+          <option value="30">30%</option>
+        </select>
+      </label>
+      <label class="field"><span>FD rate (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.05" min="0" max="20" data-k="fdr"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Debt fund return (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.05" min="0" max="20" data-k="dr"><span class="sfx">%</span></span>
+      </label>
+      <label class="field"><span>Arbitrage fund return (% a year)</span>
+        <span class="with-suffix"><input class="input-num" type="number" step="0.05" min="0" max="20" data-k="ar"><span class="sfx">%</span></span>
+      </label>
+      <label class="check wide" style="align-self:center"><input type="checkbox" data-k="fsen"> Aged 60 or over (for the TDS limit)</label>
+    </div>
+
+    <p class="answer" id="fd-answer"></p>
+    <div class="tiles" id="fd-tiles"></div>
+
+    <div class="block" id="fd-compare">
+      <div class="section-head"><h3 data-share="fd-compare">Side by side</h3><span class="hint" id="fd-hint"></span></div>
+      <div class="table-wrap">
+        <table class="data" id="fd-table">
+          <thead><tr><th class="sticky">Option</th><th class="n">Rate before tax</th><th class="n">Value before tax</th><th class="n">Tax</th><th class="n">Value after tax</th><th class="n">After-tax yearly return</th><th>How it's taxed</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card card-pad block" id="fd-bars">
+      <div class="section-head" style="margin-top:0"><h3 data-share="fd-bars">After-tax yearly return</h3></div>
+      <div class="barlist" id="fd-barlist"></div>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="rule-fd">
+        <div class="label" data-share="rule-fd">Fixed deposit</div>
+        <ul>
+          <li><b>Interest is taxed every year</b> at your slab, even in a cumulative FD that pays out at maturity.</li>
+          <li><b>TDS of 10%</b> applies when a bank's interest to you passes ₹50,000 a year (₹1 lakh if 60+); it counts toward your tax.</li>
+          <li><b>Here</b> the yearly tax comes out of the deposit, interest compounds quarterly.</li>
+        </ul>
+      </div>
+      <div class="group" id="rule-debt">
+        <div class="label" data-share="rule-debt">Debt fund</div>
+        <ul>
+          <li><b>Units bought on or after 1 April 2023</b> are taxed at your slab, however long you hold them.</li>
+          <li><b>No indexation</b>, but tax is due only when you redeem, so the money compounds untaxed until then.</li>
+          <li><b>Applies to funds</b> with more than 65% in debt and money-market instruments.</li>
+        </ul>
+      </div>
+      <div class="group" id="rule-arb">
+        <div class="label" data-share="rule-arb">Arbitrage fund</div>
+        <ul>
+          <li><b>Taxed as an equity fund</b> because it holds at least 65% in hedged equity.</li>
+          <li><b>20% within 12 months</b>; 12.5% after that on gains above ₹1.25 lakh a year.</li>
+          <li><b>Returns track short-term rates</b> and may be a little lower after Budget 2026 raised STT on futures.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="fd-assumptions">
+      <summary>Assumptions <span class="sum">· what this comparison leaves out</span></summary>
+      <div class="inner">
+        <ul>
+          <li><b>4% cess</b> is added to every tax; surcharge for incomes above ₹50 lakh is ignored.</li>
+          <li><b>The ₹1.25 lakh exemption</b> is assumed unused by other equity gains, and used once, in the year you sell.</li>
+          <li><b>"Years" of 1 or more</b> counts as long-term for the arbitrage fund (more than 12 months held).</li>
+          <li><b>The 87A rebate</b> and the basic exemption limit are ignored; pick 0% if your income is under the taxable limit.</li>
+          <li><b>Fund returns are after expenses</b> and aren't guaranteed; FD rates are fixed for the term.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section-head"><h2 data-share="about">About this calculator</h2></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="convention">
+        <div class="label" data-share="convention">SIP convention</div>
+        <ul>
+          <li><b>Monthly compounding</b> at the annual return ÷ 12.</li>
+          <li><b>Each instalment is paid at the start of the month</b>, so it earns that month's return.</li>
+          <li><b>Check:</b> ₹10,000 a month at 12% for 10 years = ₹10,000 × ((1.01<sup>120</sup> − 1) ÷ 0.01) × 1.01 = ₹23,23,391.</li>
+        </ul>
+      </div>
+      <div class="group" id="other-rules">
+        <div class="label" data-share="other-rules">Other choices</div>
+        <ul>
+          <li><b>Step-up</b> raises the SIP at the start of each new year.</li>
+          <li><b>Lumpsum</b> is invested on day one at the same return.</li>
+          <li><b>Funds in the FD tab</b> grow at the yearly rate you enter (annual compounding).</li>
+        </ul>
+      </div>
+      <div class="group" id="not-advice">
+        <div class="label" data-share="not-advice">Estimate, not advice</div>
+        <ul>
+          <li><b>These are estimates</b>, not financial or tax advice.</li>
+          <li><b>Past returns don't predict</b> future ones; fund values go down as well as up.</li>
+          <li><b>Everything runs in your browser.</b> Nothing you type is sent anywhere.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="sources" open>
+      <summary>Sources and tax rules <span class="sum">· checked Nov 2026, FY 2026-27</span></summary>
+      <div class="inner">
+        <div class="table-wrap"><table class="data">
+          <thead><tr><th class="sticky">Rule</th><th>Value used</th><th>Source</th></tr></thead>
+          <tbody>
+            <tr><td class="sticky">Equity-oriented fund gains (incl. arbitrage)</td><td>STCG 20% if held 12 months or less; LTCG 12.5% above ₹1.25 lakh a year. Unchanged by Budget 2026</td><td><a href="https://www.business-standard.com/budget/news/budget-2026-ltcg-tax-rates-unchanged-for-fy27-fm-sitharaman-126020100424_1.html" target="_blank" rel="noopener">Business Standard, 1 Feb 2026</a>; <a href="https://www.miraeassetmf.co.in/docs/default-source/tax-reckoner/tax-reckoner-2026-27.pdf" target="_blank" rel="noopener">Mirae Asset tax reckoner 2026-27</a></td></tr>
+            <tr><td class="sticky">Arbitrage funds count as equity-oriented</td><td>At least 65% in equity and equity derivatives</td><td><a href="https://www.bajajamc.com/knowledge-centre/arbitrage-fund-taxation" target="_blank" rel="noopener">Bajaj Finserv AMC</a>; <a href="https://www.finnovate.in/learn/blog/arbitrage-funds-after-stt-hike-budget-2026" target="_blank" rel="noopener">Finnovate on the 2026 STT change</a></td></tr>
+            <tr><td class="sticky">Debt funds bought on or after 1 Apr 2023</td><td>Gain taxed at slab whatever the holding period, no indexation (section 50AA; "specified mutual fund" = more than 65% in debt)</td><td><a href="https://www.miraeassetmf.co.in/docs/default-source/tax-reckoner/tax-reckoner-2026-27.pdf" target="_blank" rel="noopener">Mirae Asset tax reckoner 2026-27</a>; <a href="https://www.incometaxindia.gov.in/w/section-50aa-3" target="_blank" rel="noopener">Income Tax Department, section 50AA</a></td></tr>
+            <tr><td class="sticky">FD interest TDS</td><td>10% when interest from one bank passes ₹50,000 a year; ₹1,00,000 for 60+. Section 194A, now 393(1) of the Income-tax Act, 2025</td><td><a href="https://www.ujjivansfb.bank.in/banking-blogs/personal-finance/section-194a-tds-fd-rd-interest" target="_blank" rel="noopener">Ujjivan SFB</a>; <a href="https://taxguru.in/?p=1037378" target="_blank" rel="noopener">TaxGuru</a></td></tr>
+            <tr><td class="sticky">Slabs and cess</td><td>New regime 0/5/10/15/20/25/30%; old regime 0/5/20/30%; 4% cess. Unchanged for FY 2026-27</td><td><a href="https://www.businesstoday.in/personal-finance/tax/story/tax-slabs-fy-2026-27-what-budget-2026-changed-for-individual-taxpayers-and-which-regime-works-best-514044-2026-02-01" target="_blank" rel="noopener">Business Today, 1 Feb 2026</a></td></tr>
+          </tbody>
+        </table></div>
+        <ul class="form-note">
+          <li>The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026 and renumbered sections; sources say the rates above carry over unchanged.</li>
+          <li>Sources disagree on whether the 65% debt-fund definition started in FY 2025-26 or FY 2026-27; it doesn't change the numbers here.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Estimates, not financial or tax advice.</span>
+    <span>Tax rules for FY 2026-27, checked Nov 2026.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/investing">Code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

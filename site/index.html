@@ -30,7 +30,7 @@
   <div class="hero">
     <div>
       <h1>Everyday Tools</h1>
-      <p class="lede">Comparison tables and small calculators for things we buy and decide on all the time. Numbers come from labels, lab reports and live prices, and every row links back to its source.</p>
+      <p class="lede">Comparison tables and calculators for things we buy and decide on all the time. Numbers come from labels, lab reports, prices and published rules, and each page links its sources.</p>
     </div>
     <div class="tiles" id="hub-tiles" style="margin:0"></div>
   </div>
@@ -82,6 +82,72 @@
 <script type="application/json" id="registry">
 [
   {
+    "href": "salary-converter/",
+    "title": "Salary converter",
+    "category": "Money",
+    "icon": "globe",
+    "status": "live",
+    "items": 205,
+    "updated": "2026-10-08",
+    "blurb": "What a salary in one country is worth in another once local prices are counted, next to the plain exchange-rate conversion.",
+    "tags": [
+      "205 countries",
+      "World Bank PPP"
+    ]
+  },
+  {
+    "href": "income-tax/",
+    "title": "India income tax calculator",
+    "category": "Money",
+    "icon": "receipt",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "Compare the old and new tax regimes, turn a CTC into monthly in-hand pay, and estimate tax on RSUs and ESPP shares. Tax year 2026-27 rules.",
+    "tags": [
+      "Old vs new regime",
+      "CTC & RSUs"
+    ]
+  },
+  {
+    "href": "credit-cards/",
+    "title": "Premium credit cards, compared",
+    "category": "Money",
+    "icon": "card",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "What five premium Indian credit cards return in rupees for the way you spend, after caps, exclusions and fees, with a side-by-side table.",
+    "tags": [
+      "5 cards",
+      "Terms Nov 2026"
+    ]
+  },
+  {
+    "href": "home-loan/",
+    "title": "Home loan calculator",
+    "category": "Money",
+    "icon": "house",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "EMI and amortisation, prepay-or-invest with the break-even return, and rent vs buy for Indian home loans. Also works for car and personal loans.",
+    "tags": [
+      "EMI",
+      "Rent vs buy"
+    ]
+  },
+  {
+    "href": "investing/",
+    "title": "SIP and savings calculator",
+    "category": "Money",
+    "icon": "trend",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "SIP growth with a yearly step-up, the monthly SIP a goal needs, and FD vs debt fund vs arbitrage fund after Indian tax.",
+    "tags": [
+      "SIP & goals",
+      "After-tax returns"
+    ]
+  },
+  {
     "href": "whey-protein/",
     "title": "Whey protein, compared",
     "category": "Health",
@@ -90,7 +156,10 @@
     "items": 69,
     "updated": "2026-10-23",
     "blurb": "69 protein powders sold in India, ranked on ₹ per gram of protein, protein %, sugar, fat & sodium and lab testing. Move the weights to re-rank.",
-    "tags": ["69 powders", "Prices 23 Oct 2026"]
+    "tags": [
+      "69 powders",
+      "Prices 23 Oct 2026"
+    ]
   },
   {
     "href": "magnesium/",
@@ -101,7 +170,10 @@
     "items": 12,
     "updated": "2026-08-23",
     "blurb": "What 12 supplements actually contain per capsule, heavy-metal traces, and a dose-and-cost calculator built on the lab numbers.",
-    "tags": ["12 products", "Lab data 23 Aug 2026"]
+    "tags": [
+      "12 products",
+      "Lab data 23 Aug 2026"
+    ]
   },
   {
     "href": "supplements/",
@@ -112,18 +184,23 @@
     "items": 27,
     "updated": "2026-03-25",
     "blurb": "For 12 everyday supplements, whether the budget brand Carbamide Forte is the one to buy or another brand does it better, with ₹ per serving.",
-    "tags": ["12 supplements", "Reviews Mar 2026"]
+    "tags": [
+      "12 supplements",
+      "Reviews Mar 2026"
+    ]
   },
   {
-    "href": "salary-converter/",
-    "title": "Salary converter",
-    "category": "Money",
-    "icon": "globe",
+    "href": "health-calculators/",
+    "title": "Protein, caffeine and supplement calculators",
+    "category": "Health",
+    "icon": "pulse",
     "status": "live",
-    "items": 205,
-    "updated": "2026-10-08",
-    "blurb": "What a salary in one country is worth in another once local prices are counted, next to the plain exchange-rate conversion.",
-    "tags": ["205 countries", "World Bank PPP"]
+    "updated": "2026-11-10",
+    "blurb": "A daily protein target with Indian foods and powder cost, caffeine left in your body at bedtime, and the monthly cost of a supplement routine.",
+    "tags": [
+      "Protein · caffeine",
+      "Uses the price data"
+    ]
   },
   {
     "href": "wa-layoffs/",
@@ -132,15 +209,62 @@
     "icon": "chart",
     "status": "live",
     "blurb": "Every WARN layoff and closure notice filed in Washington State in the last five years, by month, company and start date.",
-    "tags": ["5 years of notices", "Refreshed weekly"]
+    "tags": [
+      "5 years of notices",
+      "Refreshed weekly"
+    ]
   },
   {
-    "title": "Credit card rewards calculator",
-    "category": "Money",
-    "icon": "card",
-    "status": "planned",
-    "blurb": "Work out what your reward points are worth in rupees, card by card, for the way you actually spend.",
-    "tags": ["Coming next"]
+    "href": "work-tools/",
+    "title": "Meeting cost, time zones and notice period",
+    "category": "Work",
+    "icon": "clock",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "What a meeting costs in salary time, meeting slots that work across time zones, and the last working day of a notice period.",
+    "tags": [
+      "Meeting cost",
+      "Time zones"
+    ]
+  },
+  {
+    "href": "linkedin-prompt/",
+    "title": "LinkedIn post prompt builder",
+    "category": "Work",
+    "icon": "pen",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "Build a prompt that keeps an AI-drafted LinkedIn post to your own facts, then check the draft for stock phrases and the 'see more' cut.",
+    "tags": [
+      "Prompt + checker",
+      "Runs offline"
+    ]
+  },
+  {
+    "href": "unit-converters/",
+    "title": "Unit converters",
+    "category": "Everyday",
+    "icon": "ruler",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "Lakh and crore to million and billion, Indian land units like bigha and gaj by state, kitchen cups to grams, oven gas marks and everyday units.",
+    "tags": [
+      "Bigha by state",
+      "Lakh ↔ million"
+    ]
+  },
+  {
+    "href": "split-bill/",
+    "title": "Split a bill",
+    "category": "Everyday",
+    "icon": "split",
+    "status": "live",
+    "updated": "2026-11-10",
+    "blurb": "Split a restaurant bill equally or by item, with GST, an optional service charge, tip and round-up, then copy a plain-text summary.",
+    "tags": [
+      "Equal or by item",
+      "Service charge rules"
+    ]
   }
 ]
 </script>
@@ -155,6 +279,14 @@ const ICONS = {
   bottle: '<path d="M9 3h6v3H9z"/><path d="M8.5 6h7l1 3v10a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2V9z"/><path d="M7.5 12.5h9"/>',
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/>',
   chart: '<path d="M4 20h16"/><path d="M7 16v-5M12 16V6M17 16v-8"/>',
+  receipt: '<path d="M6 3h12v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5L6 21z"/><path d="M9 8h6M9 12h6M9 16h3"/>',
+  house: '<path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/>',
+  trend: '<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
+  pulse: '<path d="M3 12h4l2-5 4 10 2-5h6"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  pen: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/>',
+  ruler: '<rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6.5 8v3M10.5 8v4M14.5 8v3M18.5 8v4"/>',
+  split: '<path d="M12 3v18"/><path d="M5 7h4M5 11h4M15 13h4M15 17h4"/>',
 };
 const icon = (k) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k] || ICONS.card}</svg>`;
 const fmtDate = (iso) => new Date(`${iso}T00:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -166,7 +298,7 @@ const latest = live.map((t) => t.updated).filter(Boolean).sort().at(-1);
 
 const tile = (label, value, sub) => `<div class="tile"><div class="label">${label}</div><div class="value">${value}</div><div class="sub">${sub}</div></div>`;
 document.getElementById('hub-tiles').innerHTML = [
-  tile('Tools live', live.length, `${planned.length} more being built`),
+  tile('Tools live', live.length, planned.length ? `${planned.length} more being built` : `in ${new Set(live.map((t) => t.category)).size} categories`),
   tile('Products and countries', live.reduce((s, t) => s + (t.items || 0), 0), 'compared, with sources linked'),
   tile('Latest data', fmtDate(latest).replace(/ \d{4}$/, ''), fmtDate(latest).slice(-4)),
 ].join('');

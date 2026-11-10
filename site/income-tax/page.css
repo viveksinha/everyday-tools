@@ -1,0 +1,19 @@
+/* Income tax page: input grid, year picker, waterfall chart. */
+.inputs { display: grid; gap: 12px 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.inputs.one { grid-template-columns: 1fr; }
+.inputs .field .words { font-size: 12px; color: var(--muted); min-height: 16px; }
+.inputs .field .cap { font-size: 12px; color: var(--warn); }
+.input-wrap { position: relative; }
+.input-wrap .pre { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 14px; pointer-events: none; }
+.input-wrap .input-num { padding-left: 24px; }
+.input-wrap .input-num.sfx { padding-left: 10px; padding-right: 26px; }
+.input-wrap .post { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 13px; pointer-events: none; }
+.year-pick { gap: 6px; }
+.year-pick select { border: 0; background: transparent; font: inherit; font-weight: 650; color: var(--ink); cursor: pointer; padding: 0; }
+.tile.win { border-color: var(--good); background: var(--good-bg-2); }
+table.data tr.total > td, table.data tr.total > th { font-weight: 700; border-top: 2px solid var(--rule-strong); }
+table.data td.neg { color: var(--serious); }
+.src-list { margin: 0; padding-left: 18px; }
+.src-list li { margin: 5px 0; }
+#wf-chart text.val { font-weight: 650; fill: var(--ink); font-size: 11.5px; }
+.groups > .card { min-width: 0; }

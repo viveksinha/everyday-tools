@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit converters · Everyday Tools</title>
+<meta name="description" content="Convert lakh and crore to million and billion, Indian land units like bigha and gaj by state, kitchen cups to grams, oven gas marks, and everyday units.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Everyday</nav>
+  <div class="page-head">
+    <div>
+      <h1>Unit converters</h1>
+      <p class="lede">Lakh and crore, Indian land units, kitchen measures and everyday units, each converted to every other unit at once.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Factors checked Nov 2026</span>
+      <span class="chip outline">Land units vary by state</span>
+      <span class="chip outline">Saved in the link</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-indian-numbers" aria-controls="indian-numbers" aria-selected="true">Lakh and crore</button>
+    <button class="tab" role="tab" id="tab-land" aria-controls="land" aria-selected="false" tabindex="-1">Land</button>
+    <button class="tab" role="tab" id="tab-kitchen" aria-controls="kitchen" aria-selected="false" tabindex="-1">Kitchen</button>
+    <button class="tab" role="tab" id="tab-everyday" aria-controls="everyday" aria-selected="false" tabindex="-1">Everyday</button>
+  </nav>
+
+  <!-- ============ INDIAN NUMBERS ============ -->
+  <section class="panel" id="indian-numbers" role="tabpanel" aria-labelledby="tab-indian-numbers">
+    <div class="section-head"><h2 data-share="indian-numbers">Lakh and crore ↔ million and billion</h2><span class="hint">Works both ways: pick the unit you're starting from</span></div>
+    <div class="card card-pad block uc-in">
+      <label class="field"><span>Amount</span>
+        <input class="input-num big" type="text" id="num-v" inputmode="decimal" autocomplete="off">
+      </label>
+      <label class="field"><span>Unit</span>
+        <select class="select big-sel" id="num-u"></select>
+      </label>
+    </div>
+    <p class="answer" id="num-answer"></p>
+    <div class="tiles" id="num-tiles"></div>
+    <div class="groups cols-2 block">
+      <div class="group" id="num-words-in">
+        <div class="label" data-share="num-words-in">In words, Indian system</div>
+        <p class="uc-words" id="words-in"></p>
+        <p class="small muted" id="digits-in"></p>
+      </div>
+      <div class="group" id="num-words-intl">
+        <div class="label" data-share="num-words-intl">In words, international system</div>
+        <p class="uc-words" id="words-intl"></p>
+        <p class="small muted" id="digits-intl"></p>
+      </div>
+    </div>
+    <div class="section-head" id="num-ladder"><h3 data-share="num-ladder">The ladder</h3><span class="hint">Each row is the same number in both systems</span></div>
+    <div class="table-wrap block">
+      <table class="data" id="ladder-table">
+        <thead><tr><th class="sticky">Indian</th><th class="n">Digits (Indian)</th><th class="n">Digits (international)</th><th>International</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ LAND ============ -->
+  <section class="panel" id="land" role="tabpanel" aria-labelledby="tab-land" hidden>
+    <div class="section-head"><h2 data-share="land">Land area</h2><span class="hint">Bigha and biswa change with the state you pick</span></div>
+    <div class="card card-pad block uc-in three">
+      <label class="field"><span>Area</span>
+        <input class="input-num big" type="text" id="land-v" inputmode="decimal" autocomplete="off">
+      </label>
+      <label class="field"><span>Unit</span>
+        <select class="select big-sel" id="land-u"></select>
+      </label>
+      <label class="field"><span>State (for bigha, biswa)</span>
+        <select class="select big-sel" id="land-s"></select>
+      </label>
+    </div>
+    <p class="answer" id="land-answer"></p>
+    <div class="table-wrap block">
+      <table class="data" id="land-table">
+        <thead><tr><th class="sticky">Unit</th><th class="n">Your area</th><th class="n">1 unit in sq ft</th><th>Where it's used</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="section-head" id="bigha-states"><h3 data-share="bigha-states">One bigha, state by state</h3><span class="hint">Most common values; districts can differ</span></div>
+    <div class="table-wrap block">
+      <table class="data" id="bigha-table">
+        <thead><tr><th class="sticky">State</th><th class="n">Sq ft</th><th class="n">Sq m</th><th class="n">Gaj (sq yd)</th><th class="n">Acre</th><th>Note</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="land-vary">
+        <div class="label" data-share="land-vary">Why the numbers differ</div>
+        <ul>
+          <li><b>Bigha, biswa and katha</b> are local units with no single national value.</li>
+          <li><b>Even within a state</b> districts and older records use different sizes.</li>
+          <li><b>For a sale or loan</b>, go by the area in sq m or sq ft on the registered document.</li>
+        </ul>
+      </div>
+      <div class="group" id="land-fixed">
+        <div class="label" data-share="land-fixed">Fixed units</div>
+        <ul>
+          <li><b>Acre</b> = 43,560 sq ft; <b>hectare</b> = 10,000 sq m.</li>
+          <li><b>Cent</b> = 1/100 acre; <b>guntha</b> = 1/40 acre.</li>
+          <li><b>Gaj</b> is a square yard, 9 sq ft.</li>
+        </ul>
+      </div>
+      <div class="group" id="land-regional">
+        <div class="label" data-share="land-regional">Regional but fairly settled</div>
+        <ul>
+          <li><b>Kanal</b> = 20 marla = 5,445 sq ft in Punjab and Haryana.</li>
+          <li><b>Marla</b> = 272.25 sq ft there; a 225 sq ft marla is also in use.</li>
+          <li><b>Ground</b> = 2,400 sq ft, mainly in Tamil Nadu.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="land-sources">
+      <summary>Sources <span class="sum">· checked Nov 2026</span></summary>
+      <div class="inner">
+        <ul>
+          <li><a href="https://www.kotak.bank.in/en/stories-in-focus/loans/home-loan/understanding-bigha-in-india-convert-to-square-feet-acres-and-hectares.html" target="_blank" rel="noopener">Kotak Mahindra Bank: bigha by state</a></li>
+          <li><a href="https://www.squareyards.com/blog/bigha-everything-you-need-to-know-about-indias-land-measurement-unit" target="_blank" rel="noopener">Square Yards: bigha by state, biswa</a></li>
+          <li><a href="https://www.sobha.com/blog/land-measurement-units-in-india/" target="_blank" rel="noopener">Sobha: land measurement units in India (kanal, marla, cent, guntha, ground)</a></li>
+          <li><a href="https://housing.com/news/local-land-measurement-units-in-india" target="_blank" rel="noopener">Housing.com: local land measurement units</a></li>
+          <li><b>Where the two bigha sources disagree</b> the table shows the Square Yards value and notes the other one.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ KITCHEN ============ -->
+  <section class="panel" id="kitchen" role="tabpanel" aria-labelledby="tab-kitchen" hidden>
+    <div class="section-head"><h2 data-share="kitchen">Cups, spoons and grams</h2><span class="hint">Grams depend on the ingredient</span></div>
+    <div class="card card-pad block uc-in three">
+      <label class="field"><span>Amount</span>
+        <input class="input-num big" type="text" id="k-v" inputmode="decimal" autocomplete="off">
+      </label>
+      <label class="field"><span>Unit</span>
+        <select class="select big-sel" id="k-u"></select>
+      </label>
+      <label class="field"><span>Ingredient</span>
+        <select class="select big-sel" id="k-i"></select>
+      </label>
+    </div>
+    <p class="answer" id="k-answer"></p>
+    <div class="tiles" id="k-tiles"></div>
+
+    <div class="section-head" id="cup-chart"><h3 data-share="cup-chart">Grams per cup and spoon</h3><span class="hint">US cup 236.6 ml · metric cup 250 ml · tbsp 15 ml · tsp 5 ml</span></div>
+    <div class="table-wrap block">
+      <table class="data" id="cup-table">
+        <thead><tr><th class="sticky">Ingredient</th><th class="n">US cup</th><th class="n">Metric cup</th><th class="n">1 tbsp</th><th class="n">1 tsp</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="section-head" id="oven"><h3 data-share="oven">Oven temperature</h3><span class="hint">°C, °F and gas mark</span></div>
+    <div class="card card-pad block uc-in">
+      <label class="field"><span>Temperature</span>
+        <input class="input-num big" type="text" id="o-v" inputmode="decimal" autocomplete="off">
+      </label>
+      <label class="field"><span>Unit</span>
+        <select class="select big-sel" id="o-u">
+          <option value="C">°C</option><option value="F">°F</option><option value="G">Gas mark</option>
+        </select>
+      </label>
+    </div>
+    <div class="tiles" id="o-tiles"></div>
+    <div class="table-wrap block">
+      <table class="data" id="gas-table">
+        <thead><tr><th class="sticky">Gas mark</th><th class="n">°F</th><th class="n">°C on the chart</th><th class="n">°C exact</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="cups-differ">
+        <div class="label" data-share="cups-differ">Which cup?</div>
+        <ul>
+          <li><b>US customary cup</b> is 236.6 ml; US food labels round it to 240 ml.</li>
+          <li><b>Metric cup</b> (India, UK, Australia measuring sets) is 250 ml.</li>
+          <li><b>The gap is about 6%</b>, enough to matter for baking.</li>
+        </ul>
+      </div>
+      <div class="group" id="weights-note">
+        <div class="label" data-share="weights-note">About the gram figures</div>
+        <ul>
+          <li><b>From King Arthur Baking's chart</b>, which weighs a spooned-and-levelled US cup.</li>
+          <li><b>Scooped flour</b> packs in more, so weigh it if you can.</li>
+          <li><b>Indian atta and besan</b> can be finer than the US flours measured.</li>
+        </ul>
+      </div>
+      <div class="group" id="oven-note">
+        <div class="label" data-share="oven-note">Oven settings</div>
+        <ul>
+          <li><b>Gas mark 1 to 10</b> follows °F = 250 + 25 × mark.</li>
+          <li><b>The °C column</b> is the rounded value printed on oven charts.</li>
+          <li><b>Ovens vary</b>; the oven's own manual wins.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="kitchen-sources">
+      <summary>Sources <span class="sum">· checked Nov 2026</span></summary>
+      <div class="inner">
+        <ul>
+          <li><a href="https://www.kingarthurbaking.com/learn/ingredient-weight-chart" target="_blank" rel="noopener">King Arthur Baking: ingredient weight chart</a>. Rice, cocoa, butter, honey and cornstarch are listed for ½ cup, 1 tbsp or ¼ cup there; this page scales them to a cup.</li>
+          <li><a href="https://www.fda.gov/food/guidance-documents-regulatory-information-topic/guidance-industry-guidelines-determining-metric-equivalents-household-measures" target="_blank" rel="noopener">US FDA: metric equivalents of household measures</a> (1 cup = 240 ml for labels, tbsp 15 ml, tsp 5 ml).</li>
+          <li><a href="https://beko.co.uk/support/how-to-guides/cooking/oven-temperature-conversions" target="_blank" rel="noopener">Beko: oven temperature conversions</a> (gas mark, °F, °C).</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ EVERYDAY ============ -->
+  <section class="panel" id="everyday" role="tabpanel" aria-labelledby="tab-everyday" hidden>
+    <div class="section-head"><h2 data-share="everyday">Everyday units</h2></div>
+    <div class="control-row" style="margin-bottom:12px">
+      <div class="seg" role="group" aria-label="Quantity" id="ev-cat"></div>
+    </div>
+    <div class="card card-pad block uc-in">
+      <label class="field"><span>Value</span>
+        <input class="input-num big" type="text" id="ev-v" inputmode="decimal" autocomplete="off">
+      </label>
+      <label class="field"><span>Unit</span>
+        <select class="select big-sel" id="ev-u"></select>
+      </label>
+    </div>
+    <div class="table-wrap block">
+      <table class="data" id="ev-table">
+        <thead><tr><th class="sticky">Unit</th><th class="n">Value</th><th>Definition</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="section-head" id="shoes"><h3 data-share="shoes">Shoe sizes</h3><span class="hint">India uses UK sizes</span></div>
+    <div class="control-row" style="margin-bottom:12px">
+      <div class="seg" role="group" aria-label="Chart" id="shoe-g">
+        <button type="button" data-g="men" aria-pressed="true">Men</button>
+        <button type="button" data-g="women" aria-pressed="false">Women</button>
+      </div>
+      <label class="field" style="grid-auto-flow:column;align-items:center;gap:8px"><span>Your size</span>
+        <select class="select" id="shoe-sys"><option value="uk">UK / India</option><option value="us">US</option><option value="eu">EU</option></select>
+        <select class="select" id="shoe-size"></select>
+      </label>
+    </div>
+    <p class="answer" id="shoe-answer"></p>
+    <div class="table-wrap block">
+      <table class="data" id="shoe-table">
+        <thead><tr><th class="sticky n">UK / India</th><th class="n">US</th><th class="n">EU</th><th class="n">Foot length (cm)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="fuel-note">
+        <div class="label" data-share="fuel-note">Fuel economy</div>
+        <ul>
+          <li><b>km/l and mpg</b> go up as a car gets more efficient; <b>l/100 km</b> goes down.</li>
+          <li><b>US and UK gallons differ</b>: 3.785 l versus 4.546 l, so UK mpg reads about 20% higher.</li>
+        </ul>
+      </div>
+      <div class="group" id="shoe-note">
+        <div class="label" data-share="shoe-note">Shoe sizes</div>
+        <ul>
+          <li><b>India follows UK sizes</b> today. An Indian system ("Bha") has been proposed but isn't in use yet.</li>
+          <li><b>US women's</b> sizes run 2 above UK; <b>US men's</b> run 1 above.</li>
+          <li><b>Brands differ</b>; foot length in cm is the safer guide.</li>
+        </ul>
+      </div>
+      <div class="group" id="exact-note">
+        <div class="label" data-share="exact-note">Exact definitions</div>
+        <ul>
+          <li><b>1 inch</b> = 2.54 cm and <b>1 lb</b> = 0.45359237 kg, both exact.</li>
+          <li><b>1 mile</b> = 1,609.344 m; <b>1 knot</b> = 1,852 m an hour.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="everyday-sources">
+      <summary>Sources <span class="sum">· checked Nov 2026</span></summary>
+      <div class="inner">
+        <ul>
+          <li><a href="https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors" target="_blank" rel="noopener">NIST SP 811, Appendix B: conversion factors</a> (inch, foot, mile, pound, ounce, US and UK gallon, knot).</li>
+          <li><a href="https://www.calculator.net/shoe-size-conversion.html" target="_blank" rel="noopener">Calculator.net: shoe size conversion</a> (men's and women's charts, UK/India, US, EU, foot length).</li>
+          <li><a href="https://www.business-standard.com/india-news/what-is-bha-the-new-shoe-sizing-system-proposed-specifically-for-indians-124042501098_1.html" target="_blank" rel="noopener">Business Standard: the proposed "Bha" Indian shoe sizes</a>. No adopted standard found as of Nov 2026.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Factors checked Nov 2026. Local land units vary; go by the registered document.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/unit-converters">Code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Credit card rewards: page-only styles (shared theme in ../assets/theme.css). */
+
+.spend-grid { display: grid; gap: 12px 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); }
+.spend-field > span:first-child { display: block; font-size: 12.5px; color: var(--ink-2); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.spend-field > span i { font-style: normal; font-weight: 400; font-size: 11.5px; display: block; overflow: hidden; text-overflow: ellipsis; }
+.spend-field .words { min-height: 18px; }
+.spend-total { grid-column: 1 / -1; font-size: 14px; color: var(--ink-2); border-top: 1px solid var(--rule); padding-top: 10px; }
+
+.val-rows { display: grid; gap: 4px; }
+.val-row { display: grid; grid-template-columns: 170px auto minmax(110px, 140px) minmax(0, 1fr); gap: 6px 14px; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--rule); }
+.val-row:last-child { border-bottom: 0; }
+.val-row > b { font-size: 14px; }
+.val-row .seg button { font-size: 12.5px; padding: 5px 9px; white-space: nowrap; }
+.val-row .custom { display: flex; align-items: center; gap: 6px; }
+.val-row .custom .input-num { height: 30px; width: 74px; }
+.val-row .custom.on .input-num { background: var(--mark); border-color: transparent; }
+.val-row .custom span { white-space: nowrap; }
+.val-all { grid-template-columns: 170px auto; }
+.val-all .seg { justify-self: start; }
+.val-note { min-width: 0; }
+.val-opts { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--rule); align-items: end; }
+.val-opts .field.mile .input-num { width: 110px; }
+.val-opts .field.climit .input-num { width: 160px; }
+.val-opts .check { padding-bottom: 8px; }
+@media (max-width: 900px) {
+  .val-row, .val-all { grid-template-columns: 1fr auto; }
+  .val-row .seg { grid-column: 1 / -1; }
+  .val-row .custom { grid-column: 1; grid-row: 1; justify-self: end; grid-column-start: 2; }
+  .val-row .val-note { grid-column: 1 / -1; }
+}
+
+.rank-tiles { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.rank-tiles .tile.best { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.rank-tiles .label { display: flex; align-items: center; gap: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rank-tiles .rank { min-width: 28px; height: 20px; font-size: 11.5px; }
+.tile .value.neg, .bl-val.neg, .neg { color: var(--bad); }
+
+#barlist .bar-row { grid-template-columns: minmax(0, 1.3fr) minmax(60px, 1fr) 96px; cursor: default; }
+
+#caps-list { display: grid; gap: 10px; }
+.cap-card > b { font-size: 13.5px; }
+.cap-card ul { margin: 4px 0 0; padding-left: 0; list-style: none; }
+.cap-card li { margin: 4px 0; font-size: 13px; }
+.cap-card .chip { font-size: 11px; line-height: 17px; padding: 0 7px; margin-right: 4px; }
+
+#breakdown tr.total > th, #breakdown tr.total > td { background: var(--surface-2); }
+#breakdown th.sticky { min-width: 180px; font-weight: 550; }
+#breakdown td.n { min-width: 110px; }
+
+.compare-table td, .compare-table th { min-width: 210px; font-size: 13.5px; }
+.compare-table th.sticky { min-width: 130px; }
+@media (max-width: 560px) { .compare-table td { min-width: 180px; } .compare-table th.sticky { min-width: 100px; max-width: 110px; } }
+#rules-table td { min-width: 170px; font-size: 13px; }

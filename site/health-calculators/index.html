@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protein, caffeine and supplement calculators · Everyday Tools</title>
+<meta name="description" content="Daily protein target with Indian foods and powder cost, caffeine left in your body by bedtime, and the monthly ₹ cost of a supplement stack.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Health</nav>
+  <div class="page-head">
+    <div>
+      <h1>Protein, caffeine and supplement calculators</h1>
+      <p class="lede">How much protein a day, how much caffeine is still around at bedtime, and what a supplement routine costs a month.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Guidance checked Nov 2026</span>
+      <span class="chip outline">India · ₹</span>
+      <span class="chip outline">Not medical advice</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-protein" aria-controls="protein" aria-selected="true">Protein</button>
+    <button class="tab" role="tab" id="tab-caffeine" aria-controls="caffeine" aria-selected="false" tabindex="-1">Caffeine</button>
+    <button class="tab" role="tab" id="tab-stack-cost" aria-controls="stack-cost" aria-selected="false" tabindex="-1">Supplement cost</button>
+    <button class="tab" role="tab" id="tab-about" aria-controls="about" aria-selected="false" tabindex="-1">About</button>
+  </nav>
+
+  <div id="load-error" class="empty" hidden></div>
+
+  <!-- ============ PROTEIN ============ -->
+  <section class="panel" id="protein" role="tabpanel" aria-labelledby="tab-protein">
+    <div class="section-head"><h2 data-share="protein">Daily protein</h2><span class="hint">Grams per kg of body weight, from published guidance</span></div>
+
+    <div class="card card-pad block hc-grid">
+      <div class="field"><span>Body weight</span>
+        <div class="hc-inline">
+          <input class="input-num big" type="text" id="p-w" inputmode="decimal" autocomplete="off" aria-label="Body weight">
+          <div class="seg" role="group" aria-label="Weight unit" id="p-unit">
+            <button type="button" data-u="kg" aria-pressed="true">kg</button>
+            <button type="button" data-u="lb" aria-pressed="false">lb</button>
+          </div>
+        </div>
+      </div>
+      <label class="field"><span>Activity or life stage</span>
+        <select class="select hc-sel" id="p-goal"></select>
+      </label>
+      <label class="field"><span>Diet</span>
+        <select class="select hc-sel" id="p-diet">
+          <option value="veg">Vegetarian (with dairy)</option>
+          <option value="egg">Eggetarian</option>
+          <option value="nonveg">Non-vegetarian</option>
+          <option value="vegan">Vegan</option>
+        </select>
+      </label>
+      <label class="field"><span>Meals a day</span>
+        <select class="select hc-sel" id="p-meals"><option>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label class="field"><span>Protein you already eat (g a day, rough)</span>
+        <input class="input-num" type="number" id="p-eat" min="0" max="400" step="5">
+      </label>
+    </div>
+
+    <p class="answer" id="p-answer"></p>
+    <div class="tiles" id="p-tiles"></div>
+
+    <div class="section-head" id="powder-cost"><h3 data-share="powder-cost">If you filled the gap with powder</h3><span class="hint" id="powder-hint"></span></div>
+    <div class="table-wrap block">
+      <table class="data" id="powder-table">
+        <thead><tr><th class="sticky">Product</th><th>Type</th><th class="n">₹ per g protein</th><th class="n">₹ a month</th><th>Price</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin:-24px 0 30px">Five cheapest by ₹ per gram of protein from the <a href="../whey-protein/">whey protein comparison</a> (prices <span id="whey-date">from its snapshot</span>). Price only, not quality; open that page for lab tests and scores.</p>
+
+    <div class="section-head" id="food-protein"><h3 data-share="food-protein">Or fill it with food</h3><span class="hint">IFCT 2017 values · raw weight unless noted</span></div>
+    <div class="table-wrap block">
+      <table class="data" id="food-table">
+        <thead><tr><th class="sticky">Food</th><th>Serving</th><th class="n">Protein per serving</th><th class="n">Servings to fill the gap</th><th class="n">Per 100 g</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="protein-ranges">
+        <div class="label" data-share="protein-ranges">Where the ranges come from</div>
+        <ul>
+          <li><b>0.83 g/kg</b> is the adult RDA in the ICMR-NIN 2024 dietary guidelines.</li>
+          <li><b>1.2–1.6 g/kg</b> for regular exercise sits in the lower half of the 1.2–2.0 range in the 2016 ACSM, AND and DC sports position.</li>
+          <li><b>1.6–2.2 g/kg</b> for strength training: a 2018 meta-analysis found gains levelled off around 1.6 (95% CI 1.03–2.20).</li>
+          <li><b>1.0–1.2 g/kg</b> for over-65s is the PROT-AGE group's advice.</li>
+        </ul>
+      </div>
+      <div class="group" id="per-meal">
+        <div class="label" data-share="per-meal">Spreading it out</div>
+        <ul>
+          <li><b>The ISSN suggests</b> about 0.25 g/kg, or 20–40 g, per meal.</li>
+          <li><b>Even meals</b> are the simplest way to get there.</li>
+        </ul>
+      </div>
+      <div class="group" id="protein-cautions">
+        <div class="label" data-share="protein-cautions">Before you add protein</div>
+        <ul>
+          <li><b>ICMR-NIN advises</b> against protein powders for healthy people; food usually covers the need.</li>
+          <li><b>Kidney disease</b>: high intakes may not be safe; ask a doctor.</li>
+          <li><b>Pregnancy, illness and children</b> have different needs not covered here.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAFFEINE ============ -->
+  <section class="panel" id="caffeine" role="tabpanel" aria-labelledby="tab-caffeine" hidden>
+    <div class="section-head"><h2 data-share="caffeine">Caffeine over the day</h2><span class="hint">Add what you drink and when</span></div>
+
+    <div class="groups cols-2 block">
+      <div class="group" id="drinks">
+        <div class="label" data-share="drinks">Drinks</div>
+        <div id="drink-rows" class="hc-rows"></div>
+        <div class="control-row">
+          <select class="select" id="drink-add" aria-label="Drink to add"></select>
+          <button class="btn" type="button" id="drink-add-btn">+ Add drink</button>
+        </div>
+      </div>
+      <div class="group" id="caffeine-settings">
+        <div class="label" data-share="caffeine-settings">Settings</div>
+        <div class="hc-grid two">
+          <label class="field"><span>Bedtime</span><input class="input-num" type="time" id="c-bed"></label>
+          <div class="slider">
+            <label for="c-hl">Half-life <b id="c-hl-v"></b></label>
+            <input type="range" id="c-hl" min="1.5" max="9.5" step="0.5">
+            <div class="help">About 5 h on average; 1.5 to 9.5 h between people. Shorter for smokers, longer in pregnancy or on the pill.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="answer" id="c-answer"></p>
+    <div class="tiles" id="c-tiles"></div>
+
+    <div class="card chart-card block" id="caffeine-chart-card">
+      <div class="chart-title">
+        <h3 data-share="caffeine-chart-card">Caffeine in your body</h3>
+        <div class="legend"><span class="key"><span class="dot" style="background:var(--s1)"></span>mg in the body</span><span class="key"><span class="dot" style="background:var(--s2)"></span>Drink</span><span class="key"><span class="dot" style="background:var(--s3)"></span>Bedtime</span></div>
+      </div>
+      <div class="chart" id="c-chart" role="img" aria-label="Line chart of caffeine in the body over 24 hours"></div>
+      <details class="more" id="caffeine-table" style="margin-top:10px">
+        <summary>Numbers behind the chart <span class="sum">· hour by hour</span></summary>
+        <div class="inner"><div class="table-wrap"><table class="data" id="c-table"><thead><tr><th class="sticky">Time</th><th class="n">mg in body</th></tr></thead><tbody></tbody></table></div></div>
+      </details>
+    </div>
+
+    <div class="section-head" id="drink-list"><h3 data-share="drink-list">Typical caffeine per drink</h3><span class="hint">Brews vary a lot; edit the mg if you know better</span></div>
+    <div class="table-wrap block">
+      <table class="data" id="drink-table">
+        <thead><tr><th class="sticky">Drink</th><th class="n">mg</th><th>Source</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="caffeine-limits">
+        <div class="label" data-share="caffeine-limits">How much is a lot</div>
+        <ul>
+          <li><b>400 mg a day</b> is the level the US FDA and EU's EFSA see as safe for most healthy adults.</li>
+          <li><b>200 mg at once</b> is EFSA's single-dose figure.</li>
+          <li><b>Pregnancy</b>: EFSA's figure is 200 mg a day from all sources.</li>
+        </ul>
+      </div>
+      <div class="group" id="caffeine-model">
+        <div class="label" data-share="caffeine-model">How the curve is drawn</div>
+        <ul>
+          <li><b>Each drink counts in full</b> the moment you have it; real levels peak 15 minutes to 2 hours later.</li>
+          <li><b>Every half-life</b>, half of what's left is cleared.</li>
+          <li><b>The day runs 5 am to 5 am</b>, so a 1 am drink counts as late night.</li>
+        </ul>
+      </div>
+      <div class="group" id="caffeine-sleep">
+        <div class="label" data-share="caffeine-sleep">Sleep</div>
+        <ul>
+          <li><b>There's no agreed safe level</b> at bedtime; sensitivity differs a lot.</li>
+          <li><b>Moving the last cup earlier</b> lowers the bedtime figure most.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK COST ============ -->
+  <section class="panel" id="stack-cost" role="tabpanel" aria-labelledby="tab-stack-cost" hidden>
+    <div class="section-head"><h2 data-share="stack-cost">What a supplement routine costs</h2><span class="hint">30-day month · saved in the link</span></div>
+
+    <div class="card card-pad block" id="stack-picker">
+      <div class="control-row">
+        <select class="select hc-pick" id="s-pick" aria-label="Supplement to add"></select>
+        <button class="btn primary" type="button" id="s-add">+ Add</button>
+      </div>
+      <p class="small muted" style="margin:8px 0 0">Products and prices come from the <a href="../supplements/">supplement brand guide</a> and the <a href="../magnesium/">magnesium lab results</a>. Fill in a price where it's blank.</p>
+    </div>
+
+    <p class="answer" id="s-answer"></p>
+    <div class="tiles" id="s-tiles"></div>
+
+    <div class="table-wrap block" id="stack-table-wrap">
+      <table class="data" id="s-table">
+        <thead><tr><th class="sticky">Item</th><th class="n">₹ per serving</th><th class="n">Servings a day</th><th class="n">₹ a month</th><th class="n">Share</th><th></th></tr></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="stack-prices">
+        <div class="label" data-share="stack-prices">About the prices</div>
+        <ul>
+          <li><b>Supplement guide prices</b> are ₹ per serving as quoted in reviews, Mar 2026.</li>
+          <li><b>Magnesium prices</b> are pack price ÷ capsules, Aug 2026; many have no price recorded.</li>
+          <li><b>Edit any price</b> to match what you pay; edits stay in the link.</li>
+        </ul>
+      </div>
+      <div class="group" id="stack-servings">
+        <div class="label" data-share="stack-servings">Servings</div>
+        <ul>
+          <li><b>A serving</b> is what the label calls one: a tablet, capsule or scoop.</li>
+          <li><b>This page doesn't suggest doses</b>; follow the label or a doctor.</li>
+        </ul>
+      </div>
+      <div class="group" id="stack-check">
+        <div class="label" data-share="stack-check">Worth checking</div>
+        <ul>
+          <li><b>Overlap</b>: a multivitamin may already contain what a single supplement adds.</li>
+          <li><b>Medicines</b>: some supplements interact with them; ask a pharmacist.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section-head"><h2 data-share="about">About these calculators</h2></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="not-advice">
+        <div class="label" data-share="not-advice">Not medical advice</div>
+        <ul>
+          <li><b>These are estimates</b> from general guidance for healthy adults.</li>
+          <li><b>Talk to a doctor or dietitian</b> if you're pregnant, have kidney, liver or heart conditions, or take medicines.</li>
+          <li><b>Nothing you type leaves your browser</b>; it's kept only in the page link.</li>
+        </ul>
+      </div>
+      <div class="group" id="data-used">
+        <div class="label" data-share="data-used">Data used</div>
+        <ul>
+          <li><b>Protein powders</b>: this site's whey comparison, prices <span id="about-whey-date">from its snapshot</span>.</li>
+          <li><b>Supplements</b>: this site's brand guide (Mar 2026) and magnesium lab page (Aug 2026).</li>
+          <li><b>Food protein</b>: Indian Food Composition Tables 2017 (ICMR-NIN).</li>
+        </ul>
+      </div>
+      <div class="group" id="limits">
+        <div class="label" data-share="limits">Limits</div>
+        <ul>
+          <li><b>Caffeine per cup</b> for filter coffee and chai is a rough estimate; no Indian lab study was found.</li>
+          <li><b>Protein ranges</b> are for adults; they're not targets for children.</li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="more block" id="sources" open>
+      <summary>Sources <span class="sum">· checked Nov 2026</span></summary>
+      <div class="inner">
+        <div class="groups cols-3">
+          <div class="group" id="src-protein">
+            <div class="label">Protein</div>
+            <ul>
+              <li><a href="https://www.nin.res.in/dietaryguidelines/" target="_blank" rel="noopener">ICMR-NIN Dietary Guidelines for Indians, 2024</a> (RDA 0.83 g/kg; advice on powders). Figures read from news coverage of the report.</li>
+              <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/" target="_blank" rel="noopener">ISSN position stand: protein and exercise (2017)</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/26917108/" target="_blank" rel="noopener">ACSM, AND and DC: nutrition and athletic performance (2016)</a></li>
+              <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/" target="_blank" rel="noopener">Morton et al., Br J Sports Med 2018</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/23867520/" target="_blank" rel="noopener">PROT-AGE study group, JAMDA 2013</a></li>
+              <li><a href="https://ifct2017.github.io/" target="_blank" rel="noopener">IFCT 2017 (ICMR-NIN), searchable copy</a></li>
+            </ul>
+          </div>
+          <div class="group" id="src-caffeine">
+            <div class="label">Caffeine</div>
+            <ul>
+              <li><a href="https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much" target="_blank" rel="noopener">US FDA: Spilling the beans</a> (400 mg a day)</li>
+              <li><a href="https://www.efsa.europa.eu/en/efsajournal/pub/4102" target="_blank" rel="noopener">EFSA scientific opinion on caffeine (2015)</a> (400 mg a day, 200 mg single dose, 200 mg in pregnancy)</li>
+              <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK223808/" target="_blank" rel="noopener">NCBI Bookshelf: caffeine pharmacology</a> (half-life about 5 h, 1.5–9.5 h)</li>
+              <li><a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372" target="_blank" rel="noopener">Mayo Clinic: caffeine content</a> (espresso, coffee, tea, cola)</li>
+              <li><a href="https://www.foodnavigator.com/Article/2016/12/21/FSSAI-orders-energy-drinks-to-comply-to-regulations/" target="_blank" rel="noopener">FSSAI caffeinated-beverage limit, 145–300 mg per litre</a> (so at most 75 mg in a 250 ml can)</li>
+            </ul>
+          </div>
+          <div class="group" id="src-supplements">
+            <div class="label">Supplements</div>
+            <ul>
+              <li><a href="../supplements/">Supplement brand guide</a> and its sources</li>
+              <li><a href="../magnesium/">Magnesium lab results</a> and its sources</li>
+              <li><a href="../whey-protein/">Whey protein comparison</a> and its sources</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Guidance checked Nov 2026. Product prices are snapshots from this site's other pages.</span>
+    <span>Estimates only, not medical advice.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/health-calculators">Code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

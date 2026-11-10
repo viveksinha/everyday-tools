@@ -1,0 +1,36 @@
+/* LinkedIn prompt builder: page-only layout. Shared look lives in ../assets/theme.css. */
+
+.build-grid { display: grid; gap: 16px; margin-bottom: 34px; }
+@media (min-width: 1100px) { .build-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: start; } }
+.b-inputs { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); align-items: start; }
+.b-inputs .b-wide, .b-inputs .field:has(#b-topic) { grid-column: 1 / -1; }
+.b-inputs .select { width: 100%; }
+textarea.input-num { height: auto; padding: 8px 10px; resize: vertical; font: 14px/1.45 var(--font-sans); width: 100%; }
+@media (min-width: 1100px) { .b-out { position: sticky; top: 112px; } }
+pre.prompt {
+  margin: 0; padding: 12px 14px; max-height: 70vh; overflow: auto; white-space: pre-wrap; word-break: break-word;
+  background: var(--surface-2); border-radius: 10px; font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink);
+}
+
+.li-preview {
+  font-size: 14px; line-height: 1.45; white-space: pre-wrap; word-break: break-word; padding: 10px 12px;
+  border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); min-height: 48px;
+}
+.li-preview .more { color: var(--muted); font-weight: 600; }
+.li-preview + .li-preview { margin-top: 8px; }
+.li-preview .dev { display: block; font-size: 11px; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+
+ul.flags { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+ul.flags li { display: flex; gap: 8px; align-items: baseline; margin: 0; }
+ul.flags .chip { flex: none; min-width: 42px; justify-content: center; }
+
+.marked { white-space: pre-wrap; word-break: break-word; font-size: 14.5px; line-height: 1.6; min-height: 60px; }
+mark.hl { background: var(--bad-bg); color: var(--bad); padding: 0 2px; border-radius: 3px; }
+mark.hl.dash { background: var(--warn-bg); color: var(--warn); }
+mark.hl.link { background: var(--accent-soft); color: var(--accent); }
+
+.tpl-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); margin-bottom: 34px; }
+.tpl { display: flex; flex-direction: column; gap: 8px; }
+.tpl .head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.tpl .head .btn { margin-left: auto; height: 30px; }
+.tpl pre { margin: 0; white-space: pre-wrap; word-break: break-word; font: 13px/1.5 var(--font-sans); color: var(--ink-2); background: var(--surface-2); border-radius: 8px; padding: 10px 12px; flex: 1; }
