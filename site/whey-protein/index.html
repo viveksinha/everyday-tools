@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whey Protein Compared · Everyday Tools</title>
+<meta name="description" content="69 protein powders sold in India, ranked on ₹ per gram of protein, protein %, sugar, fat & sodium and lab testing. Adjust the weights to re-rank.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Health</nav>
+  <div class="page-head">
+    <div>
+      <h1>Whey protein, compared</h1>
+      <p class="lede">69 protein powders sold in India, scored on what you pay per gram of protein, how much of the tub is actually protein, sugar, fat and sodium, and whether anyone independent tested it.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Prices checked 23 Oct 2026</span>
+      <span class="chip outline">India · ₹</span>
+      <span class="chip outline">Seller link on every row</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-rankings" aria-controls="rankings" aria-selected="true">Rankings</button>
+    <button class="tab" role="tab" id="tab-price-trend" aria-controls="price-trend" aria-selected="false" tabindex="-1">Price trend</button>
+    <button class="tab" role="tab" id="tab-whey-types" aria-controls="whey-types" aria-selected="false" tabindex="-1">Whey types explained</button>
+    <button class="tab" role="tab" id="tab-scoring" aria-controls="scoring" aria-selected="false" tabindex="-1">How scoring works</button>
+  </nav>
+
+  <div id="load-error" class="empty" hidden></div>
+
+  <!-- ============ RANKINGS ============ -->
+  <section class="panel" id="rankings" role="tabpanel" aria-labelledby="tab-rankings">
+    <div class="section-head"><h2 data-share="rankings">Rankings</h2><span class="hint" id="rank-hint">15 at a time · scroll for more</span></div>
+    <div class="tiles" id="top-tiles"></div>
+
+    <div class="controls split">
+      <div class="card card-pad" id="weights">
+        <div class="label-sm" data-share="weights">What matters to you</div>
+        <div class="sliders" id="sliders"></div>
+        <div class="control-row" style="margin-top:14px">
+          <span class="small muted">Presets</span>
+          <button class="btn" type="button" data-preset="default">Default</button>
+          <button class="btn" type="button" data-preset="quality">Quality first</button>
+          <span class="small muted" id="weight-note"></span>
+        </div>
+      </div>
+      <div class="card card-pad" id="dose">
+        <div class="label-sm">Your dose</div>
+        <label class="field"><span>Protein from powder per day (g)</span>
+          <input class="input-num" type="number" id="dose-g" min="5" max="200" step="5" value="25" inputmode="numeric">
+        </label>
+        <ul class="small muted" style="margin:10px 0 0;padding-left:18px">
+          <li>Drives the <b>₹ / month</b> column and tiles.</li>
+          <li>Weights and dose are saved in the link, so a shared URL shows your ranking.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="control-row" style="margin-bottom:12px">
+      <div class="seg" id="type-seg" role="group" aria-label="Filter by type">
+        <button type="button" aria-pressed="true" data-type="all">All</button>
+        <button type="button" aria-pressed="false" data-type="isolate">Isolate</button>
+        <button type="button" aria-pressed="false" data-type="concentrate">Concentrate / blend</button>
+        <button type="button" aria-pressed="false" data-type="plant">Plant / yeast</button>
+      </div>
+      <input type="search" class="search" id="q" placeholder="Search brand, product, flavour" aria-label="Search">
+      <label class="check"><input type="checkbox" id="f-live"> Confirmed prices only</label>
+      <label class="check"><input type="checkbox" id="f-cert"> Certified lab-tested only</label>
+      <label class="check"><input type="checkbox" id="f-unflav"> Unflavoured only</label>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data" id="rank-table">
+        <thead>
+          <tr>
+            <th class="sticky" data-key="name"><button class="sort-btn" type="button">Product <span class="arrow">↕</span></button></th>
+            <th>Type</th>
+            <th class="n" data-key="price"><button class="sort-btn" type="button">Price <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="rsg" title="Pack price ÷ grams of protein in the pack"><button class="sort-btn" type="button">₹ / g protein <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="month" title="₹ per gram of protein × your daily grams × 30"><button class="sort-btn" type="button">₹ / month <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="protein" title="Grams of protein per 100 g of powder"><button class="sort-btn" type="button">Protein <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="sugar" title="Grams per 100 g of powder"><button class="sort-btn" type="button">Sugar <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="fat" title="Grams per 100 g of powder"><button class="sort-btn" type="button">Fat <span class="arrow">↕</span></button></th>
+            <th class="n" data-key="sodium" title="Milligrams per 100 g of powder"><button class="sort-btn" type="button">Sodium <span class="arrow">↕</span></button></th>
+            <th>Lab tested</th>
+            <th class="n" data-key="score" aria-sort="descending"><button class="sort-btn" type="button">Score <span class="arrow">↓</span></button></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="rank-pager"></div>
+
+    <details class="more" id="columns-explained" style="margin-top:18px">
+      <summary data-share="columns-explained">What the columns mean <span class="sum">· ranks, ₹ per gram, scores, lab tiers</span></summary>
+      <div class="inner">
+        <div class="groups cols-3">
+          <div class="group">
+            <div class="label">Ranks</div>
+            <ul>
+              <li><b>#n is the overall whey rank.</b> Only rows with a confirmed ("Live") price get one.</li>
+              <li><b>Plant and yeast proteins</b> are ranked only against each other, shown as "#n in type".</li>
+              <li><b>A dash</b> means the price couldn't be confirmed: sold out, out of stock or unverified.</li>
+            </ul>
+          </div>
+          <div class="group">
+            <div class="label">Money</div>
+            <ul>
+              <li><b>₹ / g protein</b> is pack price ÷ grams of protein in the pack.</li>
+              <li><b>₹ / month</b> is ₹ per gram × your daily grams × 30 days.</li>
+              <li><b>Price</b> is for the pack size shown. Most are 1 kg.</li>
+            </ul>
+          </div>
+          <div class="group">
+            <div class="label">Score and lab</div>
+            <ul>
+              <li><b>Score</b> is a weighted average of five part scores, 0–100. Click a row to see them.</li>
+              <li><b>Certified</b> means Trustified, Labdoor or Informed Choice. <b>Brand reports</b> means the brand publishes its own batch tests.</li>
+              <li><b>Protein, sugar, fat, sodium</b> are per 100 g of powder, from the label.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ PRICE TREND ============ -->
+  <section class="panel" id="price-trend" role="tabpanel" aria-labelledby="tab-price-trend" hidden>
+    <div class="section-head"><h2 data-share="price-trend">Price trend</h2><span class="hint">9 products tracked since Feb 2024</span></div>
+    <div class="tiles" id="trend-tiles"></div>
+
+    <div class="card chart-card block" id="trend-chart-card">
+      <div class="chart-title">
+        <h3 data-share="trend-chart-card">₹ per gram of protein, same product over time</h3>
+        <div class="legend" id="trend-legend"></div>
+      </div>
+      <div class="chart" id="trend-chart" role="img" aria-label="Dot plot of rupees per gram of protein in Feb 2024, Apr 2025 and Oct 2026 for nine products"></div>
+    </div>
+
+    <div class="block" id="trend-table-block">
+      <div class="section-head"><h3 data-share="trend-table-block">The numbers</h3></div>
+      <div class="table-wrap">
+        <table class="data" id="trend-table">
+          <thead><tr><th class="sticky">Product</th><th class="n">Feb 2024</th><th class="n">Apr 2025</th><th class="n">Oct 2026</th><th class="n">Since Apr 2025</th><th class="n">Since Feb 2024</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="groups cols-2" id="trend-caveats">
+      <div class="group">
+        <div class="label" data-share="trend-caveats">Read this with care</div>
+        <ul>
+          <li><b>Labels changed.</b> MuscleBlaze Iso-Zero went from 90% to 80% protein, and Raw Whey from 80% to 70%.</li>
+          <li><b>₹ per gram uses each date's label</b>, so a protein cut shows up as a price rise.</li>
+          <li><b>GNC Pro Performance</b> is priced as a 4 lb tub in Oct 2026; the 2 lb isn't sold alone.</li>
+        </ul>
+      </div>
+      <div class="group">
+        <div class="label">Where the numbers come from</div>
+        <ul>
+          <li><b>Feb 2024 and Apr 2025</b> are prices noted at the time for the same tubs.</li>
+          <li><b>Oct 2026</b> is the live price in the Rankings tab, from the seller listed there.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHEY TYPES ============ -->
+  <section class="panel" id="whey-types" role="tabpanel" aria-labelledby="tab-whey-types" hidden>
+    <div class="section-head"><h2 data-share="whey-types">Whey types explained</h2><span class="hint">Concentrate vs isolate vs hydrolysate vs blends vs plant</span></div>
+
+    <div class="groups cols-2 block">
+      <div class="group">
+        <div class="label">The short version</div>
+        <ul>
+          <li><b>All whey comes from milk</b>, the liquid left after making paneer or cheese.</li>
+          <li><b>More filtering means more protein</b>, less lactose and fat, and a higher price.</li>
+        </ul>
+      </div>
+      <div class="group" id="type-premium"></div>
+    </div>
+
+    <div class="block" id="types-table-block">
+      <div class="section-head"><h3 data-share="types-table-block">Side by side</h3></div>
+      <div class="table-wrap">
+        <table class="data">
+          <thead><tr><th class="sticky"></th><th>Concentrate (WPC)</th><th>Isolate (WPI)</th><th>Hydrolysate (WPH)</th><th>Blend (WPC + WPI ± others)</th><th>Plant / yeast protein</th></tr></thead>
+          <tbody>
+            <tr><th class="sticky">What it is</th><td>Lightly filtered whey. "WPC80" is ~80% protein on a dry basis; labels usually show 70–80 g per 100 g.</td><td>Whey filtered further to strip out most lactose and fat. ~85–90 g protein per 100 g.</td><td>Whey (usually isolate) pre-broken into smaller peptides with enzymes, so "pre-digested".</td><td>Mostly concentrate with some isolate, sometimes hydrolysate, yeast protein or creatine. Protein % depends on the mix.</td><td>Pea, rice, soy or fermented yeast protein. Dairy-free.</td></tr>
+            <tr><th class="sticky">How it's made</th><td>Ultrafiltration of liquid whey, then spray-dried.</td><td>Cross-flow micro-filtration (CFM) or ion exchange after ultrafiltration.</td><td>Enzymatic hydrolysis of whey, then dried.</td><td>Powders mixed by the brand.</td><td>Extracted from legumes or grains, or grown by fermentation (yeast).</td></tr>
+            <tr><th class="sticky">Protein per 100 g</th><td>70–80 g</td><td>85–90 g</td><td>75–90 g</td><td>60–80 g (check the label)</td><td>70–85 g</td></tr>
+            <tr><th class="sticky">Lactose</th><td>Some, roughly 3–8 g per 100 g</td><td>Very little, usually under 1 g per 100 g</td><td>Very little if made from isolate</td><td>In between</td><td>None</td></tr>
+            <tr><th class="sticky">Fat and carbs</th><td>Higher (fat ~5–8 g, carbs ~5–10 g per 100 g)</td><td>Lowest (often under 1–3 g)</td><td>Low</td><td>In between</td><td>Varies; plant can be higher in sodium</td></tr>
+            <tr><th class="sticky">Taste and mixing</th><td>Creamiest, most "milky"</td><td>Thinner, cleaner taste</td><td>Often bitter</td><td>Depends</td><td>Earthy or gritty; flavours work harder</td></tr>
+            <tr><th class="sticky">Digestion speed</th><td>Fast</td><td>Fast</td><td>Fastest</td><td>Fast</td><td>Medium</td></tr>
+            <tr><th class="sticky">Price</th><td>Cheapest per gram of protein</td><td>~30–60% more than concentrate</td><td>Most expensive</td><td>Usually close to concentrate</td><td>Often cheapest per kg</td></tr>
+            <tr><th class="sticky">Best for</th><td>Most people; budget; daily use</td><td>Lactose-sensitive people; low-carb or low-fat diets; cutting</td><td>Athletes chasing fastest absorption; very sensitive stomachs</td><td>Flavoured everyday shakes</td><td>Vegans; people allergic to dairy</td></tr>
+            <tr><th class="sticky">Watch out for</th><td>Bloating if lactose-sensitive; sugar in flavoured versions</td><td>Paying isolate prices for a blend. The ingredient list should say only "whey protein isolate".</td><td>Price and bitterness; the benefit over isolate is small for most people</td><td>"Isolate" in the name but concentrate listed first; creatine or yeast diluting protein %; budget blends with milk solids (40–55% protein)</td><td>Less leucine than whey (pea + rice blends help); not directly comparable to whey</td></tr>
+            <tr><th class="sticky">Examples here</th><td>Nakpro Whey Gold, AS-IT-IS ONE WPC 80%, Avvatar Raw, Nutrabay Pure WPC, TWT Raw WPC</td><td>Nakpro Platinum Raw Isolate, AS-IT-IS ONE Isolate, MB Raw Whey Isolate 90%, GNC AMP Pure Isolate, Isopure</td><td>Nakpro Whey Hydro (out of stock); part of Dymatize ISO100</td><td>ON Gold Standard, MB Biozyme, Nakpro Titanium, AS-IT-IS ATOM Whey, TWT flavoured 24 g range</td><td>Cosmix Plant, Plant Pro and Fermented Yeast; Only What's Needed Plant and Yeast</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block" id="live-numbers">
+      <div class="section-head"><h3 data-share="live-numbers">Live numbers from the rankings</h3><span class="hint">confirmed prices only · follows your weights</span></div>
+      <div class="table-wrap">
+        <table class="data" id="live-table">
+          <thead><tr><th class="sticky">Type</th><th class="n">Products</th><th class="n">Avg protein / 100 g</th><th class="n">Avg ₹ / g protein</th><th class="n">Cheapest ₹ / g</th><th class="n">Avg score</th><th>Top scorer</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="groups cols-2 block">
+      <div class="group" id="which-to-choose">
+        <div class="label" data-share="which-to-choose">Which should you choose?</div>
+        <ul>
+          <li><b>No lactose issues, want best value:</b> unflavoured concentrate (WPC80).</li>
+          <li><b>Bloating or gas with milk, or strict on carbs and fat:</b> isolate.</li>
+          <li><b>Want it to taste good with water:</b> a flavoured isolate or a good blend. Check sugar, and that protein is still 70 g+ per 100 g.</li>
+          <li><b>Dairy-free or vegan:</b> a pea + rice blend or yeast protein. Expect to pay a bit more per gram of protein.</li>
+          <li><b>Hydrolysate</b> is rarely worth the extra money for everyday use.</li>
+        </ul>
+      </div>
+      <div class="group" id="read-a-label">
+        <div class="label" data-share="read-a-label">Reading a label quickly</div>
+        <ol>
+          <li><b>Look at protein per 100 g</b>, not per scoop. Scoops run 25–45 g, so per-scoop numbers mislead.</li>
+          <li><b>Check ingredient order.</b> "Whey protein isolate" alone is a true isolate. Concentrate, whey powder or milk solids first means a blend.</li>
+          <li><b>"No added sugar" isn't no sugar.</b> Milk, fruit and dates add their own; check total sugar or total carbs.</li>
+          <li><b>Extras take up weight.</b> Creatine, yeast protein, safed musli and vitamins lower the protein %.</li>
+          <li><b>Sodium runs from 23.5 to 774 mg</b> per 100 g in this list. It matters if you watch blood pressure.</li>
+          <li><b>Prefer independent testing</b> (Trustified, Labdoor, Informed Choice) and a batch report you can look up.</li>
+          <li><b>Compare ₹ per gram of protein:</b> price ÷ (pack grams × protein per 100 g ÷ 100).</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="block" id="glossary">
+      <div class="section-head"><h3 data-share="glossary">Glossary</h3></div>
+      <div class="defs">
+        <div class="def"><b>BCAA</b><span>Branched-chain amino acids (leucine, isoleucine, valine). Whey is ~22–25% BCAA, so ~5–7 g per scoop.</span></div>
+        <div class="def"><b>Amino spiking</b><span>Adding cheap amino acids to push up the protein number on the label.</span></div>
+        <div class="def"><b>Leucine</b><span>The amino acid that switches on muscle building. Whey has a lot (~10% of protein); plant proteins have less.</span></div>
+        <div class="def"><b>Dry basis</b><span>Protein % measured with moisture removed. Reads a little higher than "as is".</span></div>
+        <div class="def"><b>Cross-flow micro-filtration (CFM)</b><span>A gentle filtering method used for isolates that keeps proteins intact.</span></div>
+        <div class="def"><b>Instantised</b><span>Coated with a little lecithin so it mixes without clumps.</span></div>
+        <div class="def"><b>Trustified / Labdoor / Informed Choice</b><span>Independent labs that test supplements for protein content and banned substances. Trustified tests Indian products blind.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCORING ============ -->
+  <section class="panel" id="scoring" role="tabpanel" aria-labelledby="tab-scoring" hidden>
+    <div class="section-head"><h2 data-share="scoring">How scoring works</h2><span class="hint">same formulas as the source spreadsheet</span></div>
+
+    <div class="groups cols-3 block">
+      <div class="group">
+        <div class="label">In one line each</div>
+        <ul>
+          <li><b>Five part scores</b> from 0 to 100, combined with your weights.</li>
+          <li><b>Missing label values are skipped</b>, not treated as zero, and the other weights are rescaled.</li>
+          <li><b>Whey competes with whey</b>; plant and yeast compete with each other.</li>
+        </ul>
+      </div>
+      <div class="group">
+        <div class="label">What gets ranked</div>
+        <ul>
+          <li><b>Only confirmed ("Live") prices</b> are ranked. Others still get a score.</li>
+          <li><b>Plant and yeast</b> aren't in the overall rank because protein quality differs.</li>
+        </ul>
+      </div>
+      <div class="group">
+        <div class="label">Known biases</div>
+        <ul>
+          <li><b>Value favours cheap, lower-protein tubs</b> like Bigmuscles. Try "Quality first" to lean the other way.</li>
+          <li><b>Lab status is the brand's or seller's claim</b>, not checked against certifier databases.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="block" id="weights-table-block">
+      <div class="section-head"><h3 data-share="weights-table-block">Weights</h3><span class="hint">live from the sliders on the Rankings tab</span></div>
+      <div class="table-wrap"><table class="data" id="weights-table"><thead><tr><th class="sticky">Part</th><th class="n">Weight</th><th>What it rewards</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="block" id="formulas">
+      <div class="section-head"><h3 data-share="formulas">Formulas</h3></div>
+      <div class="table-wrap">
+        <table class="data">
+          <thead><tr><th class="sticky">Measure</th><th>Formula</th><th>In plain English</th></tr></thead>
+          <tbody>
+            <tr><th class="sticky">₹ per g protein</th><td><code>price ÷ (pack g × protein per 100 g ÷ 100)</code></td><td>What one gram of protein costs you.</td></tr>
+            <tr><th class="sticky">₹ per 25 g protein</th><td><code>₹ per g × 25</code></td><td>Cost of one typical 25 g-protein serving.</td></tr>
+            <tr><th class="sticky">Protein % of calories</th><td><code>protein × 4 ÷ kcal</code></td><td>Share of calories from protein. Higher means less filler.</td></tr>
+            <tr><th class="sticky">Value score</th><td><code>cheapest ₹/g in group ÷ this ₹/g × 100</code></td><td>Cheapest confirmed price per gram in its group gets 100. Twice as dear gets 50, three times gets 33.</td></tr>
+            <tr><th class="sticky">Protein score</th><td><code>(protein − 60) ÷ 30 × 100</code>, capped 0–100</td><td>60 g per 100 g or less is 0, 90 g or more is 100, about 3.3 points per gram in between.</td></tr>
+            <tr><th class="sticky">Fat &amp; sodium score</th><td><code>100 − 3 × fat − sodium ÷ 20</code>, min 0</td><td>Minus 3 per gram of fat and 1 per 20 mg sodium. Blank if sodium isn't on the label.</td></tr>
+            <tr><th class="sticky">Sugar score</th><td><code>round(100 × (1 − PERCENTRANK(sugar)))</code></td><td>Ranked against confirmed-price products in the same group: lowest sugar gets 100, highest 0.</td></tr>
+            <tr><th class="sticky">Lab score</th><td><code>Certified 100 · Brand reports 60 · else 30</code></td><td>Certified is Trustified, Labdoor or Informed Choice. Brand reports are the brand's own batch tests.</td></tr>
+            <tr><th class="sticky">Overall score</th><td><code>Σ(weight × part) ÷ Σ(weights used)</code>, 1 decimal</td><td>Weighted average. Blank parts drop out and the rest are rescaled.</td></tr>
+            <tr><th class="sticky">Rank</th><td><code>1 + live whey products with a higher score</code></td><td>Ties share a rank. "In type" does the same within isolate, concentrate or plant.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block" id="worked-example">
+      <div class="section-head"><h3 data-share="worked-example">Worked example</h3></div>
+      <div class="control-row" style="margin-bottom:12px">
+        <label class="field" style="min-width:min(100%,420px)"><span>Pick a product</span><select class="input-num" id="example-pick"></select></label>
+      </div>
+      <div class="table-wrap"><table class="data" id="example-table"><thead><tr><th class="sticky">Step</th><th class="n">Value</th><th>Calculation</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Data is a snapshot from 23 Oct 2026. Check the seller page before you buy.</span>
+    <span>Not medical advice.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/whey-protein">Data and code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>

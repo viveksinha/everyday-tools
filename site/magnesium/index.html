@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magnesium Lab Results · Everyday Tools</title>
+<meta name="description" content="What 12 magnesium glycinate supplements sold in India actually contain per capsule, going by independent lab tests, plus heavy-metal traces and what a daily dose costs.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Health</nav>
+  <div class="page-head">
+    <div>
+      <h1>Magnesium glycinate, lab-tested</h1>
+      <p class="lede">What 12 magnesium supplements sold in India actually contain, going by Unbox Health's independent lab tests: magnesium per capsule, heavy-metal traces, and what a month's dose costs.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline">Lab data retrieved 23 Aug 2026</span>
+      <a class="chip outline" href="https://unboxhealth.in" target="_blank" rel="noopener">Source: Unbox Health ↗</a>
+      <span class="chip outline">Add your own prices</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-lab-results" aria-controls="lab-results" aria-selected="true">Lab results</button>
+    <button class="tab" role="tab" id="tab-dose-cost" aria-controls="dose-cost" aria-selected="false" tabindex="-1">Dose and cost</button>
+    <button class="tab" role="tab" id="tab-how-to-read" aria-controls="how-to-read" aria-selected="false" tabindex="-1">How to read this</button>
+  </nav>
+
+  <div id="load-error" class="empty" hidden></div>
+
+  <!-- ============ LAB RESULTS ============ -->
+  <section class="panel" id="lab-results" role="tabpanel" aria-labelledby="tab-lab-results">
+    <div class="section-head"><h2 data-share="lab-results">Lab results</h2><span class="hint">Click a row for notes · yellow price cells are yours to fill</span></div>
+    <div class="tiles" id="lab-tiles"></div>
+
+    <div class="control-row" style="margin-bottom:12px">
+      <div class="seg" id="mg-seg" role="group" aria-label="Filter">
+        <button type="button" aria-pressed="true" data-f="all">All 12</button>
+        <button type="button" aria-pressed="false" data-f="active">Rating active today</button>
+        <button type="button" aria-pressed="false" data-f="lab">Has lab numbers</button>
+      </div>
+      <button class="btn" type="button" id="reset-prices">Reset prices to source</button>
+      <span class="small muted" id="price-note"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data" id="mg-table">
+        <thead>
+          <tr>
+            <th class="sticky" rowspan="2">Product</th>
+            <th rowspan="2">Rating</th>
+            <th colspan="3" class="group-h">Magnesium per unit</th>
+            <th colspan="4" class="group-h">Heavy metals (ppm)</th>
+            <th colspan="2" class="group-h">Scores / 10</th>
+            <th colspan="4" class="group-h">Cost (edit price and pack)</th>
+          </tr>
+          <tr>
+            <th class="n bl">Label</th><th class="n">Lab</th><th class="n">vs label</th>
+            <th class="n bl" title="Lead">Lead</th><th class="n" title="Arsenic">Arsenic</th><th class="n" title="Cadmium">Cadmium</th><th class="n" title="Mercury">Mercury</th>
+            <th class="n bl" title="Unbox Health non-toxicity score">Non-tox</th><th class="n" title="Unbox Health label-accuracy score">Label acc.</th>
+            <th class="n bl">Pack</th><th class="n">Price ₹</th><th class="n">₹ / unit</th><th class="n" title="Rupees per 100 mg of lab-tested magnesium">₹ / 100 mg</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="control-row small" id="legend" style="margin:12px 0 30px;gap:8px 18px">
+      <span><span class="swatch" style="background:var(--good-bg)"></span>Zero detected / perfect score</span>
+      <span><span class="swatch" style="background:var(--warn-bg)"></span>Trace detected, within FSSAI limits</span>
+      <span><span class="swatch" style="background:var(--serious-bg)"></span>Highest in this set, still within limits</span>
+      <span><span class="swatch" style="background:var(--na-bg)"></span>Not retrieved (on Unbox Health, free login)</span>
+      <span><span class="swatch" style="background:var(--mark)"></span>Price you entered</span>
+    </div>
+
+    <div class="card chart-card block" id="label-vs-lab">
+      <div class="chart-title">
+        <h3 data-share="label-vs-lab">Magnesium per unit: what the label says vs what the lab found</h3>
+        <div class="legend"><span class="key"><span class="dot" style="background:var(--neutral-mark)"></span>Label says</span><span class="key"><span class="dot" style="background:var(--s1)"></span>Lab found</span></div>
+      </div>
+      <div class="chart" id="mg-chart" role="img" aria-label="Dot plot comparing label and lab-tested magnesium per unit for seven products"></div>
+    </div>
+  </section>
+
+  <!-- ============ DOSE & COST ============ -->
+  <section class="panel" id="dose-cost" role="tabpanel" aria-labelledby="tab-dose-cost" hidden>
+    <div class="section-head"><h2 data-share="dose-cost">Dose and cost</h2><span class="hint">Doses use the lab number where there is one</span></div>
+
+    <div class="controls split">
+      <div class="groups cols-3">
+        <div class="group">
+          <div class="label">Why the lab number matters</div>
+          <ul>
+            <li><b>Most products hold more than the label says</b>, up to 40% more here.</li>
+            <li><b>Dose by the lab number.</b> A "220 mg" tablet can really be ~283 mg.</li>
+          </ul>
+        </div>
+        <div class="group">
+          <div class="label">The 350 mg ceiling</div>
+          <ul>
+            <li><b>350 mg a day</b> is the adult upper limit for magnesium from supplements. Food magnesium doesn't count.</li>
+            <li><b>Going over</b> mainly risks diarrhoea and an upset stomach.</li>
+          </ul>
+        </div>
+        <div class="group">
+          <div class="label">Not medical advice</div>
+          <ul>
+            <li><b>Check with a doctor first</b> if you have kidney problems or take other medicines.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card card-pad">
+        <div class="label-sm">Your target</div>
+        <label class="field"><span>Supplemental magnesium per day (mg)</span>
+          <input class="input-num" type="number" id="target-mg" min="25" max="600" step="25" value="200" inputmode="numeric">
+        </label>
+        <div class="small muted" style="margin-top:8px">Units per day are rounded to the nearest whole capsule or tablet.</div>
+      </div>
+    </div>
+
+    <div class="tiles" id="dose-tiles"></div>
+
+    <div class="table-wrap">
+      <table class="data" id="dose-table">
+        <thead><tr>
+          <th class="sticky">Product</th><th class="n">mg per unit</th><th class="n">Units / day</th><th class="n">You'd get</th><th>vs 350 mg</th><th class="n">₹ / unit</th><th class="n">₹ / month</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ HOW TO READ ============ -->
+  <section class="panel" id="how-to-read" role="tabpanel" aria-labelledby="tab-how-to-read" hidden>
+    <div class="section-head"><h2 data-share="how-to-read">How to read this</h2></div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="about-ratings">
+        <div class="label" data-share="about-ratings">About the ratings</div>
+        <ul>
+          <li><b>A rating covers one tested batch</b>, not whatever stock is on the shelf now.</li>
+          <li><b>Ratings last 12 months</b> from the date they go live. This page marks them expired once that date passes.</li>
+          <li><b>"Initiated by"</b> says who paid for or asked for the test: the brand, Unbox Health, or a community vote.</li>
+        </ul>
+      </div>
+      <div class="group" id="about-numbers">
+        <div class="label" data-share="about-numbers">About the numbers</div>
+        <ul>
+          <li><b>Magnesium is per capsule or tablet</b> as tested; the iThrive powder is per serving.</li>
+          <li><b>0 ppm means below the detection limit</b>, so traces may still be there.</li>
+          <li><b>"vs label" above 0%</b> means the lab found more magnesium than the label states.</li>
+        </ul>
+      </div>
+      <div class="group" id="about-source">
+        <div class="label" data-share="about-source">Source</div>
+        <ul>
+          <li><b><a href="https://unboxhealth.in" target="_blank" rel="noopener">Unbox Health</a></b> lab tests, using up to 3 NABL-accredited labs per product, retrieved 23 Aug 2026.</li>
+          <li><b>Prices</b>: HealthyHey as noted in Aug 2026; Unived from a NanoHealth review (Jun 2026). Others are blank for you to fill.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="block" id="glossary">
+      <div class="section-head"><h3 data-share="glossary">Glossary</h3></div>
+      <div class="defs">
+        <div class="def"><b>Elemental magnesium</b><span>The actual magnesium in a compound. Magnesium bisglycinate is only about 14% magnesium by weight, so labels should state elemental mg.</span></div>
+        <div class="def"><b>Glycinate / bisglycinate</b><span>Magnesium bound to glycine. Some "glycinate" products are buffered with cheaper magnesium oxide.</span></div>
+        <div class="def"><b>Chelated</b><span>A mineral bound to an amino acid. Usually gentler on the stomach than magnesium oxide.</span></div>
+        <div class="def"><b>ppm</b><span>Parts per million. 1 ppm is 1 microgram per gram of product.</span></div>
+        <div class="def"><b>Non-toxicity score</b><span>Unbox Health's 0–10 score for heavy-metal safety. 10 is best.</span></div>
+        <div class="def"><b>Label accuracy score</b><span>Unbox Health's 0–10 score for how closely the lab result matches the label. 10 is best.</span></div>
+        <div class="def"><b>NABL</b><span>India's National Accreditation Board for Testing and Calibration Laboratories.</span></div>
+        <div class="def"><b>FSSAI</b><span>Food Safety and Standards Authority of India. It sets the legal heavy-metal limits for supplements.</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Lab data from Unbox Health, retrieved 23 Aug 2026. Ratings apply to the tested batch.</span>
+    <span>Not medical advice.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/magnesium">Data and code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>
