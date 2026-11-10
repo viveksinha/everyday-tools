@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_call: # the weekly data refresh calls this after it commits
 
 permissions:
   contents: read
@@ -22,6 +23,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main # pick up a commit made earlier in the same run
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

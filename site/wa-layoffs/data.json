@@ -1,0 +1,4399 @@
+{
+ "source": "Washington State Employment Security Department, WARN notices",
+ "source_url": "https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database",
+ "data_url": "https://fortress.wa.gov/esd/file/WARN/",
+ "fetched_at": "2026-11-10",
+ "years": 5,
+ "notices": [
+  {
+   "company": "Seattle Marriott Redmond",
+   "location": "Redmond",
+   "start": "2027-01-05",
+   "workers": 91,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-11-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6b2e777f-eb94-4a4a-a74f-bb6b2aec6ddc.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Sumner, Pasco, Bellevue, Redmond, Seattle and Remote",
+   "start": "2026-12-07",
+   "workers": 95,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-11-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0fde3d45-7ede-4123-af1d-bedf4d6152c3.pdf&download=1"
+  },
+  {
+   "company": "Alaska Airlines",
+   "location": "Seattle, Spokane, Renton",
+   "start": "2026-12-31",
+   "workers": 121,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8dbddda5-1e4e-43bb-9cd6-529acd3d4df6.pdf&download=1"
+  },
+  {
+   "company": "Comcast",
+   "location": "Statewide",
+   "start": "2026-12-31",
+   "workers": 159,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3b33f7df-fb60-454e-9761-9137ca511101.pdf&download=1"
+  },
+  {
+   "company": "NIC Global Manufacturing Solutions",
+   "location": "Woodinville",
+   "start": "2027-01-18",
+   "workers": 103,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e1e5d504-f146-43c2-b75c-d770809263ba.pdf&download=1"
+  },
+  {
+   "company": "Double M Orchards",
+   "location": "Quincy",
+   "start": "2026-12-18",
+   "workers": 220,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-10-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=907a8cf2-3fe7-447d-b209-c5d23cb95efb.pdf&download=1"
+  },
+  {
+   "company": "Henry Bosma Orchards",
+   "location": "Granger",
+   "start": "2026-11-30",
+   "workers": 90,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a1561d68-54d8-44d2-9cba-3f1611de06b4.pdf&download=1"
+  },
+  {
+   "company": "HMS Host",
+   "location": "Seatac, Seattle",
+   "start": "2026-12-31",
+   "workers": 135,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-23",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=690dbc4e-6123-41da-89c0-a4d6af7a27e7.pdf&download=1"
+  },
+  {
+   "company": "DSquared Hospitality Company dba Sidekicks Pub",
+   "location": "Bellevue",
+   "start": "2026-12-20",
+   "workers": 83,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0432fc60-2bd5-4f50-bcf0-0139b4f76f16.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle, Redmond, Vancouver, and Spokane",
+   "start": "2026-11-14",
+   "workers": 51,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2c85746d-da1c-4248-a2d6-776538f7be45.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Kent",
+   "start": "2026-12-02",
+   "workers": 15,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-10-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b588312a-09b6-400b-a3ad-11730b24e3d9.pdf&download=1"
+  },
+  {
+   "company": "Quincy Foods",
+   "location": "Quincy",
+   "start": "2026-11-15",
+   "workers": 65,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a4923eff-f61c-4dc6-a17b-1070a3fdf260.pdf&download=1"
+  },
+  {
+   "company": "National Frozen Foods Corporation",
+   "location": "Moses Lake and Chehalis",
+   "start": "2026-11-15",
+   "workers": 439,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=7e28367f-3da0-49c0-9813-f137847c84e6.pdf&download=1"
+  },
+  {
+   "company": "Greenridge Farming Inc",
+   "location": "Pasco",
+   "start": "2026-11-15",
+   "workers": 193,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=06fd3a45-2bd2-437f-aff8-eeaac2a07aea.pdf&download=1"
+  },
+  {
+   "company": "Manson Growers LLC",
+   "location": "Manson",
+   "start": "2026-10-01",
+   "workers": 275,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-10-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=41d6c2c9-b6d0-4034-b9e1-90afade62a92.pdf&download=1"
+  },
+  {
+   "company": "Haak Administrative Services LLC",
+   "location": "Yakima County",
+   "start": "2026-11-30",
+   "workers": 110,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=75cba37b-fcfd-453c-abf0-d27ebe3ccea3.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Palace Casino",
+   "location": "Lakewood",
+   "start": "2026-11-30",
+   "workers": 15,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1722fc51-de55-4780-b79c-1d4f379cdfe9.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Macau Casino",
+   "location": "Lakewood",
+   "start": "2026-11-30",
+   "workers": 106,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=baaa0d2b-ff0b-43e5-ac1d-4f8401142e80.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Great American Casino",
+   "location": "Everett",
+   "start": "2026-11-30",
+   "workers": 133,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c78cf47e-40fe-4f0a-9ff7-b86ff8ac9f50.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Crazy Moose Casino",
+   "location": "Pasco",
+   "start": "2026-11-30",
+   "workers": 137,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=354e8382-eac2-49e8-a180-def2b092eeab.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Coyote Bobs Casino",
+   "location": "Kennewick",
+   "start": "2026-11-30",
+   "workers": 68,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=df0e27c2-734c-4579-bcb1-506404789945.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Chips Casino",
+   "location": "Lakewood",
+   "start": "2026-11-30",
+   "workers": 131,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=626263fe-26d7-4818-8a62-2de1ba9c828d.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Casino Caribbean",
+   "location": "Yakima",
+   "start": "2026-11-30",
+   "workers": 101,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f436ce26-7dc0-437a-92fd-e8cd3fd7f84c.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / All Star Casino",
+   "location": "Silverdale",
+   "start": "2026-11-30",
+   "workers": 159,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c654c9af-e00b-4096-86ee-381877b17369.pdf&download=1"
+  },
+  {
+   "company": "FirstFruits, LLC",
+   "location": "Prescott",
+   "start": "2026-11-18",
+   "workers": 1200,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-09-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=67e8893d-53a9-493e-9fce-0dee38c16262.pdf&download=1"
+  },
+  {
+   "company": "Gebbers Farms, Etal",
+   "location": "Brewster",
+   "start": "2026-11-25",
+   "workers": 3445,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=da68cbbd-dedb-42a2-ab4d-39599427decc.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2026-11-21",
+   "workers": 277,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=88eaed30-e284-4dbf-9b9e-13600c6919ea.pdf&download=1"
+  },
+  {
+   "company": "Expedia, Inc.",
+   "location": "Seattle",
+   "start": "2026-11-21",
+   "workers": 58,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e9530058-3791-40c8-b8d3-b2154afdf3bd.pdf&download=1"
+  },
+  {
+   "company": "DNS Farm Services LLC",
+   "location": "Grant and Chelan Counties",
+   "start": "2026-09-17",
+   "workers": 238,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-09-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a3f4170c-edc2-4e15-a534-46bc067e7683.pdf&download=1"
+  },
+  {
+   "company": "BM Administrative Services",
+   "location": "Yakima County",
+   "start": "2026-11-30",
+   "workers": 321,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=afdedaf1-6a76-4de9-a364-ca66e5617a1f.pdf&download=1"
+  },
+  {
+   "company": "2EZY LLC",
+   "location": "Airway Heights",
+   "start": "2026-09-30",
+   "workers": 120,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=5f0e39e5-b57c-4221-af81-0cb3726ee23d.pdf&download=1"
+  },
+  {
+   "company": "Providence Health & Services",
+   "location": "Olympia",
+   "start": "2026-11-18",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2b87cb87-b253-43e6-ae1c-ffe7d2a4c7f1.pdf&download=1"
+  },
+  {
+   "company": "King Fuji Ranch, Inc.",
+   "location": "Mattawa",
+   "start": "2026-11-27",
+   "workers": 286,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2d0d3440-2bb5-47cf-b0e4-a9ce4c21549e.pdf&download=1"
+  },
+  {
+   "company": "Comprehensive Life Resources",
+   "location": "Tacoma",
+   "start": "2026-11-21",
+   "workers": 92,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a892cd5f-76bb-4ef9-8219-3de7770a92fa.pdf&download=1"
+  },
+  {
+   "company": "TLC Orchards LLC",
+   "location": "Wapato",
+   "start": "2026-11-07",
+   "workers": 125,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9ec6c505-088e-44c2-abb8-6b00827e7348.pdf&download=1"
+  },
+  {
+   "company": "Sagemoor Group Management Services Inc",
+   "location": "Yakima, Franklin, and Adams Counties",
+   "start": "2026-11-14",
+   "workers": 443,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8455eb39-8435-4275-8ade-4e024fe51900.pdf&download=1"
+  },
+  {
+   "company": "PeaceHealth",
+   "location": "Clark, Skagit, and Whatcom Counties",
+   "start": "2026-11-20",
+   "workers": 150,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3d9c7883-99e1-47ce-8c08-60ed1d324602.pdf&download=1"
+  },
+  {
+   "company": "Columbia Reach Chiawana Orchards",
+   "location": "Yakima, Kittitas, and Grant Counties",
+   "start": "2026-11-14",
+   "workers": 570,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4ebe2368-e0d5-4c26-b65a-d19d6ae4c515.pdf&download=1"
+  },
+  {
+   "company": "Pacific Ag Services LLC",
+   "location": "Grant and Franklin Counties",
+   "start": "2026-11-15",
+   "workers": 530,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e1e9b643-f862-4cc9-935e-6bd3e48147b2.pdf&download=1"
+  },
+  {
+   "company": "Loftus Administrative Services LLC",
+   "location": "Yakima County",
+   "start": "2026-11-15",
+   "workers": 376,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c9cedd60-1fc2-41a1-9bb3-7c519060bba7.pdf&download=1"
+  },
+  {
+   "company": "Oracle America, Inc.",
+   "location": "Seattle",
+   "start": "2026-11-13",
+   "workers": 359,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d1804142-9ad0-4903-9024-53e2bb62ab34.pdf&download=1"
+  },
+  {
+   "company": "Blue Cascade Orchards",
+   "location": "Yakima, Okanogan, Franklin, Grant, Adams, Walla Walla, and Benton Counties",
+   "start": "2026-11-20",
+   "workers": 792,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=eaa11382-ce7f-4b96-aafc-f6135d075c10.pdf&download=1"
+  },
+  {
+   "company": "Young's Market Company of Washington LLC",
+   "location": "Auburn",
+   "start": "2026-11-07",
+   "workers": 33,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=395d3487-ead8-4e7a-88a8-08abacbe91d8.pdf&download=1"
+  },
+  {
+   "company": "Monson Ranches Snake River Orchards LLC",
+   "location": "Benton City, Burbank",
+   "start": "2026-11-18",
+   "workers": 172,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=fa83fe42-f638-41eb-b91d-d274a0e20a2e.pdf&download=1"
+  },
+  {
+   "company": "Legendary Fruit Co",
+   "location": "Yakima, Wapato",
+   "start": "2026-11-10",
+   "workers": 1220,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-09-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c05e47c1-164b-485f-aa21-5346fa0c8c1a.pdf&download=1"
+  },
+  {
+   "company": "Cascade View Fruit & Cold Storage, LLC",
+   "location": "Selah",
+   "start": "2026-11-15",
+   "workers": 259,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e9e195e7-0264-46b1-92f6-14d228282307.pdf&download=1"
+  },
+  {
+   "company": "MultiCare Health System",
+   "location": "Statewide",
+   "start": "2026-10-27",
+   "workers": 138,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e2bd74e1-964b-40e5-89a3-e1c226389b36.pdf&download=1"
+  },
+  {
+   "company": "Gilbert Orchards, Inc.",
+   "location": "Yakima, Franklin and Grant Counties",
+   "start": "2026-11-22",
+   "workers": 518,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-09-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f0e96ccb-8123-4540-b068-7de4a6614a5d.pdf&download=1"
+  },
+  {
+   "company": "Uber Technologies Inc",
+   "location": "Seattle",
+   "start": "2026-11-02",
+   "workers": 93,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1877ae68-2d96-4399-b3a5-a71dbbc4a481.pdf&download=1"
+  },
+  {
+   "company": "Sundquist Fruit, LLC",
+   "location": "Yakima and Franklin Counties",
+   "start": "2026-11-15",
+   "workers": 243,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-09-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=526b67bc-74ea-4df1-9756-11d5f6f54a58.pdf&download=1"
+  },
+  {
+   "company": "Qualtrics LLC",
+   "location": "Seattle",
+   "start": "2026-10-18",
+   "workers": 117,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-09-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=32f5a1fc-6bc0-4679-ac04-3e9a3ee3d5aa.pdf&download=1"
+  },
+  {
+   "company": "Georgia-Pacific Gypsum LLC",
+   "location": "Tacoma",
+   "start": "2026-10-30",
+   "workers": 120,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-09-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2edbe4f5-0e9f-4163-be44-44340eec9c9a.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Riverside Casino",
+   "location": "Tukwila",
+   "start": "2026-11-01",
+   "workers": 142,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-08-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c85aab8a-a0ec-4c0b-8ac3-13524772a9e4.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Great American Casino",
+   "location": "Tukwila",
+   "start": "2026-11-01",
+   "workers": 96,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-08-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=09ebbe96-489b-4e77-b276-bf068c58ed2f.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Seattle, Bellevue, Sumner",
+   "start": "2026-10-01",
+   "workers": 121,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e1fbe1b9-3a58-4b79-b4ef-efddc2ad4bc3.pdf&download=1"
+  },
+  {
+   "company": "Columbia Hospitality, Inc",
+   "location": "Kenmore",
+   "start": "2026-10-30",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=5991d559-1d51-4dc7-946d-bd0752fa59ac.pdf&download=1"
+  },
+  {
+   "company": "T-Mobile USA, Inc.",
+   "location": "Seattle, Bellingham, Bothell, Vancouver, Bellevue, Kennewick, Tacoma, and Yakima",
+   "start": "2026-09-21",
+   "workers": 159,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0afed7be-f98c-4298-97b8-8b1e8a86c362.pdf&download=1"
+  },
+  {
+   "company": "Twin City Foods, Inc.",
+   "location": "Ellensburg",
+   "start": "2026-11-02",
+   "workers": 109,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=547accd1-258b-49fd-85e6-7f28800865e3.pdf&download=1"
+  },
+  {
+   "company": "Borton & Sons, Inc.",
+   "location": "Yakima, Zillah, Pasco, Burbank, Prescott, Soap Lake, Othello, Mesa",
+   "start": "2026-11-08",
+   "workers": 928,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e3f21a0d-4bef-4cb4-a68d-0413044bc339.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2026-10-19",
+   "workers": 224,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=7ec6523e-fbf0-4575-b3fc-8c29f21b53ca.pdf&download=1"
+  },
+  {
+   "company": "TT Commerce & Global Services",
+   "location": "Bellevue",
+   "start": "2026-10-19",
+   "workers": 75,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=04275104-43ac-49cd-aa7c-9fc8693c1b2b.pdf&download=1"
+  },
+  {
+   "company": "Norwesco",
+   "location": "Fife",
+   "start": "2026-10-16",
+   "workers": 54,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-08-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=68a538c1-113d-4191-bc9b-1a74f7df4b31.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Everett",
+   "start": "2026-10-10",
+   "workers": 24,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-08-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6d00b36d-bbe5-4ceb-9930-026e864d824c.pdf&download=1"
+  },
+  {
+   "company": "Salesforce, Inc.",
+   "location": "Seattle, Bellevue",
+   "start": "2026-10-05",
+   "workers": 59,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d45558b4-d475-41ab-9be4-ce38bf71571c.pdf&download=1"
+  },
+  {
+   "company": "Google",
+   "location": "Various locations in Washington",
+   "start": "2026-09-06",
+   "workers": 52,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ca2aa463-17e2-47e3-bf12-86601e305af4.pdf&download=1"
+  },
+  {
+   "company": "Zillow Group",
+   "location": "Seattle",
+   "start": "2026-10-05",
+   "workers": 91,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-08-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4c16b156-d9c7-4e53-8c45-df7409e30350.pdf&download=1"
+  },
+  {
+   "company": "80 Acres Urban Agriculture, Inc.",
+   "location": "Marysville",
+   "start": "2026-08-03",
+   "workers": 55,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-08-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=09ab4e26-77b0-47de-85ed-bf48ecd05de7.pdf&download=1"
+  },
+  {
+   "company": "Visa",
+   "location": "Bellevue",
+   "start": "2026-10-01",
+   "workers": 70,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=79dd878d-e60b-4048-8cd5-1de53475f71b.pdf&download=1"
+  },
+  {
+   "company": "I.Q. Data International, Inc.",
+   "location": "Bothell",
+   "start": "2026-10-01",
+   "workers": 101,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=265aac38-418e-41f2-b87e-8bf760acf78d.pdf&download=1"
+  },
+  {
+   "company": "No Meat Factory USA Inc",
+   "location": "Stanwood",
+   "start": "2026-07-27",
+   "workers": 113,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-07-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f9446b12-3933-420d-83a5-6e48d064f620.pdf&download=1"
+  },
+  {
+   "company": "Verizon",
+   "location": "Various locations in Washington",
+   "start": "2026-09-18",
+   "workers": 54,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=48655e0e-7fc0-449a-9810-c5bd83008d23.pdf&download=1"
+  },
+  {
+   "company": "Expeditors International of Washington, Inc.",
+   "location": "Various locations in Washington",
+   "start": "2026-08-07",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9799d7ca-74f1-4773-9e42-2a569b8f9ed3.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2026-09-04",
+   "workers": 605,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1986ef46-239c-4147-b66d-6e27ea4f86dd.pdf&download=1"
+  },
+  {
+   "company": "INDUS Technology, Inc.",
+   "location": "Keyport, Silverdale",
+   "start": "2026-09-14",
+   "workers": 120,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1cccf925-0e51-4e52-a3cc-05372826d7e8.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Seattle, Bellevue",
+   "start": "2026-08-03",
+   "workers": 57,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-07-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=155415f6-d6c0-406b-a6f9-64f865920dfb.pdf&download=1"
+  },
+  {
+   "company": "Alpha Technologies Services, Inc.",
+   "location": "Bellingham",
+   "start": "2026-08-31",
+   "workers": 75,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-07-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3db7e2f1-b1c9-4333-82b8-0d2ceb907045.pdf&download=1"
+  },
+  {
+   "company": "PetVet Care Centers",
+   "location": "Vancouver",
+   "start": "2026-09-04",
+   "workers": 50,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-06-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6a19c6a5-223a-4293-b1f3-13b4fce9c607.pdf&download=1"
+  },
+  {
+   "company": "Conduent Commercial Solutions, LLC",
+   "location": "Remote in Washington",
+   "start": "2026-08-28",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2a3bcac1-9a63-4248-bf34-ba14f0e7d445.pdf&download=1"
+  },
+  {
+   "company": "Transdev Services, Inc",
+   "location": "Everett",
+   "start": "2026-08-29",
+   "workers": 108,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b1594375-013a-4d2e-8fd5-78f0fdf2d52d.pdf&download=1"
+  },
+  {
+   "company": "Flagship Facilities Services, LLC",
+   "location": "Seattle",
+   "start": "2026-07-19",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=967da79c-95b2-47a5-a077-31cba5df26ee.pdf&download=1"
+  },
+  {
+   "company": "Bungie, Inc/Sony Interactive Entertainment",
+   "location": "Bellevue",
+   "start": "2026-07-09",
+   "workers": 292,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a166c68e-115e-4427-a2eb-ba0cb3a6c45d.pdf&download=1"
+  },
+  {
+   "company": "First Student, Inc.",
+   "location": "Seattle",
+   "start": "2026-08-17",
+   "workers": 111,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d345b69d-775a-405e-b10f-c3e5c9aa8e8e.pdf&download=1"
+  },
+  {
+   "company": "Lavish Roots, Inc.",
+   "location": "Seattle, Bellevue, Redmond",
+   "start": "2026-08-09",
+   "workers": 263,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=901e09c5-d87c-45b4-9db2-747a222994a3.pdf&download=1"
+  },
+  {
+   "company": "Expeditors International of Washington, Inc.",
+   "location": "Various locations in Washington",
+   "start": "2026-08-08",
+   "workers": 230,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9909ee6d-a60a-4f3a-8522-0799ba5e87af.pdf&download=1"
+  },
+  {
+   "company": "SMBC Manubank",
+   "location": "Remote in Washington",
+   "start": "2026-08-03",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-06-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=728128a1-0a44-4e30-9ec9-aec199f90f9f.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC Silver Dollar Mill Creek Casino",
+   "location": "Bothell",
+   "start": "2026-07-31",
+   "workers": 41,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=881b7011-ea07-431b-8db7-bd055c6771ed.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC Crazy Moose Mountlake Casino",
+   "location": "Mountlake Terrace",
+   "start": "2026-07-31",
+   "workers": 82,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b05903fc-5c8e-4464-9e4d-ad6993a67a5c.pdf&download=1"
+  },
+  {
+   "company": "Servatron, Inc.",
+   "location": "Spokane Valley",
+   "start": "2026-12-31",
+   "workers": 124,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=7767cc7f-1e71-48a4-a715-0cdeaeb02160.pdf&download=1"
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "King County",
+   "start": "2026-07-22",
+   "workers": 1395,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-05-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=47687e45-9329-47e0-94a5-113042a87eba.pdf&download=1"
+  },
+  {
+   "company": "Republic National Distributing Company, LLC",
+   "location": "4 sites",
+   "start": "2026-07-17",
+   "workers": 267,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=24bc52da-adc2-4cf1-a88b-3bedc3b911ca.pdf&download=1"
+  },
+  {
+   "company": "Flagship Facilities Services, LLC",
+   "location": "Seattle",
+   "start": "2026-07-19",
+   "workers": 67,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-05-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=bec9e774-32c5-4029-b6c7-a26f7ee12584.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2026-07-17",
+   "workers": 252,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-05-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8aa2a917-9643-4647-823c-4b6a3398f186.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2026-06-20",
+   "workers": 61,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-05-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=cf1ae587-0f87-455f-8d28-ecfb75eb2f55.pdf&download=1"
+  },
+  {
+   "company": "Novanta Corporation",
+   "location": "Mukilteo",
+   "start": "2026-07-07",
+   "workers": 83,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f59bfd1c-6ff0-4645-9e6b-68377e57cb76.pdf&download=1"
+  },
+  {
+   "company": "Maersk",
+   "location": "Lakewood",
+   "start": "2026-06-30",
+   "workers": 44,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-05-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f9335194-7750-4342-8e5b-7babd6e87052.pdf&download=1"
+  },
+  {
+   "company": "Maersk",
+   "location": "Sumner",
+   "start": "2026-06-30",
+   "workers": 5,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-05-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=73f59a7b-4deb-4c3c-a272-128ab5c9860d.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Anacortes",
+   "start": "2026-06-23",
+   "workers": 14,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-04-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=017234b3-89eb-4668-89f4-b4869a878feb.pdf&download=1"
+  },
+  {
+   "company": "Maverick Washington LLC / Silver Dollar SeaTac Casino",
+   "location": "Seattle",
+   "start": "2026-06-30",
+   "workers": 65,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-04-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=082cceee-5052-412f-ab2b-ee008dfd9e43.pdf&download=1"
+  },
+  {
+   "company": "ZoomCare",
+   "location": "Bellevue & Remote",
+   "start": "2026-06-15",
+   "workers": 36,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-04-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3de2b7f9-1517-4342-a80e-46eb59b83699.pdf&download=1"
+  },
+  {
+   "company": "Snap Inc.",
+   "location": "Bellevue, Seattle, Vancouver",
+   "start": "2026-04-16",
+   "workers": 95,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-04-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e9068b7a-2efe-4ded-920e-86f1de964e5a.pdf&download=1"
+  },
+  {
+   "company": "Astellas US Holding, Inc.",
+   "location": "Seattle",
+   "start": "2026-07-01",
+   "workers": 50,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-04-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=427890ac-c5bf-4fb9-86ad-485b24f30b04.pdf&download=1"
+  },
+  {
+   "company": "Oracle America, Inc.",
+   "location": "Seattle and Remote",
+   "start": "2026-06-01",
+   "workers": 475,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=dd70cb24-77d0-41b3-9cce-26fe8781b5d3.pdf&download=1"
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "Seattle, Bellevue, Redmond",
+   "start": "2026-05-08",
+   "workers": 168,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ceea518f-351a-431d-84f4-47c1fbc31704.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2026-03-29",
+   "workers": 69,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0e90e541-eb33-43f1-8623-777b1f7f2092.pdf&download=1"
+  },
+  {
+   "company": "Epic Games, Inc.",
+   "location": "Bellevue",
+   "start": "2026-03-27",
+   "workers": 82,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=bc6723b1-28cd-4b1d-a79c-a7968add4b0c.pdf&download=1"
+  },
+  {
+   "company": "Blue Star Growers, Inc.",
+   "location": "Cashmere",
+   "start": "2026-05-19",
+   "workers": 143,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=df01d5a7-ab3c-419f-8d0d-425dd9ecefd2.pdf&download=1"
+  },
+  {
+   "company": "Blue Bird, Inc.",
+   "location": "Wenatchee",
+   "start": "2026-05-16",
+   "workers": 82,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=54ba4c1d-0de2-4800-8d7b-24235744fbee.pdf&download=1"
+  },
+  {
+   "company": "John I. Haas, Inc.",
+   "location": "Yakima",
+   "start": "2026-05-15",
+   "workers": 12,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2026-03-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ec93a05b-f5a0-4e00-8798-b00baf48d677.pdf&download=1"
+  },
+  {
+   "company": "Rise Baking Company, LLC",
+   "location": "Kent",
+   "start": "2026-08-07",
+   "workers": 120,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=52324d88-d650-4531-8e9e-42443f5742a7.pdf&download=1"
+  },
+  {
+   "company": "Atlassian US, Inc.",
+   "location": "Bellevue",
+   "start": "2026-03-13",
+   "workers": 63,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=73afad74-44bf-4188-aacd-5587184fd978.pdf&download=1"
+  },
+  {
+   "company": "Agrimacs, Inc.",
+   "location": "Chelan",
+   "start": "2026-05-08",
+   "workers": 145,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b8c112f5-f307-419d-bb43-2f4aecf7fa64.pdf&download=1"
+  },
+  {
+   "company": "CHS Northwest",
+   "location": "Whatcom, County",
+   "start": "2026-05-05",
+   "workers": 57,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2dd34e50-490d-4c23-af43-7277ae87f734.pdf&download=1"
+  },
+  {
+   "company": "C2 Technologies",
+   "location": "Virtual",
+   "start": "2026-03-06",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=55260fea-543f-46e3-98a8-c82e9484f067.pdf&download=1"
+  },
+  {
+   "company": "Refresco Beverages US Inc",
+   "location": "Walla Walla",
+   "start": "2026-05-02",
+   "workers": 58,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=accb82de-e6de-4456-8706-1e5015cb1044.pdf&download=1"
+  },
+  {
+   "company": "Northwest Hardwoods",
+   "location": "Centralia",
+   "start": "2026-03-05",
+   "workers": 70,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-03-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0d280df2-5abd-47cb-9343-0aa8918ba4cc.pdf&download=1"
+  },
+  {
+   "company": "MicroVision, Inc.",
+   "location": "Redmond",
+   "start": "2026-04-30",
+   "workers": 49,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6ff12eca-05df-4091-93fa-c451a93121bf.pdf&download=1"
+  },
+  {
+   "company": "Doosan GridTech",
+   "location": "Bellevue",
+   "start": "2026-05-01",
+   "workers": 18,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-03-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c50ef415-3419-47d5-84e1-aebfce92700a.pdf&download=1"
+  },
+  {
+   "company": "IPIC Theaters, LLC",
+   "location": "Redmond",
+   "start": "2026-04-28",
+   "workers": 64,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-02-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e5d20a75-e635-4ac0-8510-5038c97e2e41.pdf&download=1"
+  },
+  {
+   "company": "CHS Northwest",
+   "location": "Various locations in Washington",
+   "start": "2026-04-19",
+   "workers": 38,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-02-19",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=486e4756-ffd5-4bb7-b00b-70fc3143abd4.pdf&download=1"
+  },
+  {
+   "company": "Peshastin Pear Packers, LLC.",
+   "location": "Peshastin",
+   "start": "2026-04-23",
+   "workers": 31,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-02-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=bd3386d0-6437-4f0b-8954-bca6856b9e7f.pdf&download=1"
+  },
+  {
+   "company": "PeaceHealth",
+   "location": "Various locations in Washington",
+   "start": "2026-04-12",
+   "workers": 94,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-02-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=604357b8-30e8-4c7f-99ad-a45164d58ba2.pdf&download=1"
+  },
+  {
+   "company": "Eddie Bauer LLC",
+   "location": "Seattle",
+   "start": "2026-04-15",
+   "workers": 60,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-02-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=107f76a3-5cb5-4386-8632-79eac000ec8b.pdf&download=1"
+  },
+  {
+   "company": "Congdon Packing Company",
+   "location": "Yakima",
+   "start": "2026-04-15",
+   "workers": 102,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-02-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=37b9da31-73b9-4688-badf-769b3a194b53.pdf&download=1"
+  },
+  {
+   "company": "GMRI, Inc. dba Bahama Breeze",
+   "location": "Tukwila",
+   "start": "2026-04-05",
+   "workers": 93,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-02-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f7f70af9-7e40-444b-8dcf-12695e09a5a4.pdf&download=1"
+  },
+  {
+   "company": "T-Mobile",
+   "location": "Various locations in Washington",
+   "start": "2026-04-02",
+   "workers": 637,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-02-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=43663560-de95-4f46-ba34-5ee4fc3e0e88.pdf&download=1"
+  },
+  {
+   "company": "International Paper Company",
+   "location": "Union Gap",
+   "start": "2026-04-03",
+   "workers": 102,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-01-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1d3ed45e-21a5-41d0-ac46-764ce710874b.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Various locations in Washington",
+   "start": "2026-04-28",
+   "workers": 2198,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a6d82fc5-3b7e-4b5b-8f9b-de2d0800173e.pdf&download=1"
+  },
+  {
+   "company": "Expedia, Inc.",
+   "location": "Seattle",
+   "start": "2026-04-01",
+   "workers": 162,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=31006383-ab9d-4fd1-9595-96634acc2da9.pdf&download=1"
+  },
+  {
+   "company": "CHS Northwest",
+   "location": "Lynden",
+   "start": "2026-04-01",
+   "workers": 11,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=fcb90b2b-dc48-4b7a-bdb0-7bd5575cdb21.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Various locations in Washington",
+   "start": "2026-04-28",
+   "workers": 401,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-01-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=641bb62e-3994-4c47-8485-48e66df1a65a.pdf&download=1"
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "King County",
+   "start": "2026-03-20",
+   "workers": 331,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-19",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ad64be3e-60e4-4811-a9cd-fdf29b9c6912.pdf&download=1"
+  },
+  {
+   "company": "Food Service Slicing LLC dba Crunch Pak",
+   "location": "Selah",
+   "start": "2026-03-31",
+   "workers": 101,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2026-01-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=065f0889-12de-4ee4-bf3f-5681f7eadfa7.pdf&download=1"
+  },
+  {
+   "company": "SMBC Manubank",
+   "location": "Various locations in Washington",
+   "start": "2026-03-10",
+   "workers": 5,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9d1ff0d9-b4e4-4faf-8031-0609b4de6f30.pdf&download=1"
+  },
+  {
+   "company": "Tessera",
+   "location": "King County",
+   "start": "2026-03-08",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8fa745ae-836b-4dbf-9783-9c2c5795ccc2.pdf&download=1"
+  },
+  {
+   "company": "Swedish Health Services",
+   "location": "King and Snohomish Counties",
+   "start": "2026-03-07",
+   "workers": 50,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2026-01-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4309f079-64e0-4693-bd6e-0dd792f6179f.pdf&download=1"
+  },
+  {
+   "company": "Doosan GridTech",
+   "location": "Bellevue",
+   "start": "2026-02-27",
+   "workers": 24,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-12-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0ca100b7-4eaf-4092-9a43-0f724450d3b5.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Seattle & Bellevue",
+   "start": "2026-02-02",
+   "workers": 84,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-12-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ef835760-cd62-4feb-8307-468b1496c10a.pdf&download=1"
+  },
+  {
+   "company": "Packaging Corporation of America",
+   "location": "Wallula",
+   "start": "2026-02-09",
+   "workers": 200,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-12-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=327be41d-37a7-46a1-9bdd-124caf8ef273.pdf&download=1"
+  },
+  {
+   "company": "Verizon",
+   "location": "Various locations in Washington",
+   "start": "2026-01-23",
+   "workers": 165,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e4fa5a1c-c89c-49b4-8b59-eb3d6995914e.pdf&download=1"
+  },
+  {
+   "company": "Providence Health & Services",
+   "location": "Various locations in Washington",
+   "start": "2026-01-20",
+   "workers": 57,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d57fbc39-7193-4444-812f-af14028a33e6.pdf&download=1"
+  },
+  {
+   "company": "Nordstrom Credit Bank",
+   "location": "Remote in Washington",
+   "start": "2026-03-01",
+   "workers": 6,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0ff0aada-30cd-47dd-96f7-868ddead34b1.pdf&download=1"
+  },
+  {
+   "company": "Nordstrom Credit Bank",
+   "location": "Remote in Washington",
+   "start": "2026-02-01",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=5ad4192c-11af-447e-a285-a56edf0c8136.pdf&download=1"
+  },
+  {
+   "company": "Meteorcomm LLC",
+   "location": "Renton",
+   "start": "2026-01-17",
+   "workers": 49,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=06737695-c973-461f-9805-f3603e03aff8.pdf&download=1"
+  },
+  {
+   "company": "Battelle Memorial Institute / Pacific Northwest National Laboratory",
+   "location": "Various locations in Washington",
+   "start": "2025-11-18",
+   "workers": 68,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9f539b37-16bc-42eb-8226-4b1d1a30199e.pdf&download=1"
+  },
+  {
+   "company": "Nordstrom Credit Bank",
+   "location": "Remote in Washington",
+   "start": "2026-02-21",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=bc55fba8-7bc2-492a-9e68-87cb4c12898d.pdf&download=1"
+  },
+  {
+   "company": "The Skillet Group / Skillet Street Food, Inc. DBA Skillet Diner Harbor Steps",
+   "location": "Seattle",
+   "start": "2025-11-12",
+   "workers": 20,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=65ecb1b7-ea33-4650-bb00-1ccc03e35a4f.pdf&download=1"
+  },
+  {
+   "company": "The Skillet Group / Skillet SA, LLC",
+   "location": "Seattle",
+   "start": "2025-12-12",
+   "workers": 9,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=112ade48-957b-4496-bf4a-609e255d628f.pdf&download=1"
+  },
+  {
+   "company": "The Skillet Group / Skillet Diner, LLC",
+   "location": "Seattle",
+   "start": "2025-11-12",
+   "workers": 18,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=39521345-2ba8-423f-9eb1-7600f0118384.pdf&download=1"
+  },
+  {
+   "company": "Solgen Power, LLC, d/b/a Purelight Power",
+   "location": "Various locations in Washington",
+   "start": "2025-12-23",
+   "workers": 71,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1d735fc3-7107-48c4-9350-f009447c0d78.pdf&download=1"
+  },
+  {
+   "company": "Great Floors (Artisan Designer Group)",
+   "location": "Various locations in Washington",
+   "start": "2026-01-12",
+   "workers": 58,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a5266921-b2a1-4b51-903f-e420a4d4888f.pdf&download=1"
+  },
+  {
+   "company": "Rad Power Bikes, Inc.",
+   "location": "Seattle",
+   "start": "2026-03-06",
+   "workers": 64,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-11-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e1501a7e-4ade-4217-b8af-5873ac2fa43f.pdf&download=1"
+  },
+  {
+   "company": "Adams County Public Hospital District #2, DBA East Adams Rural Healthcare",
+   "location": "Ritzville",
+   "start": "2026-01-07",
+   "workers": 108,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=98504bf8-8622-41ea-8600-ca4ed9d01832.pdf&download=1"
+  },
+  {
+   "company": "Infineon Technologies Americas Corp.",
+   "location": "Lynnwood",
+   "start": "2025-11-14",
+   "workers": 61,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-11-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e08343b4-a5a9-4bc4-af14-4cf30aaa45e3.pdf&download=1"
+  },
+  {
+   "company": "Tessera",
+   "location": "Joint Base Lewis McChord",
+   "start": "2025-11-01",
+   "workers": 85,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2025-10-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=75faf0b2-0249-41b4-8b65-1d04f682c564.pdf&download=1"
+  },
+  {
+   "company": "Phillips Ultrasound, Inc",
+   "location": "Bothell",
+   "start": "2025-12-31",
+   "workers": 33,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=28b1977f-92fd-4a5b-8163-7ab63e7c2ded.pdf&download=1"
+  },
+  {
+   "company": "TransAlta",
+   "location": "Centralia",
+   "start": "2026-01-05",
+   "workers": 72,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=52bff2b1-445f-4e82-b94a-e2298310ce6f.pdf&download=1"
+  },
+  {
+   "company": "Inventprise Inc.",
+   "location": "Redmond",
+   "start": "2025-12-31",
+   "workers": 150,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e8c47875-5ac6-480d-b64e-e77ad39e1541.pdf&download=1"
+  },
+  {
+   "company": "Green Diamond Resource Company",
+   "location": "Seattle, Shelton",
+   "start": "2025-12-31",
+   "workers": 42,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9076683d-6725-4546-9e7f-d381041f7edd.pdf&download=1"
+  },
+  {
+   "company": "PeaceHealth",
+   "location": "Various locations in Washington",
+   "start": "2025-12-27",
+   "workers": 241,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=93189e21-1684-4d13-988e-fe89fdc038ac.pdf&download=1"
+  },
+  {
+   "company": "PacificSource",
+   "location": "Tacoma",
+   "start": "2025-12-31",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b5a36ba7-0781-4757-8fb7-7e4b2c6309a0.pdf&download=1"
+  },
+  {
+   "company": "Amazon",
+   "location": "Various locations in Washington",
+   "start": "2026-01-26",
+   "workers": 2303,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4e4e9246-ce1f-4e5e-bbe4-dd20dd4ad767.pdf&download=1"
+  },
+  {
+   "company": "JARDE LLC",
+   "location": "Bremerton",
+   "start": "2025-10-31",
+   "workers": 110,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-10-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=cbd44a7e-14dc-46cd-bf7e-aaaaa990473e.pdf&download=1"
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "Seattle, Bellevue, Redmond",
+   "start": "2025-12-22",
+   "workers": 101,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-23",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=11003420-8ae3-4a65-bec5-7d94f2a8fe7a.pdf&download=1"
+  },
+  {
+   "company": "Virginia Mason Franciscan Health Virtual Health Services",
+   "location": "Tacoma",
+   "start": "2026-01-02",
+   "workers": 5,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=86abdd06-28e5-41a1-832e-c66ce1780d12.pdf&download=1"
+  },
+  {
+   "company": "FirstFruits, LLC",
+   "location": "Prescott",
+   "start": "2025-11-30",
+   "workers": 1200,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=dca5cd51-ff31-490e-ad43-c553354a1874.pdf&download=1"
+  },
+  {
+   "company": "Above The Dirt LLC",
+   "location": "Quincy",
+   "start": "2025-12-15",
+   "workers": 392,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-16",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ec6518dc-0fe0-49e9-b500-0e77c2922852.pdf&download=1"
+  },
+  {
+   "company": "King Fuji Ranch, Inc.",
+   "location": "Mattawa",
+   "start": "2025-11-28",
+   "workers": 334,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=dd2cd653-cc03-486d-afb1-e20ff0ad1a92.pdf&download=1"
+  },
+  {
+   "company": "Gebbers Farms, Etal",
+   "location": "Brewster",
+   "start": "2025-11-25",
+   "workers": 3465,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=19106cba-a2c4-489e-b133-086c43be604f.pdf&download=1"
+  },
+  {
+   "company": "Double M Orchards",
+   "location": "Quincy",
+   "start": "2025-12-05",
+   "workers": 197,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8ad98d03-89ee-483c-a3db-09b06f14d466.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle, Kent",
+   "start": "2025-12-05",
+   "workers": 974,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b08b1073-23fc-47cc-8842-7dd52a9d04ec.pdf&download=1"
+  },
+  {
+   "company": "Stemilt Ag Services LLC",
+   "location": "Wenatchee",
+   "start": "2025-11-21",
+   "workers": 1561,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=78157833-f0fb-4f95-a80f-7884a6e1a8f5.pdf&download=1"
+  },
+  {
+   "company": "SimplyIOA, LLC",
+   "location": "Olympia",
+   "start": "2025-12-02",
+   "workers": 1,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-10-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a99c7c91-98dc-4606-98a2-577ea2a90028.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Various locations in Washington",
+   "start": "2025-12-05",
+   "workers": 338,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-10-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ac022cf7-af56-4c3c-91d4-660bb3121f5b.pdf&download=1"
+  },
+  {
+   "company": "Oracle America, Inc.",
+   "location": "Seattle",
+   "start": "2025-11-03",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=976fedfb-cc6b-49c5-ae13-6deaba71b726.pdf&download=1"
+  },
+  {
+   "company": "Manson Growers Orchard Services",
+   "location": "Manson",
+   "start": "2025-11-30",
+   "workers": 257,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e277271a-7e01-4117-9dcd-2b139cd469de.pdf&download=1"
+  },
+  {
+   "company": "Farmers New World Life Insurance Company",
+   "location": "Bellevue",
+   "start": "2025-10-01",
+   "workers": 65,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=59230c64-c394-4706-8d45-7f88c5dff4bd.pdf&download=1"
+  },
+  {
+   "company": "AgriNorthwest",
+   "location": "Kennewick",
+   "start": "2025-11-30",
+   "workers": 62,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-10-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=041c2182-2742-4317-ada4-f5cb47b934e0.pdf&download=1"
+  },
+  {
+   "company": "BM Administrative Services",
+   "location": "Various locations in Washington",
+   "start": "2025-11-30",
+   "workers": 268,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ea6135f9-2e76-4e32-93bb-004508259b29.pdf&download=1"
+  },
+  {
+   "company": "Walmart",
+   "location": "Federal Way",
+   "start": "2025-10-31",
+   "workers": 253,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-09-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e781b30a-313b-4f94-b544-a288cc78e663.pdf&download=1"
+  },
+  {
+   "company": "Agrimacs, Inc.",
+   "location": "Chelan",
+   "start": "2025-11-14",
+   "workers": 1368,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c8ffb6c2-7da1-472e-a85e-6cafaf118279.pdf&download=1"
+  },
+  {
+   "company": "Kershaw Farm Labor Management",
+   "location": "Yakima",
+   "start": "2025-11-25",
+   "workers": 539,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=273613f7-57d6-4905-b429-abcb32831949.pdf&download=1"
+  },
+  {
+   "company": "Gilbert Orchards, Inc.",
+   "location": "Yakima",
+   "start": "2025-11-22",
+   "workers": 599,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-23",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2b338061-76d7-4121-bcf4-33b1375ee573.pdf&download=1"
+  },
+  {
+   "company": "Darigold, Inc.",
+   "location": "Chehalis",
+   "start": "2025-11-23",
+   "workers": 55,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-09-23",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=249ecb75-a63a-4291-afdc-28c25a5cd20f.pdf&download=1"
+  },
+  {
+   "company": "Overlake Medical Center & Clinics",
+   "location": "Bellevue",
+   "start": "2025-11-23",
+   "workers": 55,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3bef3976-6152-4629-819a-058c8ee6a69a.pdf&download=1"
+  },
+  {
+   "company": "Sundquist Fruit, LLC",
+   "location": "Yakima and Franklin Counties",
+   "start": "2025-11-20",
+   "workers": 424,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-19",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4e83fca2-edf8-4031-9302-ba01d3d50ebb.pdf&download=1"
+  },
+  {
+   "company": "Monson Ranches Snake River Orchards, LLC DBA Goose Ridge Vineyards",
+   "location": "Benton City",
+   "start": "2025-11-07",
+   "workers": 310,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-19",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=13be2b41-4ec8-476e-ac80-b2000da3fab0.pdf&download=1"
+  },
+  {
+   "company": "Seattle Children's Hospital",
+   "location": "Seattle, Bellevue, Everett, Federal Way, Kennewick",
+   "start": "2025-11-15",
+   "workers": 154,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b30683cc-41f4-4ff5-906b-1a7ec194aa33.pdf&download=1"
+  },
+  {
+   "company": "Borton & Sons, Inc.",
+   "location": "Various locations in Washington",
+   "start": "2025-11-09",
+   "workers": 1025,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9b908a83-ec52-43b2-bb30-dbc03f9d25c2.pdf&download=1"
+  },
+  {
+   "company": "AG Management Group, LLC",
+   "location": "Yakima",
+   "start": "2025-11-19",
+   "workers": 1276,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-17",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1d1bfafe-4b21-4fc9-af64-9e829009d672.pdf&download=1"
+  },
+  {
+   "company": "Columbia Orchard Management",
+   "location": "Wenatchee",
+   "start": "2025-11-14",
+   "workers": 898,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9afdf968-f049-42a5-b6d2-221fe453a14f.pdf&download=1"
+  },
+  {
+   "company": "Cascade View Fruit & Cold Storage, LLC",
+   "location": "Selah",
+   "start": "2025-11-16",
+   "workers": 263,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=bb5c8a51-fd90-43df-88fe-83e2331951ab.pdf&download=1"
+  },
+  {
+   "company": "NWFM",
+   "location": "Various locations in Washington",
+   "start": "2025-11-15",
+   "workers": 283,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3f1a5114-ace0-41ef-9499-5d19a449848c.pdf&download=1"
+  },
+  {
+   "company": "Washington Orchard Management",
+   "location": "Various locations in Washington",
+   "start": "2025-11-07",
+   "workers": 336,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2025-09-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ef935ec6-4fd1-4a52-8185-74ba8cdaddc9.pdf&download=1"
+  },
+  {
+   "company": "Virginia Mason Franciscan Health Virtual Health Services",
+   "location": "Tacoma",
+   "start": "2025-11-10",
+   "workers": 24,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f432438d-0c35-4bc8-bcb4-d020520642ea.pdf&download=1"
+  },
+  {
+   "company": "Virginia Mason Franciscan Health Insurance Verification",
+   "location": "Tacoma",
+   "start": "2025-11-07",
+   "workers": 6,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=33d04a3d-566a-43eb-bb8c-fce4873dc96b.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2025-11-07",
+   "workers": 42,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a6760240-5724-4e36-8cdf-fd09f909374d.pdf&download=1"
+  },
+  {
+   "company": "Salesforce, Inc.",
+   "location": "Seattle, Bellevue",
+   "start": "2025-11-03",
+   "workers": 93,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f41bd9fe-fd24-4c1a-8fd2-a8b1cabf5ea1.pdf&download=1"
+  },
+  {
+   "company": "Oracle America, Inc.",
+   "location": "Seattle",
+   "start": "2025-11-03",
+   "workers": 101,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-09-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3924076f-c116-406c-8ab7-8cc4aec258d5.pdf&download=1"
+  },
+  {
+   "company": "Providence Health & Services",
+   "location": "Seattle",
+   "start": "2025-10-25",
+   "workers": 5,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=938ed06a-6157-44bc-9fea-7fb3409f89d2.pdf&download=1"
+  },
+  {
+   "company": "Rec Room, Inc.",
+   "location": "Seattle",
+   "start": "2025-10-26",
+   "workers": 141,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=07895b63-d987-45d3-a6f6-a5a319a1e156.pdf&download=1"
+  },
+  {
+   "company": "Pfizer",
+   "location": "Bothell",
+   "start": "2025-08-25",
+   "workers": 100,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6c22c3af-b556-4927-9a06-07af4a5cc225.pdf&download=1"
+  },
+  {
+   "company": "Fred Meyer",
+   "location": "Kent",
+   "start": "2025-10-17",
+   "workers": 172,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f2fb68ec-5ee3-417e-b4ed-d17cb3f192f9.pdf&download=1"
+  },
+  {
+   "company": "Fred Meyer",
+   "location": "Everett",
+   "start": "2025-10-17",
+   "workers": 189,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ccb4c177-b7e8-464e-afd8-a250760c5e3a.pdf&download=1"
+  },
+  {
+   "company": "Fred Meyer",
+   "location": "Redmond",
+   "start": "2025-10-18",
+   "workers": 194,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9bac7511-d1ae-4531-b2b2-80e988ae87b6.pdf&download=1"
+  },
+  {
+   "company": "Fred Meyer",
+   "location": "Seattle",
+   "start": "2025-10-18",
+   "workers": 201,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6c9be344-9e0a-4597-98ed-27b4db735c17.pdf&download=1"
+  },
+  {
+   "company": "Nordstrom Credit Bank",
+   "location": "Remote in Washington",
+   "start": "2025-11-15",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=358d3279-0f23-4e50-ba7c-3532c28f4d8b.pdf&download=1"
+  },
+  {
+   "company": "Car Toys, Inc.",
+   "location": "Various locations in Washington",
+   "start": "2025-10-20",
+   "workers": 177,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-19",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=fed0d91c-4701-4a88-ac5d-5b1e6f2c7909.pdf&download=1"
+  },
+  {
+   "company": "Zeco Systems, Inc.",
+   "location": "Various locations in Washington",
+   "start": "2025-10-31",
+   "workers": 6,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3afd3be7-20cf-47be-a1a2-4fe90f6053ba.pdf&download=1"
+  },
+  {
+   "company": "T-Mobile",
+   "location": "King County",
+   "start": "2025-10-13",
+   "workers": 131,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-15",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d7c150e1-0cc3-4a57-9201-91b67e4fefed.pdf&download=1"
+  },
+  {
+   "company": "Oracle America, Inc.",
+   "location": "Seattle",
+   "start": "2025-10-13",
+   "workers": 161,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=63338dff-def3-44e2-b392-d9d226eb94f1.pdf&download=1"
+  },
+  {
+   "company": "F5, Inc.",
+   "location": "Seattle and Liberty Lake",
+   "start": "2025-10-15",
+   "workers": 106,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a85986d1-a8e4-4384-86a1-b36c59423048.pdf&download=1"
+  },
+  {
+   "company": "Block, Inc.",
+   "location": "Statewide",
+   "start": "2025-10-13",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=fe6376cf-8f50-4191-92d8-dfda04822c8d.pdf&download=1"
+  },
+  {
+   "company": "Providence Health & Services",
+   "location": "Various locations in Washington",
+   "start": "2025-10-07",
+   "workers": 126,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-08",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2017e688-08e7-4be7-b863-f29823ff47c1.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2025-10-03",
+   "workers": 40,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c1f19065-40eb-4d04-9281-37c557823ef9.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Seattle",
+   "start": "2025-10-03",
+   "workers": 13,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-08-04",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=7ce18b97-1412-4920-a3d9-f2fb03d42c5a.pdf&download=1"
+  },
+  {
+   "company": "LevelTen Energy, Inc.",
+   "location": "Seattle",
+   "start": "2025-08-15",
+   "workers": 60,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-08-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1e813bcb-efc8-46bd-89f0-3e4b751ffe6e.pdf&download=1"
+  },
+  {
+   "company": "Fred Meyer",
+   "location": "Tacoma",
+   "start": "2025-09-27",
+   "workers": 226,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-29",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=7f5dcde5-ab90-4026-a253-74ce93a18b17.pdf&download=1"
+  },
+  {
+   "company": "RV Country Washington LLC",
+   "location": "Kelso",
+   "start": "2025-09-30",
+   "workers": 17,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=856f14ba-17c6-4997-b9dc-4a1a2ef492ab.pdf&download=1"
+  },
+  {
+   "company": "Quality Food Centers, Inc",
+   "location": "Mill Creek",
+   "start": "2025-09-03",
+   "workers": 76,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-21",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=95ce3e72-d64f-4d08-92c3-70f053c8e07d.pdf&download=1"
+  },
+  {
+   "company": "KIRA Services, LLC",
+   "location": "Pacific Beach",
+   "start": "2025-08-11",
+   "workers": 7,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-18",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4b458f03-5528-472e-8a32-f77a70bec45a.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Seattle",
+   "start": "2025-09-10",
+   "workers": 12,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b5b054c4-317a-4a53-9f7e-6c835af2cb7e.pdf&download=1"
+  },
+  {
+   "company": "Jack in the Box",
+   "location": "Tukwila",
+   "start": "2025-09-10",
+   "workers": 14,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-14",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=4e353802-f1a5-4213-8a7d-b950a4b74e0d.pdf&download=1"
+  },
+  {
+   "company": "FIS",
+   "location": "Bellevue",
+   "start": "2025-09-15",
+   "workers": 138,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-11",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e5d1b1e1-99d3-4b8b-b6b3-d1c0cf715d7b.pdf&download=1"
+  },
+  {
+   "company": "MacMillan-Piper, LLC.",
+   "location": "Seattle, Tacoma",
+   "start": "2025-07-10",
+   "workers": 92,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=78459065-0818-493b-a43d-be7c0411e61b.pdf&download=1"
+  },
+  {
+   "company": "Indeed, Inc.",
+   "location": "Seattle",
+   "start": "2025-09-09",
+   "workers": 92,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9fa62521-3d9e-4772-8e10-909fdee426df.pdf&download=1"
+  },
+  {
+   "company": "GSC Transport, Inc.",
+   "location": "Tacoma",
+   "start": "2025-07-10",
+   "workers": 10,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=035bfba0-d1a3-4127-9610-871f92ca098e.pdf&download=1"
+  },
+  {
+   "company": "GSC Solutions, Inc.",
+   "location": "Tacoma",
+   "start": "2025-07-10",
+   "workers": 7,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ceb71d73-e12c-4b76-8821-1617f5eb4365.pdf&download=1"
+  },
+  {
+   "company": "Western Forest Products Inc.",
+   "location": "Vancouver",
+   "start": "2025-07-08",
+   "workers": 112,
+   "kind": "Closure",
+   "duration": "Temporary",
+   "received": "2025-07-09",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=32d2499a-e811-4d51-b49d-e3bc3d56cc97.pdf&download=1"
+  },
+  {
+   "company": "TikTok, Inc.",
+   "location": "Bellevue",
+   "start": "2025-07-28",
+   "workers": 38,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=eecc1ebb-ef7b-4cef-af00-b4f9a6fa4570.pdf&download=1"
+  },
+  {
+   "company": "Quality Built, LLC",
+   "location": "Not Provided",
+   "start": "2025-07-03",
+   "workers": 1,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=10c46bfd-5704-404c-8e05-bc374c359429.pdf&download=1"
+  },
+  {
+   "company": "ByteDance, Inc.",
+   "location": "Bellevue",
+   "start": "2025-07-28",
+   "workers": 27,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2a64c80b-725b-4a65-bb4c-a594ffcc491b.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond and Bellevue",
+   "start": "2025-08-31",
+   "workers": 830,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-07-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b70073a1-1ab4-4238-a5c2-8ccd2f35d03a.pdf&download=1"
+  },
+  {
+   "company": "Northwest Offset Printing, Inc.",
+   "location": "Spokane Valley",
+   "start": "2025-08-31",
+   "workers": 68,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-07-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ec2a4c64-81ff-4345-907a-c830917263f3.pdf&download=1"
+  },
+  {
+   "company": "Amazon Fresh",
+   "location": "Federal Way",
+   "start": "2025-08-19",
+   "workers": 125,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-06-20",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2404509e-427f-40a4-a15a-0c8504d8dd89.pdf&download=1"
+  },
+  {
+   "company": "Del Monte Foods, Inc.",
+   "location": "Yakima, Wapato",
+   "start": "2025-08-08",
+   "workers": 51,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-06-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ddc64d3f-7283-441e-84b7-ffb3da44e90e.pdf&download=1"
+  },
+  {
+   "company": "Virginia Mason Franciscan Health Virtual Health Services",
+   "location": "Tacoma",
+   "start": "2025-07-28",
+   "workers": 116,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-06-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=c0494fe0-7e86-4cc3-986f-82bacf835a83.pdf&download=1"
+  },
+  {
+   "company": "Hood Packaging Corporation",
+   "location": "Vancouver",
+   "start": "2025-08-01",
+   "workers": 94,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-06-03",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=fa4708ee-d5f3-41ce-8b66-06b6da5c238f.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2025-08-01",
+   "workers": 305,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-06-02",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=e8d0b391-d152-40c6-836a-4d6556b994ff.pdf&download=1"
+  },
+  {
+   "company": "LifeSkills Connection Inc.",
+   "location": "Sedro Woolley",
+   "start": "2025-06-30",
+   "workers": 119,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-05-30",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=846d2808-47b7-4b0d-893f-a5c49dd767cd.pdf&download=1"
+  },
+  {
+   "company": "Emerald Transport Inc.",
+   "location": "Quincy",
+   "start": "2025-05-27",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1fc79038-3e99-494b-87bd-1cc41cb854cb.pdf&download=1"
+  },
+  {
+   "company": "Incyte Diagnostics",
+   "location": "Spokane Valley",
+   "start": "2025-08-04",
+   "workers": 310,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8b0e9838-66ab-42c7-9618-ddf80e01ead5.pdf&download=1"
+  },
+  {
+   "company": "Enterprise for Progress in the Community (EPIC)",
+   "location": "Yakima",
+   "start": "2025-06-30",
+   "workers": 198,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=592debc3-189a-43f1-83d3-5364db7000ba.pdf&download=1"
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2025-07-12",
+   "workers": 1985,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b97cfb73-b7b7-4bd1-a1fb-fe860e525e7e.pdf&download=1"
+  },
+  {
+   "company": "College Success Foundation",
+   "location": "Bellevue",
+   "start": "2025-07-09",
+   "workers": 100,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-12",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=97541e06-e515-4d11-b007-bec7c04d4380.pdf&download=1"
+  },
+  {
+   "company": "The Bartell Drug Company (Rite Aid)",
+   "location": "Des Moines",
+   "start": "2025-06-04",
+   "workers": 131,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-05-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=968763aa-b040-4115-bd26-d3f9ea1539a2.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2025-07-04",
+   "workers": 8,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-05-05",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=71f2c772-2bdd-406e-b6c1-0f7afbe691cc.pdf&download=1"
+  },
+  {
+   "company": "SDS Lumber LLC",
+   "location": "Bingen",
+   "start": "2025-06-02",
+   "workers": 81,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-05-01",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3cbd8d71-91b9-4154-9bc9-8adc9d308c33.pdf&download=1"
+  },
+  {
+   "company": "Accelerate360 Distribution, LLC - Dakota Merchandising Work Unit",
+   "location": "Various locations in Washington",
+   "start": "2025-06-28",
+   "workers": 31,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-04-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=d79cd19f-e42c-43d4-a02b-60b2ba8cc40f.pdf&download=1"
+  },
+  {
+   "company": "TEKsystems, Inc.",
+   "location": "Redmond",
+   "start": "2025-06-13",
+   "workers": 67,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-04-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=67228777-124a-47af-9670-729179ba6986.pdf&download=1"
+  },
+  {
+   "company": "MV Transportation, Inc",
+   "location": "Redmond",
+   "start": "2025-06-30",
+   "workers": 287,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-04-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=f7162634-e1d0-4012-9263-44d7a2d96a44.pdf&download=1"
+  },
+  {
+   "company": "AMT Medical, Inc. dba Velocity medtech",
+   "location": "Monroe",
+   "start": "2025-06-23",
+   "workers": 70,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-04-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=2ba68692-1009-44b2-93f2-8d52fb199cd6.pdf&download=1"
+  },
+  {
+   "company": "SambaNova Systems",
+   "location": "Various locations in Washington",
+   "start": "2025-04-22",
+   "workers": 8,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-04-22",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=5b9baa2e-0501-467c-8dd8-e5b38e92ddfb.pdf&download=1"
+  },
+  {
+   "company": "United States Cellular Corporation",
+   "location": "Various locations in Washington",
+   "start": "2025-06-02",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-04-07",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=30db46b9-468a-4150-b0f6-c49f0c576156.pdf&download=1"
+  },
+  {
+   "company": "Recreational Equipment Inc.",
+   "location": "Issaquah",
+   "start": "2025-03-31",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-03-31",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=98f8a6f8-5261-4eec-b985-afac7a4cd91e.pdf&download=1"
+  },
+  {
+   "company": "MSRE Management, L.L.C., dba Martin Selig Real Estate",
+   "location": "Seattle",
+   "start": "2025-04-01",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-03-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6699ae01-b5c7-45b2-b0ac-dc402767cd48.pdf&download=1"
+  },
+  {
+   "company": "Cornish College of the Arts",
+   "location": "Seattle",
+   "start": "2025-05-31",
+   "workers": 354,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-03-27",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ab7ac3c6-e9de-4b66-b4ff-a136b8461622.pdf&download=1"
+  },
+  {
+   "company": "Columbia River Mental Health Services",
+   "location": "Vancouver",
+   "start": "2024-11-04",
+   "workers": 112,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2025-03-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=9a6db7f5-2415-43be-a654-68a3a607c004.pdf&download=1"
+  },
+  {
+   "company": "American Medical Response Ambulance Service, Inc.",
+   "location": "Centralia, Chehalis",
+   "start": "2025-05-31",
+   "workers": 35,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-03-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8bfdda73-8761-422e-a99b-66821db834fa.pdf&download=1"
+  },
+  {
+   "company": "Cow Palace LLC",
+   "location": "Granger",
+   "start": "2025-05-09",
+   "workers": 100,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-03-10",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1f268773-3422-49e6-aaf9-248330fd5f29.pdf&download=1"
+  },
+  {
+   "company": "The Cheesecake Factory",
+   "location": "Seattle",
+   "start": "2025-05-04",
+   "workers": 119,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-03-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=96327d13-aa98-4905-bd19-de2b4f84eb5b.pdf&download=1"
+  },
+  {
+   "company": "Starbucks",
+   "location": "Seattle",
+   "start": "2025-05-02",
+   "workers": 612,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-02-26",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=a91638c9-cc04-4ef5-a3eb-03be4edfe9ad.pdf&download=1"
+  },
+  {
+   "company": "Warner Bros. Discovery, Inc.",
+   "location": "Kirkland",
+   "start": "2025-04-26",
+   "workers": 131,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-02-25",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=b76c6714-610d-49b3-8925-7e3a26ae8c59.pdf&download=1"
+  },
+  {
+   "company": "Advanced Drainage Systems, Inc.",
+   "location": "Olympia",
+   "start": "2025-03-29",
+   "workers": 54,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-01-28",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=55c6f6ff-6fcc-4900-8c6e-a1c43a297dc1.pdf&download=1"
+  },
+  {
+   "company": "Recreational Equipment Inc.",
+   "location": "Sumner",
+   "start": "2025-01-24",
+   "workers": 45,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-01-24",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=1ebde7c5-3743-4d80-8d62-b248b028a870.pdf&download=1"
+  },
+  {
+   "company": "Recreational Equipment Inc.",
+   "location": "Various locations in Washington",
+   "start": "2025-03-31",
+   "workers": 31,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2025-01-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=3fe50838-dc12-424a-9ef1-73e33067bdc3.pdf&download=1"
+  },
+  {
+   "company": "Associated Materials, LLC",
+   "location": "Fife",
+   "start": "2025-01-13",
+   "workers": 150,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-01-13",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ad1f8f29-21b7-4c5d-9461-41ccb58e8c52.pdf&download=1"
+  },
+  {
+   "company": "REC Silicon, Inc.",
+   "location": "Moses Lake",
+   "start": "2025-01-16",
+   "workers": 224,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2025-01-06",
+   "pdf": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=ce8da5ba-a1d1-40a2-8aa5-577a14bc7c9b.pdf&download=1"
+  },
+  {
+   "company": "Boeing",
+   "location": "Various locations in Washington",
+   "start": "2025-02-21",
+   "workers": 396,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-12-09",
+   "pdf": ""
+  },
+  {
+   "company": "Boeing",
+   "location": "Various locations in Washington",
+   "start": "2024-12-20",
+   "workers": 7,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-11-15",
+   "pdf": ""
+  },
+  {
+   "company": "Boeing",
+   "location": "Various locations in Washington",
+   "start": "2025-01-17",
+   "workers": 2192,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-11-15",
+   "pdf": ""
+  },
+  {
+   "company": "General Parts Distribution, LLC",
+   "location": "Seattle, Tacoma, Lakewood, Auburn, Bellevue, Burien, Federal Way, Kent, Puyallup",
+   "start": "2025-02-26",
+   "workers": 100,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-11-14",
+   "pdf": ""
+  },
+  {
+   "company": "Gilead Sciences, Inc.",
+   "location": "Seattle",
+   "start": "2025-01-17",
+   "workers": 72,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-11-13",
+   "pdf": ""
+  },
+  {
+   "company": "Ardagh Glass Inc.",
+   "location": "Seattle",
+   "start": "2024-11-07",
+   "workers": 245,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-11-07",
+   "pdf": ""
+  },
+  {
+   "company": "Providence Medical Group",
+   "location": "Vancouver",
+   "start": "2024-12-31",
+   "workers": 9,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-11-04",
+   "pdf": ""
+  },
+  {
+   "company": "Providence Medical Group",
+   "location": "Battleground, Camas, Vancouver",
+   "start": "2024-12-31",
+   "workers": 106,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-11-04",
+   "pdf": ""
+  },
+  {
+   "company": "Sony Interactive Entertainment LLC, Firewalk Studios",
+   "location": "Bellevue",
+   "start": "2024-11-01",
+   "workers": 174,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-10-29",
+   "pdf": ""
+  },
+  {
+   "company": "Lamb Weston, Inc",
+   "location": "Connell, WA",
+   "start": "2024-11-30",
+   "workers": 379,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-10-01",
+   "pdf": ""
+  },
+  {
+   "company": "AGC Biologics, Inc.",
+   "location": "Bothell",
+   "start": "2024-11-22",
+   "workers": 10,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-09-18",
+   "pdf": ""
+  },
+  {
+   "company": "Lost Boys Interactive, LLC",
+   "location": "Various locations in Washington",
+   "start": "2024-09-09",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-09-09",
+   "pdf": ""
+  },
+  {
+   "company": "Synchronous LLC dba First Mode",
+   "location": "Seattle, Centralia",
+   "start": "2024-08-05",
+   "workers": 65,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-08-05",
+   "pdf": ""
+  },
+  {
+   "company": "SunPower Corporation",
+   "location": "Bellevue",
+   "start": "2024-09-24",
+   "workers": 98,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-07-29",
+   "pdf": ""
+  },
+  {
+   "company": "Homegrown Partners LLC",
+   "location": "King County",
+   "start": "2024-09-15",
+   "workers": 158,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-07-18",
+   "pdf": ""
+  },
+  {
+   "company": "Providence Sacred Heart Medical Center",
+   "location": "Spokane",
+   "start": "2024-09-07",
+   "workers": 50,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-07-09",
+   "pdf": ""
+  },
+  {
+   "company": "McKinley Paper Company",
+   "location": "Port Angeles",
+   "start": "2024-08-25",
+   "workers": 190,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-06-25",
+   "pdf": ""
+  },
+  {
+   "company": "Ardagh Glass Inc.",
+   "location": "Seattle",
+   "start": "2024-07-01",
+   "workers": 244,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2024-06-17",
+   "pdf": ""
+  },
+  {
+   "company": "Superior Tire Service, Inc.",
+   "location": "Auburn",
+   "start": "2024-06-28",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2024-06-12",
+   "pdf": ""
+  },
+  {
+   "company": "Prestige Care, Inc.",
+   "location": "Vancouver",
+   "start": "2024-08-01",
+   "workers": 150,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-05-31",
+   "pdf": ""
+  },
+  {
+   "company": "New Columbia Fruit Packers, LLC",
+   "location": "Yakima",
+   "start": "2024-08-16",
+   "workers": 216,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-05-31",
+   "pdf": ""
+  },
+  {
+   "company": "Amazon",
+   "location": "Tukwila",
+   "start": "2024-08-01",
+   "workers": 172,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-05-31",
+   "pdf": ""
+  },
+  {
+   "company": "Expedia, Inc.",
+   "location": "Seattle",
+   "start": "2024-08-01",
+   "workers": 36,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-05-29",
+   "pdf": ""
+  },
+  {
+   "company": "Obvio Health USA, Inc.",
+   "location": "Seattle",
+   "start": "2024-07-17",
+   "workers": 51,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-05-24",
+   "pdf": ""
+  },
+  {
+   "company": "Paradigm Delivery LLC",
+   "location": "Airway Heights",
+   "start": "2024-07-07",
+   "workers": 42,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-05-09",
+   "pdf": ""
+  },
+  {
+   "company": "Assurance IQ, LLC",
+   "location": "Seattle",
+   "start": "2024-07-03",
+   "workers": 112,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-05-01",
+   "pdf": ""
+  },
+  {
+   "company": "Take- Two Interactive Software, Inc.",
+   "location": "Seattle",
+   "start": "2024-06-28",
+   "workers": 70,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-04-29",
+   "pdf": ""
+  },
+  {
+   "company": "Lignetics Inc / GEM Shavings LLC",
+   "location": "Auburn",
+   "start": "2024-06-30",
+   "workers": 9,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-04-26",
+   "pdf": ""
+  },
+  {
+   "company": "Expedia, Inc.",
+   "location": "Seattle",
+   "start": "2024-06-21",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-04-22",
+   "pdf": ""
+  },
+  {
+   "company": "lululemon usa inc.",
+   "location": "Sumner",
+   "start": "2024-06-21",
+   "workers": 128,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-04-18",
+   "pdf": ""
+  },
+  {
+   "company": "Plug Power, Inc.",
+   "location": "Spokane Valley, WA",
+   "start": "2024-06-30",
+   "workers": 107,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-04-11",
+   "pdf": ""
+  },
+  {
+   "company": "AIDC USA LLC",
+   "location": "Bothell",
+   "start": "2024-05-11",
+   "workers": 1,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-04-04",
+   "pdf": ""
+  },
+  {
+   "company": "Pfizer",
+   "location": "Everett",
+   "start": "2024-06-03",
+   "workers": 119,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-04-03",
+   "pdf": ""
+  },
+  {
+   "company": "Block, Inc.",
+   "location": "Vancouver",
+   "start": "2024-06-03",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-04-02",
+   "pdf": ""
+  },
+  {
+   "company": "Volta Charging Industries, LLC",
+   "location": "Various locations in Washington",
+   "start": "2024-05-31",
+   "workers": 7,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-04-01",
+   "pdf": ""
+  },
+  {
+   "company": "TEKsystems, Inc.",
+   "location": "Redmond",
+   "start": "2024-05-25",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-03-26",
+   "pdf": ""
+  },
+  {
+   "company": "Bornstein",
+   "location": "Bellingham",
+   "start": "2024-06-19",
+   "workers": 72,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-03-22",
+   "pdf": ""
+  },
+  {
+   "company": "BowFlex Inc.",
+   "location": "Vancouver",
+   "start": "2024-04-19",
+   "workers": 202,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-03-04",
+   "pdf": ""
+  },
+  {
+   "company": "Jabil, Inc.",
+   "location": "Vancouver",
+   "start": "2024-05-03",
+   "workers": 120,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-03-01",
+   "pdf": ""
+  },
+  {
+   "company": "Expedia, Inc.",
+   "location": "Seattle",
+   "start": "2024-05-01",
+   "workers": 208,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-02-27",
+   "pdf": ""
+  },
+  {
+   "company": "Del Monte Foods, Inc.",
+   "location": "Toppenish",
+   "start": "2024-04-26",
+   "workers": 127,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-02-27",
+   "pdf": ""
+  },
+  {
+   "company": "Output Services Group, Inc.",
+   "location": "Renton",
+   "start": "2024-04-19",
+   "workers": 76,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-02-20",
+   "pdf": ""
+  },
+  {
+   "company": "American Queen Steamboat Company",
+   "location": "Clarkston, Vancouver",
+   "start": "2024-02-20",
+   "workers": 508,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-02-20",
+   "pdf": ""
+  },
+  {
+   "company": "BAE Systems",
+   "location": "Keyport, Silverdale",
+   "start": "2024-04-17",
+   "workers": 54,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-02-16",
+   "pdf": ""
+  },
+  {
+   "company": "Roy Farms, SPC",
+   "location": "Moxee",
+   "start": "2024-04-15",
+   "workers": 129,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-02-14",
+   "pdf": ""
+  },
+  {
+   "company": "Appen AI, Inc.",
+   "location": "Kirkland",
+   "start": "2024-04-08",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-02-09",
+   "pdf": ""
+  },
+  {
+   "company": "Skagit Horticulture, LLC",
+   "location": "Mount Vernon, Mabton",
+   "start": "2024-04-07",
+   "workers": 169,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-02-07",
+   "pdf": ""
+  },
+  {
+   "company": "RaterLabs, Inc.",
+   "location": "Kirkland",
+   "start": "2024-04-06",
+   "workers": 3657,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-02-06",
+   "pdf": ""
+  },
+  {
+   "company": "Sonoco Products Co.",
+   "location": "Sumner",
+   "start": "2024-03-01",
+   "workers": 34,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-02-02",
+   "pdf": ""
+  },
+  {
+   "company": "Thermoforming Systems, LLC",
+   "location": "Union Gap",
+   "start": "2024-03-31",
+   "workers": 66,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-31",
+   "pdf": ""
+  },
+  {
+   "company": "Penske Logistics LLC",
+   "location": "Auburn, Arlington, Benton City, Spokane",
+   "start": "2024-03-31",
+   "workers": 125,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-30",
+   "pdf": ""
+  },
+  {
+   "company": "Block, Inc.",
+   "location": "Statewide",
+   "start": "2024-03-30",
+   "workers": 43,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-30",
+   "pdf": ""
+  },
+  {
+   "company": "HMSHost",
+   "location": "Spokane",
+   "start": "2024-04-13",
+   "workers": 119,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-26",
+   "pdf": ""
+  },
+  {
+   "company": "Northwest Motorsport, LLC",
+   "location": "Lynnwood, Marysville, Pasco, Puyallup, Spokane Valley",
+   "start": "2024-03-24",
+   "workers": 142,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-01-24",
+   "pdf": ""
+  },
+  {
+   "company": "WestRock Company",
+   "location": "Seattle",
+   "start": "2024-03-18",
+   "workers": 87,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-01-19",
+   "pdf": ""
+  },
+  {
+   "company": "Walmart",
+   "location": "Redmond",
+   "start": "2024-02-09",
+   "workers": 62,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2024-01-19",
+   "pdf": ""
+  },
+  {
+   "company": "Lost Boys Interactive, LLC",
+   "location": "Bellevue, Bothell, Kirkland, Monroe, Redmond, Sammamish",
+   "start": "2024-03-15",
+   "workers": 7,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-12",
+   "pdf": ""
+  },
+  {
+   "company": "Merit Logistics, LLC",
+   "location": "Chehalis",
+   "start": "2024-02-03",
+   "workers": 158,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-10",
+   "pdf": ""
+  },
+  {
+   "company": "Unity Technologies",
+   "location": "Bellevue",
+   "start": "2024-01-09",
+   "workers": 120,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-09",
+   "pdf": ""
+  },
+  {
+   "company": "Flexe, Inc.",
+   "location": "Seattle",
+   "start": "2024-03-08",
+   "workers": 99,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2024-01-08",
+   "pdf": ""
+  },
+  {
+   "company": "REXAM Beverage Can Company (Ball Corp)",
+   "location": "Kent",
+   "start": "2024-02-29",
+   "workers": 121,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-12-28",
+   "pdf": ""
+  },
+  {
+   "company": "Cruise LLC",
+   "location": "Bellevue",
+   "start": "2023-12-14",
+   "workers": 67,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-12-18",
+   "pdf": ""
+  },
+  {
+   "company": "Zulily LLC",
+   "location": "Seattle",
+   "start": "2024-02-07",
+   "workers": 292,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-12-07",
+   "pdf": ""
+  },
+  {
+   "company": "Omron Microscan Systems, Inc.",
+   "location": "Renton",
+   "start": "2024-02-02",
+   "workers": 57,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-12-07",
+   "pdf": ""
+  },
+  {
+   "company": "Broadcom Inc.",
+   "location": "Bellevue",
+   "start": "2024-01-26",
+   "workers": 158,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-11-27",
+   "pdf": ""
+  },
+  {
+   "company": "Nordstrom Quality Center",
+   "location": "Tukwila",
+   "start": "2024-02-01",
+   "workers": 67,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-11-08",
+   "pdf": ""
+  },
+  {
+   "company": "Alpha Technologies Services, Inc.",
+   "location": "Spokane Valley",
+   "start": "2024-01-17",
+   "workers": 77,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-11-08",
+   "pdf": ""
+  },
+  {
+   "company": "Americal Medical Response Moses Lake",
+   "location": "Moses Lake",
+   "start": "2024-01-02",
+   "workers": 17,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-11-01",
+   "pdf": ""
+  },
+  {
+   "company": "Convoy Inc.",
+   "location": "Seattle, WA",
+   "start": "2023-10-19",
+   "workers": 533,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-10-24",
+   "pdf": ""
+  },
+  {
+   "company": "Magnum Venus Products",
+   "location": "Kent",
+   "start": "2023-12-30",
+   "workers": 47,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-10-23",
+   "pdf": ""
+  },
+  {
+   "company": "HMSHost",
+   "location": "Seattle",
+   "start": "2023-12-31",
+   "workers": 65,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-10-20",
+   "pdf": ""
+  },
+  {
+   "company": "Flexport, Inc.",
+   "location": "Bellevue",
+   "start": "2023-10-13",
+   "workers": 165,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-10-13",
+   "pdf": ""
+  },
+  {
+   "company": "Crothall Healthcare, Inc.",
+   "location": "Seattle",
+   "start": "2023-12-14",
+   "workers": 41,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-10-13",
+   "pdf": ""
+  },
+  {
+   "company": "Cygnus Home Service, LLC, d/b/a Yelloh",
+   "location": "Various locations in Washington",
+   "start": "2023-10-20",
+   "workers": 58,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-10-09",
+   "pdf": ""
+  },
+  {
+   "company": "Epic Games, Inc.",
+   "location": "Bellevue",
+   "start": "2023-10-02",
+   "workers": 39,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-10-05",
+   "pdf": ""
+  },
+  {
+   "company": "Hard Rock International (USA), Inc.",
+   "location": "Seattle",
+   "start": "2023-12-01",
+   "workers": 66,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-10-02",
+   "pdf": ""
+  },
+  {
+   "company": "Target",
+   "location": "Seattle",
+   "start": "2023-12-30",
+   "workers": 39,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-09-28",
+   "pdf": ""
+  },
+  {
+   "company": "American Nursery Services, Inc.",
+   "location": "Statewide",
+   "start": "2023-12-31",
+   "workers": 45,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-09-28",
+   "pdf": ""
+  },
+  {
+   "company": "Flexe, Inc.",
+   "location": "Seattle",
+   "start": "2023-11-27",
+   "workers": 131,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-09-26",
+   "pdf": ""
+  },
+  {
+   "company": "WestRock Company",
+   "location": "Tacoma",
+   "start": "2023-09-30",
+   "workers": 408,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-09-13",
+   "pdf": ""
+  },
+  {
+   "company": "Divvy Homes, Inc.",
+   "location": "King County",
+   "start": "2023-11-07",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-09-08",
+   "pdf": ""
+  },
+  {
+   "company": "SkyKick, Inc.",
+   "location": "Seattle",
+   "start": "2023-10-31",
+   "workers": 181,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-30",
+   "pdf": ""
+  },
+  {
+   "company": "Agilent Technologies, Inc.",
+   "location": "Kirkland",
+   "start": "2023-10-31",
+   "workers": 64,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-08-28",
+   "pdf": ""
+  },
+  {
+   "company": "T-Mobile USA, Inc.",
+   "location": "Bellevue",
+   "start": "2023-10-24",
+   "workers": 401,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-25",
+   "pdf": ""
+  },
+  {
+   "company": "Crothall Healthcare, Inc.",
+   "location": "Seattle",
+   "start": "2023-10-20",
+   "workers": 174,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-22",
+   "pdf": ""
+  },
+  {
+   "company": "ImmunityBio, Inc.",
+   "location": "San Juan County",
+   "start": "2023-10-17",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-21",
+   "pdf": ""
+  },
+  {
+   "company": "Cognizant Technology Solutions U.S. Corporation",
+   "location": "Bothell",
+   "start": "2023-09-29",
+   "workers": 93,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-17",
+   "pdf": ""
+  },
+  {
+   "company": "Yellow Corporation",
+   "location": "Everett, Seattle, Tacoma, E. Wenatchee, Union Gap, Pasco, Spokane",
+   "start": "2023-07-30",
+   "workers": 437,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-08-14",
+   "pdf": ""
+  },
+  {
+   "company": "Centerra, a Constellis Company",
+   "location": "Seattle, Tacoma, Yakima, Spokane, Richland",
+   "start": "2023-09-30",
+   "workers": 92,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-11",
+   "pdf": ""
+  },
+  {
+   "company": "KeHE Distributors, Inc",
+   "location": "Statewide",
+   "start": "2023-10-06",
+   "workers": 42,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-08-07",
+   "pdf": ""
+  },
+  {
+   "company": "Columbia Valley Fruit, LLC",
+   "location": "Union Gap",
+   "start": "2023-09-28",
+   "workers": 131,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-07-31",
+   "pdf": ""
+  },
+  {
+   "company": "Universal Protection Service, LP d/b/a Allied Universal Security Services",
+   "location": "Redmond",
+   "start": "2023-10-05",
+   "workers": 71,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-07-17",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond and Bellevue",
+   "start": "2023-09-08",
+   "workers": 276,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-07-10",
+   "pdf": ""
+  },
+  {
+   "company": "Dawn Food Products, Inc.",
+   "location": "Seattle",
+   "start": "2023-09-01",
+   "workers": 55,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-07-05",
+   "pdf": ""
+  },
+  {
+   "company": "Aramark Campus, LLC",
+   "location": "Bellingham",
+   "start": "2023-08-31",
+   "workers": 386,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-06-28",
+   "pdf": ""
+  },
+  {
+   "company": "BWRD, LLC (Stria)",
+   "location": "King County",
+   "start": "2023-06-14",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-06-15",
+   "pdf": ""
+  },
+  {
+   "company": "Bitwise Industries, Inc.",
+   "location": "Island, King, Spokane, Okanogan Counties",
+   "start": "2023-06-14",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-06-14",
+   "pdf": ""
+  },
+  {
+   "company": "Los Angeles Times Communications LLC",
+   "location": "Seattle",
+   "start": "2023-08-14",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-06-09",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2023-08-04",
+   "workers": 22,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-06-05",
+   "pdf": ""
+  },
+  {
+   "company": "Cascade Behavioral Health Hospital LLC",
+   "location": "Tukwila",
+   "start": "2023-07-31",
+   "workers": 288,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-06-01",
+   "pdf": ""
+  },
+  {
+   "company": "Amentum",
+   "location": "Everett",
+   "start": "2023-07-30",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-05-31",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond",
+   "start": "2023-05-26",
+   "workers": 158,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-05-09",
+   "pdf": ""
+  },
+  {
+   "company": "Summit Public Schools Washington",
+   "location": "Seattle, Tacoma",
+   "start": "2023-06-30",
+   "workers": 17,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-04-28",
+   "pdf": ""
+  },
+  {
+   "company": "Elkay Interior Systems, Inc",
+   "location": "Spokane",
+   "start": "2023-07-28",
+   "workers": 6,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-04-26",
+   "pdf": ""
+  },
+  {
+   "company": "Durham School Services",
+   "location": "Spokane",
+   "start": "2023-06-30",
+   "workers": 226,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-04-25",
+   "pdf": ""
+  },
+  {
+   "company": "David's Bridal LLC",
+   "location": "Nationwide",
+   "start": "2023-04-14",
+   "workers": 9266,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-04-17",
+   "pdf": ""
+  },
+  {
+   "company": "Phoenix Processor Limited Partnership",
+   "location": "Seattle",
+   "start": "2023-06-07",
+   "workers": 115,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-04-12",
+   "pdf": ""
+  },
+  {
+   "company": "Q2 Solutions",
+   "location": "Seattle",
+   "start": "2023-06-15",
+   "workers": 43,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-04-03",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond and Bellevue",
+   "start": "2023-05-26",
+   "workers": 559,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-27",
+   "pdf": ""
+  },
+  {
+   "company": "Aspiration Partners, Inc",
+   "location": "King and Snohomish Counties",
+   "start": "2023-05-26",
+   "workers": 3,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-24",
+   "pdf": ""
+  },
+  {
+   "company": "Walmart",
+   "location": "Everett",
+   "start": "2023-06-30",
+   "workers": 198,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-03-23",
+   "pdf": ""
+  },
+  {
+   "company": "Blue Nile, Inc.",
+   "location": "Seattle",
+   "start": "2023-07-14",
+   "workers": 119,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-03-23",
+   "pdf": ""
+  },
+  {
+   "company": "Astound Broadband",
+   "location": "Bothell",
+   "start": "2023-05-19",
+   "workers": 90,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-17",
+   "pdf": ""
+  },
+  {
+   "company": "Ace Hardware Corporation",
+   "location": "Spokane",
+   "start": "2023-05-17",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-17",
+   "pdf": ""
+  },
+  {
+   "company": "Compass Group USA, Inc.",
+   "location": "Redmond",
+   "start": "2023-03-24",
+   "workers": 68,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-08",
+   "pdf": ""
+  },
+  {
+   "company": "Ingersoll Rand",
+   "location": "Kent",
+   "start": "2023-05-08",
+   "workers": 69,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-03-07",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond, Bellevue, Issaquah",
+   "start": "2023-05-05",
+   "workers": 689,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-06",
+   "pdf": ""
+  },
+  {
+   "company": "Novo Nordisk Research Center Seattle, Inc",
+   "location": "Seattle",
+   "start": "2023-05-01",
+   "workers": 86,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-03-01",
+   "pdf": ""
+  },
+  {
+   "company": "FleetLogix, Inc",
+   "location": "SeaTac, Tukwila",
+   "start": "2023-04-28",
+   "workers": 120,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-02-28",
+   "pdf": ""
+  },
+  {
+   "company": "Rume Medical Group",
+   "location": "Seattle, Lynden",
+   "start": "2023-02-26",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-24",
+   "pdf": ""
+  },
+  {
+   "company": "American Medical Response, Pierce County",
+   "location": "Fife",
+   "start": "2023-04-19",
+   "workers": 43,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-02-17",
+   "pdf": ""
+  },
+  {
+   "company": "Critical Ideas, Inc. dba Chipper Cash",
+   "location": "Vancouver, Spokane",
+   "start": "2023-02-17",
+   "workers": 2,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-16",
+   "pdf": ""
+  },
+  {
+   "company": "Peer Street, Inc.",
+   "location": "Liberty Lake",
+   "start": "2023-04-16",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-15",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond, Bellevue, Issaquah",
+   "start": "2023-04-10",
+   "workers": 617,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-09",
+   "pdf": ""
+  },
+  {
+   "company": "NC Interactive, LLC",
+   "location": "Bellevue",
+   "start": "2023-02-01",
+   "workers": 23,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-02",
+   "pdf": ""
+  },
+  {
+   "company": "Bittrex, Inc.",
+   "location": "Bellevue",
+   "start": "2023-04-02",
+   "workers": 83,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-02-01",
+   "pdf": ""
+  },
+  {
+   "company": "Compass Group USA, Inc.",
+   "location": "Redmond",
+   "start": "2023-03-28",
+   "workers": 110,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-01-30",
+   "pdf": ""
+  },
+  {
+   "company": "Microsoft",
+   "location": "Redmond, Bellevue, Issaquah",
+   "start": "2023-03-20",
+   "workers": 878,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-01-18",
+   "pdf": ""
+  },
+  {
+   "company": "Amazon",
+   "location": "Seattle, Bellevue",
+   "start": "2023-03-19",
+   "workers": 2320,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-01-18",
+   "pdf": ""
+  },
+  {
+   "company": "SIGMA DESIGN, Inc",
+   "location": "Camas, Vancouver",
+   "start": "2023-01-31",
+   "workers": 42,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-01-17",
+   "pdf": ""
+  },
+  {
+   "company": "Specialized Bicycle Components, Inc",
+   "location": "Seattle, Spokane",
+   "start": "2023-01-13",
+   "workers": 9,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2023-01-11",
+   "pdf": ""
+  },
+  {
+   "company": "Brinker International Payroll Co LP, Maggiano's Little Italy Restaurant",
+   "location": "Bellevue",
+   "start": "2023-03-04",
+   "workers": 147,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2023-01-03",
+   "pdf": ""
+  },
+  {
+   "company": "Triple Canopy, a Constellis Co",
+   "location": "Tukwila",
+   "start": "2023-02-28",
+   "workers": 122,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-12-29",
+   "pdf": ""
+  },
+  {
+   "company": "Pioneer Human Services",
+   "location": "Sedro Woolley",
+   "start": "2023-01-31",
+   "workers": 50,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-12-05",
+   "pdf": ""
+  },
+  {
+   "company": "The Lobster Shop",
+   "location": "Tacoma",
+   "start": "2023-01-15",
+   "workers": 70,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2022-12-01",
+   "pdf": ""
+  },
+  {
+   "company": "American Medical Response, Pierce County",
+   "location": "Fife",
+   "start": "2023-01-28",
+   "workers": 130,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-11-29",
+   "pdf": ""
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "Bellevue",
+   "start": "2023-01-13",
+   "workers": 307,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-11-11",
+   "pdf": ""
+  },
+  {
+   "company": "Meta Platforms, Inc",
+   "location": "Seattle",
+   "start": "2023-01-13",
+   "workers": 419,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-11-11",
+   "pdf": ""
+  },
+  {
+   "company": "Astra Space, Inc",
+   "location": "Olympia",
+   "start": "2022-11-09",
+   "workers": 1,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-11-09",
+   "pdf": ""
+  },
+  {
+   "company": "Twitter, Inc",
+   "location": "Seattle",
+   "start": "2023-01-04",
+   "workers": 257,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-11-04",
+   "pdf": ""
+  },
+  {
+   "company": "Amentum",
+   "location": "Oak Harbor",
+   "start": "2022-12-31",
+   "workers": 194,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-10-31",
+   "pdf": ""
+  },
+  {
+   "company": "Conestoga Wood Specialties Corp.",
+   "location": "Kent",
+   "start": "2022-12-31",
+   "workers": 51,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-10-25",
+   "pdf": ""
+  },
+  {
+   "company": "Universal Protection Service, LLC dba Allied Universal Security Services",
+   "location": "Seattle, Kent",
+   "start": "2022-12-19",
+   "workers": 1203,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-10-21",
+   "pdf": ""
+  },
+  {
+   "company": "Stadelman Fruit Company",
+   "location": "Zillah",
+   "start": "2022-11-15",
+   "workers": 381,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-10-17",
+   "pdf": ""
+  },
+  {
+   "company": "Montesano Health and Rehabilitation Center",
+   "location": "Montesano",
+   "start": "2022-09-14",
+   "workers": 49,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2022-09-26",
+   "pdf": ""
+  },
+  {
+   "company": "Compass, Inc",
+   "location": "Seattle",
+   "start": "2022-11-19",
+   "workers": 271,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-09-21",
+   "pdf": ""
+  },
+  {
+   "company": "Falck Northwest Corporation",
+   "location": "Mountlake Terrace, Fife",
+   "start": "2022-12-15",
+   "workers": 123,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-09-16",
+   "pdf": ""
+  },
+  {
+   "company": "Care Medical",
+   "location": "Seattle",
+   "start": "2022-12-01",
+   "workers": 236,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-09-07",
+   "pdf": ""
+  },
+  {
+   "company": "Amazon Health Services",
+   "location": "Seattle",
+   "start": "2022-12-01",
+   "workers": 159,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-09-07",
+   "pdf": ""
+  },
+  {
+   "company": "Royal Ridge Fruit and Cold Storage, LLC",
+   "location": "Royal City",
+   "start": "2022-08-17",
+   "workers": 45,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-08-17",
+   "pdf": ""
+  },
+  {
+   "company": "Imaginetics LLC",
+   "location": "Auburn",
+   "start": "2022-07-27",
+   "workers": 83,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-07-28",
+   "pdf": ""
+  },
+  {
+   "company": "VSPOne Olympia",
+   "location": "Lacey",
+   "start": "2022-07-29",
+   "workers": 55,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-06-29",
+   "pdf": ""
+  },
+  {
+   "company": "Shining Ocean, Inc. d/b/a Aquamar",
+   "location": "Sumner",
+   "start": "2022-08-12",
+   "workers": 116,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-06-13",
+   "pdf": ""
+  },
+  {
+   "company": "Kershaw Fruit and Cold Storage",
+   "location": "Yakima",
+   "start": "2022-06-10",
+   "workers": 125,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-06-06",
+   "pdf": ""
+  },
+  {
+   "company": "Soli Organic, Inc",
+   "location": "Duvall",
+   "start": "2022-07-31",
+   "workers": 102,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-05-31",
+   "pdf": ""
+  },
+  {
+   "company": "Hawthorne Gardening Company",
+   "location": "Vancouver",
+   "start": "2022-08-01",
+   "workers": 42,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-05-25",
+   "pdf": ""
+  },
+  {
+   "company": "Service Response Partners LLC",
+   "location": "Auburn",
+   "start": "2022-07-17",
+   "workers": 1,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-05-23",
+   "pdf": ""
+  },
+  {
+   "company": "Ideoclick, Inc",
+   "location": "Seattle",
+   "start": "2022-07-02",
+   "workers": 38,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-05-03",
+   "pdf": ""
+  },
+  {
+   "company": "Funko, LLC",
+   "location": "Everett, Puyallup",
+   "start": "2022-06-09",
+   "workers": 258,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-04-07",
+   "pdf": ""
+  },
+  {
+   "company": "Walmart",
+   "location": "Bellevue",
+   "start": "2022-07-15",
+   "workers": 147,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-04-04",
+   "pdf": ""
+  },
+  {
+   "company": "Kings Command Foods, LLC",
+   "location": "Kent",
+   "start": "2022-04-01",
+   "workers": 92,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-04-01",
+   "pdf": ""
+  },
+  {
+   "company": "Wesley Homes",
+   "location": "Des Moines, Auburn, Puyallup",
+   "start": "2022-05-14",
+   "workers": 119,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-03-11",
+   "pdf": ""
+  },
+  {
+   "company": "Norgren GT Development LLC",
+   "location": "Auburn",
+   "start": "2022-07-01",
+   "workers": 181,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2022-03-03",
+   "pdf": ""
+  },
+  {
+   "company": "Valiant Integrated Services",
+   "location": "Joint Base Lewis McChord",
+   "start": "2022-03-31",
+   "workers": 59,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-02-14",
+   "pdf": ""
+  },
+  {
+   "company": "Hawthorne Gardening Company",
+   "location": "Vancouver",
+   "start": "2022-04-01",
+   "workers": 150,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2022-01-26",
+   "pdf": ""
+  },
+  {
+   "company": "Outdoor Research",
+   "location": "Seattle",
+   "start": "2022-03-07",
+   "workers": 55,
+   "kind": "Layoff",
+   "duration": "Temporary",
+   "received": "2022-01-06",
+   "pdf": ""
+  },
+  {
+   "company": "Monitronics International, Inc. d/b/a Brinks Home",
+   "location": "Seattle, Tacoma, Snoqualmie, Spokane",
+   "start": "2021-12-17",
+   "workers": 4,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2021-12-16",
+   "pdf": ""
+  },
+  {
+   "company": "Watsonville Community Hospital",
+   "location": "Prosser",
+   "start": "2022-01-28",
+   "workers": 1,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2021-11-26",
+   "pdf": ""
+  },
+  {
+   "company": "BitTitan, Inc",
+   "location": "Bellevue",
+   "start": "2022-01-14",
+   "workers": 70,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2021-11-17",
+   "pdf": ""
+  },
+  {
+   "company": "Zillow Group",
+   "location": "Seattle",
+   "start": "2022-01-03",
+   "workers": 96,
+   "kind": "Layoff",
+   "duration": "Permanent",
+   "received": "2021-11-04",
+   "pdf": ""
+  },
+  {
+   "company": "Foss Maritime Company",
+   "location": "Seattle",
+   "start": "2021-12-29",
+   "workers": 115,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2021-10-29",
+   "pdf": ""
+  },
+  {
+   "company": "Carlson Paving Products, Inc",
+   "location": "Tacoma",
+   "start": "2021-12-31",
+   "workers": 63,
+   "kind": "Closure",
+   "duration": "Permanent",
+   "received": "2020-10-22",
+   "pdf": ""
+  }
+ ]
+}

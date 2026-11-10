@@ -104,6 +104,37 @@
     "tags": ["12 products", "Lab data 23 Aug 2026"]
   },
   {
+    "href": "supplements/",
+    "title": "Supplements: which brand to buy",
+    "category": "Health",
+    "icon": "bottle",
+    "status": "live",
+    "items": 27,
+    "updated": "2026-03-25",
+    "blurb": "For 12 everyday supplements, whether the budget brand Carbamide Forte is the one to buy or another brand does it better, with ₹ per serving.",
+    "tags": ["12 supplements", "Reviews Mar 2026"]
+  },
+  {
+    "href": "salary-converter/",
+    "title": "Salary converter",
+    "category": "Money",
+    "icon": "globe",
+    "status": "live",
+    "items": 205,
+    "updated": "2026-10-08",
+    "blurb": "What a salary in one country is worth in another once local prices are counted, next to the plain exchange-rate conversion.",
+    "tags": ["205 countries", "World Bank PPP"]
+  },
+  {
+    "href": "wa-layoffs/",
+    "title": "Washington layoff notices",
+    "category": "Work",
+    "icon": "chart",
+    "status": "live",
+    "blurb": "Every WARN layoff and closure notice filed in Washington State in the last five years, by month, company and start date.",
+    "tags": ["5 years of notices", "Refreshed weekly"]
+  },
+  {
     "title": "Credit card rewards calculator",
     "category": "Money",
     "icon": "card",
@@ -121,6 +152,9 @@ const ICONS = {
   tub: '<path d="M6 8h12l-1.3 11.3a2 2 0 0 1-2 1.7H9.3a2 2 0 0 1-2-1.7L6 8z"/><path d="M5 4.5h14V8H5z"/><path d="M9.5 13h5"/>',
   capsule: '<g transform="rotate(-40 12 12)"><rect x="3" y="8.5" width="18" height="7" rx="3.5"/><path d="M12 8.5v7"/></g>',
   card: '<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h4"/>',
+  bottle: '<path d="M9 3h6v3H9z"/><path d="M8.5 6h7l1 3v10a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2V9z"/><path d="M7.5 12.5h9"/>',
+  globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/>',
+  chart: '<path d="M4 20h16"/><path d="M7 16v-5M12 16V6M17 16v-8"/>',
 };
 const icon = (k) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k] || ICONS.card}</svg>`;
 const fmtDate = (iso) => new Date(`${iso}T00:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -128,12 +162,12 @@ const fmtDate = (iso) => new Date(`${iso}T00:00:00`).toLocaleDateString('en-GB',
 const tools = JSON.parse(document.getElementById('registry').textContent);
 const live = tools.filter((t) => t.status === 'live');
 const planned = tools.filter((t) => t.status !== 'live');
-const latest = live.map((t) => t.updated).sort().at(-1);
+const latest = live.map((t) => t.updated).filter(Boolean).sort().at(-1);
 
 const tile = (label, value, sub) => `<div class="tile"><div class="label">${label}</div><div class="value">${value}</div><div class="sub">${sub}</div></div>`;
 document.getElementById('hub-tiles').innerHTML = [
   tile('Tools live', live.length, `${planned.length} more being built`),
-  tile('Products compared', live.reduce((s, t) => s + (t.items || 0), 0), 'with sources linked'),
+  tile('Products and countries', live.reduce((s, t) => s + (t.items || 0), 0), 'compared, with sources linked'),
   tile('Latest data', fmtDate(latest).replace(/ \d{4}$/, ''), fmtDate(latest).slice(-4)),
 ].join('');
 

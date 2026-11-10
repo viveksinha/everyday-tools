@@ -1,0 +1,297 @@
+{
+  "as_of": "2026-03-25",
+  "as_of_label": "Mar 2026",
+  "brand": "Carbamide Forte",
+  "brand_summary": {
+    "products": 27,
+    "overall": 7.4,
+    "transparency": 10.0,
+    "formula": 7.5,
+    "dosing": 5.7,
+    "value": 7.1,
+    "amazon_rating": 4.1,
+    "amazon_ratings": 4595,
+    "mrp_range": "₹275 – ₹2,999",
+    "source": "Limitless Labs brand analysis, 2026"
+  },
+  "verdicts": {
+    "buy": "Buy Carbamide Forte",
+    "budget": "Only if price comes first",
+    "skip": "Buy another brand",
+    "mixed": "Reviews disagree"
+  },
+  "categories": [
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "verdict": "buy",
+      "pick": "Melatonin 10mg Pills (100 tabs)",
+      "pick_score": 9.9,
+      "pick_cost": 4.99,
+      "alternative": "None better at this price",
+      "why": [
+        "Highest-scored product in the brand's range, at about ₹5 a tablet.",
+        "Competitors in this set cost two to four times as much per serving."
+      ],
+      "competitors": [
+        { "brand": "Wellbeing Nutrition", "product": "Melts Melatonin 10mg (oral strips)", "price": "~₹19.93", "per": "serving", "note": "Scored 6.6/10; several ingredients underdosed" },
+        { "brand": "Nutrabud", "product": "Sleep Gummies 3mg", "price": "~₹9.73", "per": "serving", "note": "Gentler 3 mg dose" },
+        { "brand": "Panchamrit", "product": "Melatonin 5mg Oral Strips", "price": "~₹18.30", "per": "serving", "note": "Ayurvedic combination" }
+      ]
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium glycinate",
+      "verdict": "mixed",
+      "pick": "Chelated Magnesium Glycinate 2000mg (120 tabs)",
+      "pick_score": 9.3,
+      "pick_cost": 10.82,
+      "alternative": "Compare the lab results first",
+      "link": { "href": "../magnesium/#lab-results", "label": "Lab results for 12 magnesium supplements" },
+      "why": [
+        "Limitless Labs scores it 9.3/10 on the label: right form, full dose, low price.",
+        "Unbox Health's lab test of its 120-capsule glycinate gave a B (now expired); every other glycinate tested got A+."
+      ],
+      "competitors": []
+    },
+    {
+      "id": "vitamin-d3",
+      "name": "Vitamin D3",
+      "verdict": "buy",
+      "pick": "Vitamin D3 10000 IU",
+      "pick_score": 9.7,
+      "pick_cost": 6.65,
+      "alternative": "Tata 1mg D3 + K2 if you want both in one tablet",
+      "why": [
+        "Strong, cheap high-dose D3. Good for correcting a deficiency.",
+        "It has no K2. Many people pair D3 with K2 (MK-7); Tata 1mg's combo is the cheapest trusted one here."
+      ],
+      "other_skus": [
+        { "product": "Vitamin D3 + K2 (120 tabs)", "cost": "~₹3.49", "dose": "5,000 IU" },
+        { "product": "Vitamin D3 60000 IU (weekly chewable)", "cost": "~₹3.16", "dose": "60,000 IU a week" }
+      ],
+      "competitors": [
+        { "brand": "Tata 1mg", "product": "Vitamin D3 + K2 (MK-7)", "price": "₹243", "per": "pack", "note": "Pharmaceutical grade, includes K2" },
+        { "brand": "NATURALTEIN", "product": "Vitamin D3 + K2", "price": "₹297", "per": "pack", "note": "Vegan" },
+        { "brand": "OZiva", "product": "Vitamin D3 + K2 + B12", "price": "₹743", "per": "pack", "note": "Three in one, vegan" },
+        { "brand": "Wellbeing Nutrition", "product": "Melts D3 + K2 (oral strips)", "price": "₹1,017", "per": "pack", "note": "Premium strip format" },
+        { "brand": "Boldfit", "product": "Vitamin D3", "price": "₹300", "per": "pack", "note": "Basic; 4.1★ on Amazon" }
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "verdict": "buy",
+      "pick": "Ashwagandha KSM-66 600mg",
+      "pick_score": 9.0,
+      "pick_cost": 9.98,
+      "alternative": "MuscleBlaze Koshaveda scores higher (9.9)",
+      "why": [
+        "Uses the clinically studied KSM-66 extract at the studied 600 mg dose.",
+        "MuscleBlaze Koshaveda and Tata 1mg Tejasya score a little higher but cost more per serving."
+      ],
+      "competitors": [
+        { "brand": "MuscleBlaze", "product": "Koshaveda Ashwagandha 500mg", "price": "~₹12", "per": "serving", "note": "Scored 9.9/10; Ayush approved" },
+        { "brand": "Tata 1mg", "product": "Tejasya KSM-66 600mg", "price": "~₹15", "per": "serving", "note": "Scored 9.3/10; USDA organic" },
+        { "brand": "TrueBasics", "product": "Ashwagandha KSM-66 600mg", "price": "~₹16", "per": "serving", "note": "Scored 8.5/10" },
+        { "brand": "Rasayanam", "product": "KSM-66 500mg", "price": "₹13.32", "per": "serving", "note": "Scored 7.3/10" },
+        { "brand": "NOW Foods", "product": "Ashwagandha 450mg", "price": "~₹11", "per": "serving", "note": "Only 11 mg withanolides vs 25 mg in Rasayanam" },
+        { "brand": "Himalaya", "product": "Ashwagandha", "price": "~₹8", "per": "serving", "note": "Traditional, cheaper, weaker evidence" }
+      ]
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "verdict": "buy",
+      "pick": "B12 Methylcobalamin 1500mcg (60 tabs)",
+      "pick_score": 8.0,
+      "pick_cost": 6.38,
+      "alternative": "Tata 1mg for a pharmacy brand",
+      "why": [
+        "Uses methylcobalamin, the active form, at 1,500 mcg.",
+        "Avoid the 90-tab pack: ₹44.93 a serving for the same dose."
+      ],
+      "competitors": [
+        { "brand": "Tata 1mg", "product": "Methylcobalamin", "price": "~₹5–8", "per": "serving", "note": "Pharmacy brand" },
+        { "brand": "Boldfit", "product": "Methylcobalamin + ALA", "price": "~₹4–6", "per": "serving", "note": "Combo available" },
+        { "brand": "Himalaya", "product": "Cyanocobalamin", "price": "~₹3–5", "per": "serving", "note": "Older, less active form" },
+        { "brand": "NOW Foods", "product": "B12", "price": "~₹10–15", "per": "serving", "note": "Imported" }
+      ]
+    },
+    {
+      "id": "multivitamin",
+      "name": "Multivitamin (men)",
+      "verdict": "budget",
+      "pick": "Multivitamin Tablet for Men Gym (180 tabs)",
+      "pick_score": 7.1,
+      "pick_cost": 3.32,
+      "alternative": "GNC Mega Men or MuscleBlaze MB-Vite for fuller dosing",
+      "why": [
+        "Cheapest per day here and beats TrueBasics Multivit on score (6.6 vs 4.6).",
+        "Only 7 of 13 key ingredients are at clinical doses; vitamin D and K are short."
+      ],
+      "competitors": [
+        { "brand": "GNC", "product": "Mega Men One Daily", "price": "~₹19.97", "per": "serving", "note": "32 ingredients" },
+        { "brand": "Centrum", "product": "Men", "price": "~₹17.17", "per": "serving", "note": "23 ingredients" },
+        { "brand": "MuscleBlaze", "product": "MB-Vite", "price": "~₹15.97", "per": "serving", "note": "51 ingredients, gym-focused" },
+        { "brand": "Nutrabay", "product": "Pro Active Men", "price": "~₹9.97", "per": "serving", "note": "100% RDA coverage" },
+        { "brand": "TrueBasics", "product": "Multivit", "price": "₹33.30", "per": "serving", "note": "Scored 4.6/10" }
+      ]
+    },
+    {
+      "id": "creatine",
+      "name": "Creatine",
+      "verdict": "budget",
+      "pick": "Creatine Monohydrate Powder (250 g)",
+      "pick_score": 9.1,
+      "pick_cost": 3.38,
+      "alternative": "AS-IT-IS (₹7.41, certified) or Tata 1mg (₹5.99)",
+      "why": [
+        "Cheapest creatine in the set at ₹3.38 a serving.",
+        "No third-party purity certification, and fake supplements are a real problem in India."
+      ],
+      "competitors": [
+        { "brand": "AS-IT-IS", "product": "Creatine Monohydrate 100g", "price": "~₹7.41", "per": "serving", "note": "Labdoor + Trustified certified" },
+        { "brand": "Tata 1mg", "product": "Creatine Monohydrate 250g", "price": "~₹5.99", "per": "serving", "note": "Pharmacy brand" },
+        { "brand": "Optimum Nutrition", "product": "Micronized Creatine 250g", "price": "~₹9.99", "per": "serving", "note": "Informed Choice certified" },
+        { "brand": "MuscleBlaze", "product": "CreaPRO Creapure 250g", "price": "~₹13.84", "per": "serving", "note": "German Creapure source" },
+        { "brand": "Nutrabay", "product": "Pure Creatine Monohydrate 100g", "price": "₹329", "per": "pack", "note": "Trustified certified" }
+      ]
+    },
+    {
+      "id": "zma",
+      "name": "ZMA (zinc + magnesium)",
+      "verdict": "budget",
+      "pick": "ZMA & Zinc Supplement (60 tabs)",
+      "pick_score": 7.8,
+      "pick_cost": 7.49,
+      "alternative": "None named in the source",
+      "why": [
+        "Lab verified, with a strong 440 mg magnesium dose.",
+        "Zinc (17 mg) and B6 (2.4 mg) are below standard ZMA doses."
+      ],
+      "competitors": []
+    },
+    {
+      "id": "plant-protein",
+      "name": "Plant protein",
+      "verdict": "budget",
+      "pick": "Pea Protein Isolate (500 g)",
+      "pick_score": 7.1,
+      "pick_cost": 26.96,
+      "alternative": "The Whole Truth or OZiva for a cleaner label",
+      "link": { "href": "../whey-protein/#rankings", "label": "Plant proteins are ranked on the whey page too" },
+      "why": [
+        "The pea isolate gives 30 g protein for ₹26.96, under Nutrabox soy isolate at ₹35.",
+        "Cleaner labels and better taste cost two to three times as much."
+      ],
+      "competitors": [
+        { "brand": "Nutrabox", "product": "Soy Protein Isolate", "price": "~₹35", "per": "serving", "note": "30 g protein; Trustified" },
+        { "brand": "Fast&Up", "product": "Plant Protein", "price": "~₹55", "per": "serving", "note": "26 g protein; digestive enzymes" },
+        { "brand": "OZiva", "product": "Bioactive Plant Protein", "price": "~₹60", "per": "serving", "note": "25 g protein" },
+        { "brand": "The Whole Truth", "product": "Plant Protein", "price": "~₹65", "per": "serving", "note": "21–25 g protein; cleanest label" },
+        { "brand": "Cosmix", "product": "No Nonsense Plant Protein", "price": "~₹70", "per": "serving", "note": "24 g protein" }
+      ]
+    },
+    {
+      "id": "omega-3",
+      "name": "Omega-3 fish oil",
+      "verdict": "skip",
+      "pick": "Triple Omega",
+      "pick_score": 7.1,
+      "pick_cost": 8.74,
+      "alternative": "TrueBasics Triple Strength (900 mg EPA+DHA, IFOS 5★)",
+      "why": [
+        "All three of the brand's fish oils give about 300 mg EPA+DHA, under the 500–1,000 mg a day usually studied.",
+        "TrueBasics Triple Strength gives 900 mg per capsule and is IFOS certified."
+      ],
+      "competitors": [
+        { "brand": "TrueBasics", "product": "Triple Strength Fish Oil", "price": "~₹15", "per": "serving", "note": "900 mg EPA+DHA; IFOS 5★; enteric coated" },
+        { "brand": "Neuherbs", "product": "Deep Sea Omega-3 2500mg", "price": "~₹12", "per": "serving", "note": "High potency" },
+        { "brand": "Solgar", "product": "EPA & DHA 950mg", "price": "~₹40", "per": "serving", "note": "950 mg; IFOS" },
+        { "brand": "MuscleBlaze", "product": "Omega-3 Fish Oil", "price": "~₹10", "per": "serving", "note": "300 mg EPA+DHA" },
+        { "brand": "Tata 1mg", "product": "Salmon Omega-3", "price": "~₹8", "per": "serving", "note": "300 mg EPA+DHA" }
+      ]
+    },
+    {
+      "id": "collagen",
+      "name": "Collagen",
+      "verdict": "skip",
+      "pick": "Multi Collagen Tablets (90 count)",
+      "pick_score": 7.0,
+      "pick_cost": 6.4,
+      "alternative": "AS-IT-IS plain hydrolysed collagen, plus vitamin C separately",
+      "why": [
+        "Most of the range is underdosed: a tablet has 1,800 mg against 2.5–10 g a day in studies.",
+        "Avoid the Marine Collagen Citrus Burst outright (4.8/10)."
+      ],
+      "competitors": [
+        { "brand": "AS-IT-IS", "product": "Collagen", "price": null, "per": null, "note": "Plain hydrolysed collagen, better dosing" },
+        { "brand": "Wellbeing Nutrition", "product": "Marine Collagen", "price": null, "per": null, "note": "Premium price" },
+        { "brand": "OZiva", "product": "Collagen Builder", "price": null, "per": null, "note": "Plant precursors + vitamin C, no collagen" }
+      ]
+    },
+    {
+      "id": "nootropics",
+      "name": "Nootropics",
+      "verdict": "skip",
+      "pick": "L-Theanine 200mg + B Complex",
+      "pick_score": 6.6,
+      "pick_cost": 4.49,
+      "alternative": "NOW Foods L-Theanine",
+      "why": [
+        "The Brain Supplement scores 1.8/10 on dosing: almost nothing is at a useful dose.",
+        "The L-Theanine tablet is cheap but on the low side."
+      ],
+      "competitors": [
+        { "brand": "NOW Foods", "product": "L-Theanine", "price": null, "per": null, "note": "Well dosed" },
+        { "brand": "Himalayan Organics", "product": "Alpha GPC", "price": null, "per": null, "note": "Acetylcholine support" },
+        { "brand": "INLIFE", "product": "Brahmi + Bacopa", "price": null, "per": null, "note": "Ayurvedic" }
+      ]
+    }
+  ],
+  "products": [
+    { "id": "d3-10000", "name": "Vitamin D3 10000 IU", "category": "Vitamins & minerals", "cat": "vitamin-d3", "score": 9.7, "rating": "Highly recommended", "cost": 6.65, "mrp": 615, "review": "Strong D3 at a low price. No K2 or other co-factors." },
+    { "id": "b12-60", "name": "Vitamin B12 Methylcobalamin 1500mcg (60 tabs)", "category": "Vitamins & minerals", "cat": "vitamin-b12", "score": 8.0, "rating": "Highly recommended", "cost": 6.38, "mrp": 1599, "review": "Effective methylcobalamin dose at a low cost per serving." },
+    { "id": "b12-90", "name": "Vitamin B12 Tablets 1500mcg (90 tabs)", "category": "Vitamins & minerals", "cat": "vitamin-b12", "score": 7.8, "rating": "Recommended", "cost": 44.93, "mrp": 920, "review": "Good formula, but cost per serving is far above the market." },
+    { "id": "b12-mcb", "name": "Methylcobalamin B12 1500mcg", "category": "Vitamins & minerals", "cat": "vitamin-b12", "score": 7.3, "rating": "Recommended", "cost": 5.99, "mrp": 1075, "review": "Cheap basic B12. Dosing could be stronger." },
+    { "id": "multi-gym", "name": "Multivitamin Tablet for Men Gym (180 tabs)", "category": "Vitamins & minerals", "cat": "multivitamin", "score": 7.1, "rating": "Recommended", "cost": 3.32, "mrp": 1075, "review": "Very cheap per day. Some key nutrients are below clinical doses." },
+    { "id": "triple-omega", "name": "Triple Omega", "category": "Vitamins & minerals", "cat": "omega-3", "score": 7.1, "rating": "Recommended", "cost": 8.74, "mrp": 1075, "review": "Fine for maintenance; too little for therapeutic use." },
+    { "id": "collagen-tabs", "name": "Multi Collagen Tablets (90 count)", "category": "Vitamins & minerals", "cat": "collagen", "score": 7.0, "rating": "Recommended", "cost": 6.4, "mrp": 770, "review": "1,800 mg collagen per tablet; you need 2–3 a day for a studied dose." },
+    { "id": "omega-1000", "name": "Omega 3 Fish Oil 1000mg", "category": "Vitamins & minerals", "cat": "omega-3", "score": 6.8, "rating": "Recommended", "cost": 8.32, "mrp": 675, "review": "Budget omega-3. EPA and DHA are low." },
+    { "id": "collagen-watermelon", "name": "Multi Collagen Powder, Watermelon (200 g)", "category": "Vitamins & minerals", "cat": "collagen", "score": 6.7, "rating": "Recommended", "cost": 11.63, "mrp": 629, "review": "Cheap entry into marine collagen with a simple formula." },
+    { "id": "multi-men", "name": "Multivitamin for Men", "category": "Vitamins & minerals", "cat": "multivitamin", "score": 6.6, "rating": "Recommended", "cost": 5.92, "mrp": 711, "review": "Only 7 of 13 ingredients at clinical doses; short on D and K." },
+    { "id": "salmon-omega", "name": "Salmon Omega 3 Fish Oil (60 softgels)", "category": "Vitamins & minerals", "cat": "omega-3", "score": 6.2, "rating": "Average", "cost": 5.08, "mrp": 1075, "review": "300 mg omega-3 per capsule; you'd need 4–7 a day." },
+    { "id": "collagen-plain", "name": "Collagen Powder, Unflavoured (200 g)", "category": "Vitamins & minerals", "cat": "collagen", "score": 5.8, "rating": "Average", "cost": 7.5, "mrp": 594, "review": "Cheap and clearly labelled, but scores zero on dosing." },
+    { "id": "marine-collagen", "name": "Marine Collagen, Citrus Burst (200 g)", "category": "Vitamins & minerals", "cat": "collagen", "score": 4.8, "rating": "Skip", "cost": 25.47, "mrp": 1999, "review": "Four of five ingredients are well underdosed. Buy plain collagen and vitamin C instead.", "flag": "The source also quotes ₹66.63 a serving for this product; the table uses ₹25.47." },
+    { "id": "melatonin-10", "name": "Melatonin 10mg Pills (100 tabs)", "category": "Sleep & recovery", "cat": "melatonin", "score": 9.9, "rating": "Highly recommended", "cost": 4.99, "mrp": 770, "review": "The brand's best product: studied 10 mg dose, clear label, very cheap." },
+    { "id": "mag-glycinate", "name": "Chelated Magnesium Glycinate 2000mg (120 tabs)", "category": "Sleep & recovery", "cat": "magnesium", "score": 9.3, "rating": "Highly recommended", "cost": 10.82, "mrp": 1075, "review": "Right form and dose on the label, well below the category's average price.", "flag": "Unbox Health's lab test of the brand's glycinate gave a B rating (now expired). See the magnesium page." },
+    { "id": "melatonin-valerian", "name": "Melatonin with Valerian & B6", "category": "Sleep & recovery", "cat": "melatonin", "score": 8.2, "rating": "Highly recommended", "cost": 4.0, "mrp": 539, "review": "Cheap basic sleep support. The formula could be stronger." },
+    { "id": "zma", "name": "ZMA & Zinc Supplement (60 tabs)", "category": "Sleep & recovery", "cat": "zma", "score": 7.8, "rating": "Recommended", "cost": 7.49, "mrp": 1075, "review": "Lab verified; 440 mg magnesium. Zinc and B6 are underdosed." },
+    { "id": "glucosamine", "name": "Glucosamine Chondroitin MSM", "category": "Sleep & recovery", "cat": null, "score": 7.0, "rating": "Recommended", "cost": 9.9, "mrp": 275, "review": "Affordable entry-level joint support; dosing is imprecise." },
+    { "id": "melatonin-gummies", "name": "Melatonin 10mg Sleep Gummies (60)", "category": "Sleep & recovery", "cat": "melatonin", "score": 6.6, "rating": "Recommended", "cost": 17.07, "mrp": 770, "review": "Convenient, but over three times the cost of the tablets." },
+    { "id": "pea-isolate", "name": "Pea Protein Isolate, Unflavoured (500 g)", "category": "Protein", "cat": "plant-protein", "score": 7.1, "rating": "Recommended", "cost": 26.96, "mrp": 1075, "review": "30 g protein per serving. Cheap and clearly labelled." },
+    { "id": "plant-500", "name": "Plant Protein Powder, Belgian Chocolate (500 g)", "category": "Protein", "cat": "plant-protein", "score": 7.1, "rating": "Recommended", "cost": 19.97, "mrp": 748, "review": "Adds enzymes and vitamins; some at token doses." },
+    { "id": "plant-1kg", "name": "Plant Protein Powder for Men, Belgian Chocolate (1 kg)", "category": "Protein", "cat": "plant-protein", "score": 7.1, "rating": "Recommended", "cost": 32.58, "mrp": 1449, "review": "Cheap all-rounder; not enough protein for heavy training." },
+    { "id": "theanine", "name": "L-Theanine 200mg + Vitamin B Complex (120 tabs)", "category": "Nootropics", "cat": "nootropics", "score": 6.6, "rating": "Recommended", "cost": 4.49, "mrp": 2999, "review": "Cheap; theanine dose is on the low side." },
+    { "id": "brain", "name": "Brain Supplement", "category": "Nootropics", "cat": "nootropics", "score": 6.4, "rating": "Average", "cost": 29.95, "mrp": 599, "review": "Dosing score 1.8/10. Skip if focus or memory is the goal." },
+    { "id": "creatine", "name": "Creatine Monohydrate, Fruit Punch (250 g)", "category": "Creatine", "cat": "creatine", "score": 9.1, "rating": "Highly recommended", "cost": 3.38, "mrp": 599, "review": "One of the cheapest creatines; slightly under the 5 g a day used in studies." },
+    { "id": "ashwagandha", "name": "Ashwagandha KSM-66 600mg", "category": "Adaptogens", "cat": "ashwagandha", "score": 9.0, "rating": "Highly recommended", "cost": 9.98, "mrp": 1099, "review": "Studied extract at the studied dose." },
+    { "id": "preworkout", "name": "Pre-Workout, Jaljeera (200 g)", "category": "Pre-workout", "cat": null, "score": 7.0, "rating": "Recommended", "cost": 17.07, "mrp": 1075, "review": "Mild. Fine for beginners, light for experienced lifters." }
+  ],
+  "sources": [
+    { "label": "Carbamide Forte brand analysis — Limitless Labs", "url": "https://limitlesslabs.in/brands/carbamide-forte" },
+    { "label": "Carbamide Forte Brain Supplement review — Limitless Labs", "url": "https://limitlesslabs.in/reviews/carbamide-forte-brain-supplement-review-2026" },
+    { "label": "Carbamide Forte Multivitamin vs TrueBasics — Limitless Labs", "url": "https://limitlesslabs.in/comparisons/carbamide-forte-multivitamin-men-review-2026-vs-truebasics-multivit-review-2026" },
+    { "label": "Carbamide Forte review analysis — ReviewMeta", "url": "https://reviewmeta.com/brand/carbamide-forte" },
+    { "label": "Best creatine in India 2026 — Winner Winner Chicken Dinner", "url": "https://winnerwinnerchickendinner.in/reviews/best-creatine-supplements-india" },
+    { "label": "Best vitamin D3 in India 2026 — Winner Winner Chicken Dinner", "url": "https://winnerwinnerchickendinner.in/reviews/best-vitamin-d-supplements-india" },
+    { "label": "Best melatonin in India 2026 — Winner Winner Chicken Dinner", "url": "https://winnerwinnerchickendinner.in/reviews/best-melatonin-sleep-supplements-india" },
+    { "label": "Best multivitamin for men in India 2026 — Winner Winner Chicken Dinner", "url": "https://winnerwinnerchickendinner.in/reviews/best-multivitamin-supplements-india" },
+    { "label": "Best KSM-66 ashwagandha brands — BestChoices", "url": "https://www.bestchoices.com/ksm-66-ashwagandha-brand" },
+    { "label": "Best fish oil in India — Glorify Health", "url": "https://glorifyhealth.com/blogs/general-health/best-fish-oil-in-india" },
+    { "label": "TrueBasics Omega-3 Triple Strength review — Masala Monk", "url": "https://masalamonk.com/truebasics-omega-3-fish-oil-triple-strength-review-525-mg-epa-375-mg-dha/" },
+    { "label": "Best plant protein in India 2026 — Medstown", "url": "https://www.medstown.com/best-plant-protein-powders-in-india-2026-top-10-expert-picks/" },
+    { "label": "Best creatine in India 2026 — WheySearch", "url": "https://wheysearch.com/creatine" }
+  ]
+}

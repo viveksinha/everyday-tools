@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salary Converter · Everyday Tools</title>
+<meta name="description" content="What a salary in one country is worth in another once you account for local prices (purchasing power parity), next to the plain exchange-rate conversion. World Bank data for 200+ countries.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/theme.css">
+<script>try{var t=JSON.parse(localStorage.getItem('et:theme'));if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Everyday Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><rect x="8" y="8.6" width="16" height="3.4" rx="1.7" fill="#ffe98a"/><rect x="8" y="14.3" width="12" height="3.4" rx="1.7" fill="#fff"/><rect x="8" y="20" width="7.5" height="3.4" rx="1.7" fill="#fff" fill-opacity=".72"/></svg>
+      <span class="name">Everyday Tools</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="lbl-xs">All tools</span></a>
+      <button class="icon-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><span>Auto</span></button>
+      <a class="icon-btn hide-sm" href="https://github.com/viveksinha/everyday-tools"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Everyday Tools</a> / Money</nav>
+  <div class="page-head">
+    <div>
+      <h1>Salary converter</h1>
+      <p class="lede">What a salary in one country is worth in another once local prices are taken into account, side by side with the plain exchange-rate conversion.</p>
+    </div>
+    <div class="meta-chips">
+      <span class="chip outline" id="year-chip">World Bank data</span>
+      <a class="chip outline" href="https://data.worldbank.org/indicator/PA.NUS.PRVT.PP" target="_blank" rel="noopener">Source: World Bank ↗</a>
+      <span class="chip outline">Saved in the link</span>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-convert" aria-controls="convert" aria-selected="true">Convert</button>
+    <button class="tab" role="tab" id="tab-price-levels" aria-controls="price-levels" aria-selected="false" tabindex="-1">Every country</button>
+    <button class="tab" role="tab" id="tab-how-it-works" aria-controls="how-it-works" aria-selected="false" tabindex="-1">How it works</button>
+  </nav>
+
+  <div id="load-error" class="empty" hidden></div>
+
+  <!-- ============ CONVERT ============ -->
+  <section class="panel" id="convert" role="tabpanel" aria-labelledby="tab-convert">
+    <div class="section-head"><h2 data-share="convert">Convert a salary</h2><span class="hint">Monthly or yearly both work; the answer is in the same period</span></div>
+
+    <div class="card card-pad block converter">
+      <label class="field amt"><span id="amt-label">Amount</span>
+        <input class="input-num big" type="text" id="amt" inputmode="decimal" autocomplete="off" aria-describedby="amt-words">
+        <span class="small muted" id="amt-words"></span>
+      </label>
+      <label class="field"><span>Earned in</span><select class="select" id="from"></select></label>
+      <button class="btn swap" type="button" id="swap" title="Swap countries" aria-label="Swap countries">⇄</button>
+      <label class="field"><span>Compare with</span><select class="select" id="to"></select></label>
+    </div>
+
+    <div class="control-row small" id="quick" style="margin:-18px 0 22px"></div>
+
+    <p class="answer" id="answer"></p>
+    <div class="tiles" id="conv-tiles"></div>
+
+    <div class="groups cols-3 block">
+      <div class="group" id="read-result">
+        <div class="label" data-share="read-result">Reading the result</div>
+        <ul>
+          <li><b>"Same standard of living"</b> is the salary that buys the same everyday basket of goods and services there.</li>
+          <li><b>The exchange-rate figure</b> is what you'd get if you converted the money at a bank.</li>
+          <li><b>The gap between them</b> is how much cheaper or dearer everyday life is.</li>
+        </ul>
+      </div>
+      <div class="group" id="what-it-misses">
+        <div class="label" data-share="what-it-misses">What it leaves out</div>
+        <ul>
+          <li><b>Taxes and social security</b>. Compare take-home pay if you can.</li>
+          <li><b>City versus country.</b> Mumbai, London or San Francisco cost well above their national average.</li>
+          <li><b>Rent, school fees and healthcare</b> can swing far more than the average basket.</li>
+        </ul>
+      </div>
+      <div class="group" id="imported">
+        <div class="label" data-share="imported">Imported things don't get cheaper</div>
+        <ul>
+          <li><b>Phones, laptops, cars and flights</b> cost about the same everywhere, so use the exchange-rate figure for those.</li>
+          <li><b>Savings you'll move abroad</b> are also worth the exchange-rate amount, not the PPP one.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVERY COUNTRY ============ -->
+  <section class="panel" id="price-levels" role="tabpanel" aria-labelledby="tab-price-levels" hidden>
+    <div class="section-head"><h2 data-share="price-levels">Your amount in every country</h2><span class="hint" id="pl-hint"></span></div>
+    <div class="control-row" style="margin-bottom:12px">
+      <input class="search" type="search" id="pl-q" placeholder="Search countries or currencies" aria-label="Search countries">
+      <select class="select" id="pl-region" aria-label="Region"></select>
+    </div>
+    <div class="table-wrap">
+      <table class="data" id="pl-table">
+        <thead><tr>
+          <th class="sticky" data-key="name"><button class="sort-btn" type="button">Country <span class="arrow">↕</span></button></th>
+          <th class="n" data-key="level" aria-sort="ascending" id="pl-level-h"><button class="sort-btn" type="button">Prices vs home <span class="arrow">↑</span></button></th>
+          <th class="n" id="pl-eq-h">Same standard of living</th>
+          <th class="n" id="pl-fx-h">At the exchange rate</th>
+          <th class="n">Data year</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="pl-pager"></div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="panel" id="how-it-works" role="tabpanel" aria-labelledby="tab-how-it-works" hidden>
+    <div class="section-head"><h2 data-share="how-it-works">How it works</h2></div>
+    <div class="groups cols-3 block">
+      <div class="group" id="what-ppp">
+        <div class="label" data-share="what-ppp">Purchasing power parity (PPP)</div>
+        <ul>
+          <li><b>Statisticians price the same basket</b> of goods and services in every country.</li>
+          <li><b>The PPP factor</b> is how many units of local currency buy what 1 US dollar buys in the US.</li>
+          <li><b>This page uses the household-spending basket</b> ("private consumption"), which suits salaries better than the whole-economy one.</li>
+        </ul>
+      </div>
+      <div class="group" id="formula">
+        <div class="label" data-share="formula">The arithmetic</div>
+        <ul>
+          <li><b>Same standard of living</b> = amount ÷ PPP of home country × PPP of the other country.</li>
+          <li><b>Exchange rate</b> = amount ÷ home rate to the dollar × other country's rate.</li>
+          <li><b>Prices vs home</b> = (PPP ÷ exchange rate) there, divided by the same at home.</li>
+        </ul>
+      </div>
+      <div class="group" id="data-notes">
+        <div class="label" data-share="data-notes">About the data</div>
+        <ul>
+          <li><b>World Bank figures</b> are annual and lag a year or so; the table shows each country's year.</li>
+          <li><b>Exchange rates are that year's average</b>, not today's rate.</li>
+          <li><b>Some countries are missing</b> where the World Bank has no recent PPP figure.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card card-pad block" id="worked-example">
+      <div class="section-head" style="margin-top:0"><h3 data-share="worked-example">Worked example with your numbers</h3></div>
+      <div class="table-wrap"><table class="data" id="example-table"><tbody></tbody></table></div>
+    </div>
+
+    <details class="more block" id="credits">
+      <summary>Credits <span class="sum">· where the idea and code came from</span></summary>
+      <div class="inner">
+        <ul>
+          <li>Inspired by <a href="https://github.com/nigelbabu/pppconverter" target="_blank" rel="noopener">pppconverter</a> by Nigel Babu (MIT licence), which used the same formula with 2015 data.</li>
+          <li>PPP and exchange rates: World Bank World Development Indicators <code>PA.NUS.PRVT.PP</code> and <code>PA.NUS.FCRF</code>.</li>
+          <li>Currency codes: ISO 4217, from the <a href="https://github.com/datasets/country-codes" target="_blank" rel="noopener">country-codes</a> dataset.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span id="footer-data">Data: World Bank.</span>
+    <span>Averages for whole countries, before tax.</span>
+    <a href="https://github.com/viveksinha/everyday-tools/tree/main/site/salary-converter">Data and code on GitHub</a>
+  </div>
+</footer>
+</body>
+</html>
