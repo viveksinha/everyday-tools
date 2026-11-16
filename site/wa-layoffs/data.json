@@ -2,7 +2,7 @@
  "source": "Washington State Employment Security Department, WARN notices",
  "source_url": "https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database",
  "data_url": "https://fortress.wa.gov/esd/file/WARN/",
- "fetched_at": "2026-11-10",
+ "fetched_at": "2026-11-16",
  "years": 5,
  "notices": [
   {

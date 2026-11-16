@@ -1,7 +1,7 @@
 {
  "source": "World Bank, World Development Indicators",
  "source_url": "https://data.worldbank.org/indicator/PA.NUS.PRVT.PP",
- "wb_last_updated": "2026-10-08",
+ "wb_last_updated": "2026-11-11",
  "indicators": {
   "private": "PA.NUS.PRVT.PP — PPP conversion factor, private consumption (LCU per international $)",
   "gdp": "PA.NUS.PPP — PPP conversion factor, GDP (LCU per international $)",
